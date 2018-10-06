@@ -34,6 +34,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 	public bool solGlace;
 	public float maxSpeedGlace = 12.0f;
 	public bool chaleurIntense;
+	public bool ejectionRenforcee;
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
@@ -233,6 +234,10 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 				if(chaleurIntense) {
 					impact *= 0.5f;
+				}
+
+				if(ejectionRenforcee) {
+					impact *= 2.0f;
 				}
 
 				this.rb.AddForce(impact, ForceMode.Impulse);
