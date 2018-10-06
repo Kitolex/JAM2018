@@ -10,11 +10,16 @@ public class GameManager : MonoBehaviour {
     private float time;
     private List<Effect> listEffectEnCours;
     private EtatGame etat;
+    private MultiplayerManager multiplayerManager;
 
     public Vote v;
 
     // Use this for initialization
     void Start () {
+
+        multiplayerManager = GetComponent<MultiplayerManager>();
+        if (!multiplayerManager)
+            Debug.LogWarning("Pas de MultiplayerManager sur le game object");
 
         for(int i=0;i<v.nomProposition.Count; i++)
         {
@@ -28,7 +33,7 @@ public class GameManager : MonoBehaviour {
             }
         }
 
-        etat = EtatGame.bataille;
+        etat = EtatGame.preparation;
         time = Time.time;
         listEffectEnCours = new List<Effect>();
     }
@@ -57,8 +62,41 @@ public class GameManager : MonoBehaviour {
             }
         }
 
+        // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
+        if (etat.Equals(EtatGame.preparation))
+        {
+            multiplayerManager.CheckMultiplayerEnding();
+        }
 
     }
+
+
+    // Met le jeu en état de préparation et place un buzzer au centre de la zone de jeu
+    public void EnterPreparation()
+    {
+        // Instanciation du buzzer
+
+        multiplayerManager.InitializePlayers();
+        etat = EtatGame.preparation;
+    }
+
+
+    // Sort de l'état de préparation
+    public void StartRound()
+    {
+        // Suppression du buzzer
+        multiplayerManager.InitializePlayers();
+        etat = EtatGame.bataille;
+    }
+
+    // Appelé lorsqu'il ne reste plus qu'un joueur en vie. Affiche le vainqueur et remet le jeu en état de préparation
+    public void EndRound(string winner)
+    {
+        Debug.Log(winner);  // A AFFICHER IN GAME
+        EnterPreparation();
+    }
+
+
 
     private void DisplayEffects()
     {

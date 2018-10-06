@@ -8,7 +8,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private string AXIS_VERTICAL;
     private string BUTTON_DASH;
 
-    private string playerID;
+    private int playerID;
 	private Rigidbody rb;
 	private bool sortieDeLaMap;
 	private float dashCooldownActual;
@@ -48,15 +48,15 @@ public class PersonnageBehaviour : MonoBehaviour {
 		this.previousDeplacement = Vector3.zero;
 	}
 
-	public void setPlayerID(string playerID) {
+	public void setPlayerID(int playerID) {
 		this.playerID = playerID;
-		AXIS_HORIZONTAL = playerID + "Horizontal";
-		AXIS_VERTICAL = playerID + "Vertical";
-        BUTTON_DASH = playerID + "Dash";
+		AXIS_HORIZONTAL = "Player" + playerID + "Horizontal";
+		AXIS_VERTICAL = "Player" + playerID + "Vertical";
+        BUTTON_DASH = "Player" + playerID + "Dash";
 
     }
 	
-    public string getPlayerID()
+    public int getPlayerID()
     {
         return playerID;
     }
