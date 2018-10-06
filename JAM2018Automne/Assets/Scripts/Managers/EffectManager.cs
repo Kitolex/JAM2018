@@ -18,15 +18,33 @@ public class EffectManager : MonoBehaviour {
 
     public void createliste(List<ListEffet> listEffets)
     {
-        foreach(ListEffet e in listEffets)
+        foreach(ListEffet es in listEffets)
         {
-            addList(e);
+            foreach (Effects e in es.effects)
+            {
+                addList(e);
+            }
         }
     }
 
-    private void addList(ListEffet e)
+    private void addList(Effects e)
     {
-        //TODO
+        switch (e)
+        {
+            case Effects.CHALEUR_INTENSE:
+                listEffectEnCours.Add(new EffectChaleurIntense());
+                break;
+            case Effects.GELER_SOL:
+                listEffectEnCours.Add(new EffectGelerSol());
+                break;
+            case Effects.INVERSER_COMMANDES:
+                listEffectEnCours.Add(new EffectInverserCommandes());
+                break;
+            case Effects.TOURNER_COMMANDES:
+                listEffectEnCours.Add(new EffectTournerCommandes());
+                break;
+
+        }
     }
 
     public void DisplayEffects()
@@ -42,6 +60,8 @@ public class EffectManager : MonoBehaviour {
         {
             e.End();
         }
+        listEffectEnCours = new List<Effect>();
+
     }
     public void BeginEffects()
     {

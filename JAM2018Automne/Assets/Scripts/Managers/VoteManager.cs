@@ -7,16 +7,17 @@ public class VoteManager : MonoBehaviour {
 
     public List<Vote> listVote;
     public Vote voteActuel;
+    public BuzzerVote buzzer;
 
-    private Dictionary<string, int> countSmash;
-    private Dictionary<string, List<ListEffet>> consequence;
+   // private Dictionary<string, int> countSmash;
+   // private Dictionary<string, List<ListEffet>> consequence;
+    private List<BuzzerVote> listBuzzer;
 
     private const string intro = "Passons maintenant aux votes.";
 
     // Use this for initialization
     void Start () {
-        countSmash = new Dictionary<string, int>();
-        consequence = new Dictionary<string, List<ListEffet>>();
+        listBuzzer = new List<BuzzerVote>();
 
     }
 	
@@ -33,31 +34,48 @@ public class VoteManager : MonoBehaviour {
         //TODO afficher prop
         for(int i = 0; i <voteActuel.nomProposition.Count;i++)
         {
-            countSmash.Add(voteActuel.nomProposition[i],0);
-            consequence.Add(voteActuel.nomProposition[i], voteActuel.listEffects);
+            BuzzerVote buzzerVoteTemp = Instantiate(buzzer);            
+            buzzerVoteTemp.consequence = voteActuel.listEffects;
+            buzzerVoteTemp.rayon = calculRayonPopBuzzer(52.0f);//ALLER CHERCHER taille cercle
+            Random rnd = new Random();
+            buzzerVoteTemp.angle = rnd.Next(0, 360);
+            listBuzzer.Add(buzzerVoteTemp);
+        }
+        foreach (BuzzerVote b in listBuzzer)
+        {
+            b.pop();
         }
 
+
     }
 
-    public void smash(string prop)
+    public float calculRayonPopBuzzer(float rayon)
     {
-        countSmash[prop] ++;
+        Random rnd = new Random();
+        double value = rnd.NextDouble();
+        float newRayon = (float) ((rayon - 0.0f) * value); //TODO rajouter taille buzzer
+        return newRayon;    
     }
+
+
 
     public List<ListEffet> getEffect()
     {
         int max = 0;
-        string propMax = "";
-        foreach (KeyValuePair<string,int> entry in countSmash)
+        BuzzerVote buzzerWin = null;
+        foreach (BuzzerVote b in listBuzzer)
         {
-            if (entry.Value>max)
+            if (b.smash>max)
             {
-                max = entry.Value;
-                propMax = entry.Key;
+                max = b.smash;
+                buzzerWin = b;
             }
         }
-
-        return consequence[propMax];
+        if (buzzerWin == null)
+        {
+            return null;
+        }
+        return buzzerWin.consequence;
 
     }
 
