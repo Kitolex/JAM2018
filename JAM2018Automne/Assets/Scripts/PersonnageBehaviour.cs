@@ -17,6 +17,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private Vector3 previousPosition;
 	private Vector3 previousDeplacement;
     private Animator animator;
+	private SpriteRenderer spriteRenderer;
 
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
@@ -27,11 +28,12 @@ public class PersonnageBehaviour : MonoBehaviour {
 	public bool commandeInversees;
 	public bool commandeTournees;
 	public bool solGlace;
-	public float maxSpeedGlace;
+	public float maxSpeedGlace = 12.0f;
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
         this.animator = GetComponentInChildren<Animator>();
+		this.spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 	}
 
 	// Use this for initialization
@@ -69,12 +71,22 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 		Vector3 deplacement = Vector3.zero;
 
+		Vector3 dir = new Vector3(x, 0.0f, z);
+
+		if(dir.magnitude <0.05f) {
+			dir = Vector3.zero;
+		}
+	
+		//Update animator
+		animator.SetBool("Walk", dir.magnitude > 0.05f);
+
 		if(this.peutAgir()) {
 
-			Vector3 dir = new Vector3(x, 0.0f, z);
-
-            //Update animator
-            animator.SetBool("Walk", dir.magnitude > 0);
+			if(dir.x < 0.0f) {
+				this.spriteRenderer.flipX = true;
+			} else if(dir.x > 0.0f) {
+				this.spriteRenderer.flipX = false;
+			}
 
             if (Input.GetAxisRaw(BUTTON_DASH) != 0){
 				dasherVers(dir.normalized);
