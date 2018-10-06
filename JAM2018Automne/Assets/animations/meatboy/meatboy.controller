@@ -126,6 +126,31 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1102 &1102340899262725092
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Dash2_0_ninja
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &1102435078635339988
 AnimatorState:
   serializedVersion: 5
@@ -173,7 +198,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: fe6cdafe9ff58a146a30f37b0282c817, type: 2}
+  m_Motion: {fileID: 7400000, guid: ec7f74b593de0d7419ad4316854ca558, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -215,10 +240,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102435078635339988}
-    m_Position: {x: 324, y: 12, z: 0}
+    m_Position: {x: 336, y: 24, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102488395811199680}
-    m_Position: {x: 324, y: 240, z: 0}
+    m_Position: {x: 336, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102877780193706166}
     m_Position: {x: 60, y: 144, z: 0}
