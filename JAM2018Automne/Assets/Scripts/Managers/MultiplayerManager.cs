@@ -85,8 +85,8 @@ public class MultiplayerManager : MonoBehaviour {
     {
         foreach (PersonnageBehaviour p in playerList)
         {
+            p.initialise();
             p.transform.position = SpawnPoints[p.getPlayerID()].transform.position;
-            // Reset vie et état du personnage
         }
     }
 

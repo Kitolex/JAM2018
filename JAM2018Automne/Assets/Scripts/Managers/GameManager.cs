@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
 
     public float timerChrono;
     public float timerVote;
+    public GameObject StartBuzzer;
     private float time;
     private List<Effect> listEffectEnCours;
     private EtatGame etat;
@@ -20,7 +21,7 @@ public class GameManager : MonoBehaviour {
         multiplayerManager = GetComponent<MultiplayerManager>();
         if (!multiplayerManager)
             Debug.LogWarning("Pas de MultiplayerManager sur le game object");
-
+        /*
         for(int i=0;i<v.nomProposition.Count; i++)
         {
             Debug.Log(v.nomProposition[i]);
@@ -32,8 +33,8 @@ public class GameManager : MonoBehaviour {
 
             }
         }
-
-        etat = EtatGame.preparation;
+        */
+        EnterPreparation();
         time = Time.time;
         listEffectEnCours = new List<Effect>();
     }
@@ -63,7 +64,7 @@ public class GameManager : MonoBehaviour {
         }
 
         // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
-        if (etat.Equals(EtatGame.preparation))
+        if (!etat.Equals(EtatGame.preparation))
         {
             multiplayerManager.CheckMultiplayerEnding();
         }
@@ -74,7 +75,10 @@ public class GameManager : MonoBehaviour {
     // Met le jeu en état de préparation et place un buzzer au centre de la zone de jeu
     public void EnterPreparation()
     {
-        // Instanciation du buzzer
+        // Instanciation du Start Buzzer
+        Instantiate(StartBuzzer);
+        StartBuzzer.transform.position = new Vector3(0,1.1f,0);
+        StartBuzzer.GetComponent<BuzzerStart>().multiplayerManager = multiplayerManager;
 
         multiplayerManager.InitializePlayers();
         etat = EtatGame.preparation;
@@ -85,6 +89,8 @@ public class GameManager : MonoBehaviour {
     public void StartRound()
     {
         // Suppression du buzzer
+        Destroy(StartBuzzer);
+       
         multiplayerManager.InitializePlayers();
         etat = EtatGame.bataille;
     }
