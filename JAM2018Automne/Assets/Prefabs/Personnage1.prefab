@@ -127,7 +127,7 @@ MonoBehaviour:
   commandeInversees: 0
   commandeTournees: 0
   solGlace: 0
-  maxSpeedGlace: 0
+  maxSpeedGlace: 12
 --- !u!114 &114411262311006766
 MonoBehaviour:
   m_ObjectHideFlags: 1
