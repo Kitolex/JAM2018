@@ -5,6 +5,12 @@ AnimatorOverrideController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New Animator Override Controller
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Name: AnimatorViking
+  m_Controller: {fileID: 9100000, guid: b720a838ac4d7dc4c932dc4d81d7aab9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ec7f74b593de0d7419ad4316854ca558, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 814789f4ef09bda41aa32fe20bd0feac, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a310a5dbe8466e4d9f287886c4c7807, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cb47da6790a56ee4583b6bc565013dfb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fb020a5412dee7a4aba36d29ee36a8a8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 340503bd0c0656b42b47cf59ed44551c, type: 2}
