@@ -12,11 +12,13 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private bool sortieDeLaMap;
 	private float dashCooldownActual;
 	private float dashAnimationLockActual;
+	private float stunDurationActual;
 
-	public float speed = 5.0f;
-	public float dashForce = 10.0f;
+	public float speed = 8.0f;
+	public float dashForce = 70.0f;
 	public float dashCooldown = 1.0f;
 	public float dashAnimationLock = 0.2f;
+	public float stunDuration = 0.1f;
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
@@ -31,7 +33,8 @@ public class PersonnageBehaviour : MonoBehaviour {
 		this.sortieDeLaMap = false;
 		this.dashCooldownActual = Time.time;
 		this.dashAnimationLockActual = Time.time;
-		setPlayerID("");
+		this.stunDurationActual = Time.time;
+		setPlayerID("");	// A SUPPRIMER
 	}
 
 	public void setPlayerID(string playerID) {
@@ -43,23 +46,37 @@ public class PersonnageBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		float x = Input.GetAxis(AXIS_HORIZONTAL);
-		float z = Input.GetAxis(AXIS_VERTICAL);
+		if(this.peutAgir()) {
 
-		if(!sortieDeLaMap && Time.time >= dashAnimationLockActual) {
-			
-			this.rb.velocity = new Vector3(x, 0.0f, z);
-			this.rb.velocity.Normalize();
-			this.rb.velocity *= speed;
-		}
+			float x = Input.GetAxis(AXIS_HORIZONTAL);
+			float z = Input.GetAxis(AXIS_VERTICAL);
 
-		if(Input.GetKeyDown(KeyCode.LeftShift)){
-			dasherVers(new Vector3(x, 0.0f, z).normalized);
+			if(x != 0.0f || z != 0.0f) {
+				this.rb.velocity = new Vector3(x, 0.0f, z);
+				this.rb.velocity.Normalize();
+				this.rb.velocity *= speed;
+
+				if(Input.GetKeyDown(KeyCode.LeftShift)){
+					dasherVers(new Vector3(x, 0.0f, z).normalized);
+				}
+			}
 		}
+	}
+
+	private bool peutAgir() {
+		return !sortieDeLaMap && Time.time >= dashAnimationLockActual && Time.time >= stunDurationActual;
+	}
+
+	public bool isDashing() {
+		return Time.time < this.dashAnimationLockActual;
 	}
 
 	public void sortDeLaMap() {
 		this.sortieDeLaMap = true;
+	}
+
+	public void stun(float stunDuration) {
+		stunDurationActual = Time.time + stunDuration;
 	}
 
 	private void dasherVers(Vector3 direction) {
@@ -69,6 +86,19 @@ public class PersonnageBehaviour : MonoBehaviour {
 			dashAnimationLockActual = Time.time + dashAnimationLock;
 
 			this.rb.AddForce(direction * dashForce, ForceMode.Impulse);
+		}
+	}
+
+	void OnCollisionEnter(Collision collision) {
+
+		if(collision.collider.tag.Equals("Player")) {
+
+			PersonnageBehaviour pb = collision.collider.gameObject.GetComponent<PersonnageBehaviour>();
+
+			if(pb.isDashing()) {
+				this.stun(pb.stunDuration);
+				this.rb.AddForce((this.transform.position - pb.transform.position).normalized * pb.dashForce, ForceMode.Impulse);
+			}
 		}
 	}
 }
