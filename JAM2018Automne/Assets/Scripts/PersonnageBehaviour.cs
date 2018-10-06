@@ -33,6 +33,11 @@ public class PersonnageBehaviour : MonoBehaviour {
 	public void setPlayerID(string playerID) {
 		this.playerID = playerID;
 	}
+
+    public string getPlayerID()
+    {
+        return playerID;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -45,8 +50,9 @@ public class PersonnageBehaviour : MonoBehaviour {
 			this.rb.velocity *= speed;
 		}
 
-		if(Input.GetKeyDown(KeyCode.LeftShift)){
-			dasherVers(new Vector3(-1.0f, 0.0f, 0.0f));
+		if(Input.GetAxisRaw(playerID + "Dash") != 0){
+
+            dasherVers(new Vector3(-1.0f, 0.0f, 0.0f));
 		}
 	}
 
