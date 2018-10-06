@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour {
 
     public float timerChrono;
     public float timerVote;
+    public GameObject StartBuzzer;
+
+    private GameObject buzzerInstance;
     private float time;
    
     private EtatGame etat;
@@ -23,10 +26,11 @@ public class GameManager : MonoBehaviour {
         multiplayerManager = GetComponent<MultiplayerManager>();
         if (!multiplayerManager)
             Debug.LogWarning("Pas de MultiplayerManager sur le game object");
-
-        etat = EtatGame.preparation;
+        
         voteManager = GameObject.FindGameObjectWithTag("VoteManager").GetComponent<VoteManager>();
         effectManager = GameObject.FindGameObjectWithTag("EffectManager").GetComponent<EffectManager>();
+      
+        EnterPreparation();
         time = Time.time;
         
     }
@@ -57,7 +61,7 @@ public class GameManager : MonoBehaviour {
         }
 
         // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
-        if (etat.Equals(EtatGame.preparation))
+        if (!etat.Equals(EtatGame.preparation))
         {
             multiplayerManager.CheckMultiplayerEnding();
         }
@@ -68,7 +72,11 @@ public class GameManager : MonoBehaviour {
     // Met le jeu en état de préparation et place un buzzer au centre de la zone de jeu
     public void EnterPreparation()
     {
-        // Instanciation du buzzer
+        // Instanciation du Start Buzzer
+        buzzerInstance = Instantiate(StartBuzzer);
+        buzzerInstance.transform.position = new Vector3(0,1.1f,0);
+        buzzerInstance.GetComponent<BuzzerStart>().multiplayerManager = multiplayerManager;
+        buzzerInstance.GetComponent<BuzzerStart>().gameManager = this;
 
         multiplayerManager.InitializePlayers();
         etat = EtatGame.preparation;
@@ -78,6 +86,8 @@ public class GameManager : MonoBehaviour {
     public void StartRound()
     {
         // Suppression du buzzer
+        Destroy(buzzerInstance);
+       
         multiplayerManager.InitializePlayers();
         etat = EtatGame.bataille;
     }
