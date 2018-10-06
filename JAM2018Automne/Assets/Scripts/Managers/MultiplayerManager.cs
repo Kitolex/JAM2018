@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MultiplayerManager : MonoBehaviour {
 
-    private int numberPlayer;                       // Nombre de joueur actuellement dans la partie
+    public int NumberPlayer { get { return playerList.Count; } }                       // Nombre de joueur actuellement dans la partie
     private List<PersonnageBehaviour> playerList;   // Liste des références vers les script de personnage
     private GameManager gameManager;
 
@@ -19,7 +19,6 @@ public class MultiplayerManager : MonoBehaviour {
             Debug.LogWarning("Pas de GameManager trouvé sur le gameobject");
 
         playerList = new List<PersonnageBehaviour>();
-        numberPlayer = 0;
     }
 
     public void Update()
@@ -73,8 +72,6 @@ public class MultiplayerManager : MonoBehaviour {
             if (behaviour)
                 playerList.Add(behaviour);
             behaviour.setPlayerID(numPlayer);
-
-            numberPlayer++;
         }
     }
 
@@ -98,7 +95,6 @@ public class MultiplayerManager : MonoBehaviour {
             {
                 playerList.Remove(p);
                 Destroy(p.gameObject);
-                numPlayer--;
                 return;
             }
 

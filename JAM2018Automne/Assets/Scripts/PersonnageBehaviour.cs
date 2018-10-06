@@ -20,6 +20,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private SpriteRenderer spriteRenderer;
     private int VieActuelle;
     private MultiplayerManager multiplayerManager;
+    private bool DashPressed;
 
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
@@ -60,6 +61,7 @@ public class PersonnageBehaviour : MonoBehaviour {
         this.stunDurationActual = Time.time;
         this.previousPosition = this.transform.position;
         this.previousDeplacement = Vector3.zero;
+        this.DashPressed = false;
     }
 
 	public void setPlayerID(int playerID) {
@@ -105,12 +107,28 @@ public class PersonnageBehaviour : MonoBehaviour {
 				this.spriteRenderer.flipX = false;
 			}
 
-            if (Input.GetAxisRaw(BUTTON_DASH) != 0){
-				dasherVers(dir.normalized);
-			} else {
-				deplacement = dir * speed;
-			}
-		}
+           
+            if (Input.GetAxisRaw(BUTTON_DASH) != 0)
+            {
+                if (!DashPressed)
+                {                    
+                    dasherVers(dir.normalized);
+                }
+                else
+                {
+                    deplacement = dir * speed;
+                }
+                
+                DashPressed = true;
+            }
+            else
+            {
+
+                deplacement = dir * speed;
+                DashPressed = false;
+            }
+            
+        }
 
 		if(solGlace) {
 
