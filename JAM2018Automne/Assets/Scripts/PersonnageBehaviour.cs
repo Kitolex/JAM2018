@@ -8,7 +8,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private string AXIS_VERTICAL;
     private string BUTTON_DASH;
 
-    private string playerID;
+    private int playerID;
 	private Rigidbody rb;
 	private bool sortieDeLaMap;
 	private float dashCooldownActual;
@@ -17,6 +17,10 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private Vector3 previousPosition;
 	private Vector3 previousDeplacement;
     private Animator animator;
+	private SpriteRenderer spriteRenderer;
+    private int VieActuelle;
+    private MultiplayerManager multiplayerManager;
+    private bool DashPressed;
 
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
@@ -24,14 +28,18 @@ public class PersonnageBehaviour : MonoBehaviour {
 	public float dashAnimationLock = 0.2f;
 	public float stunDuration = 0.1f;
 	public float dashImpactForce = 30.0f;
-	public bool commandeInversees;
+    public int VieMax;
+    public bool commandeInversees;
 	public bool commandeTournees;
 	public bool solGlace;
-	public float maxSpeedGlace;
+	public float maxSpeedGlace = 12.0f;
+	public bool chaleurIntense;
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
         this.animator = GetComponentInChildren<Animator>();
+		this.spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        this.multiplayerManager = GameObject.FindGameObjectWithTag("MultiplayerManager").GetComponent<MultiplayerManager>();
 	}
 
 	// Use this for initialization
@@ -40,23 +48,31 @@ public class PersonnageBehaviour : MonoBehaviour {
 	}
 
 	public void initialise() {
-		this.sortieDeLaMap = false;
-		this.dashCooldownActual = Time.time;
-		this.dashAnimationLockActual = Time.time;
-		this.stunDurationActual = Time.time;
-		this.previousPosition = this.transform.position;
-		this.previousDeplacement = Vector3.zero;
+        Respawn();
+        this.VieMax = 3;
+        this.VieActuelle = VieMax;
 	}
 
-	public void setPlayerID(string playerID) {
+    public void Respawn()
+    {
+        this.sortieDeLaMap = false;
+        this.dashCooldownActual = Time.time;
+        this.dashAnimationLockActual = Time.time;
+        this.stunDurationActual = Time.time;
+        this.previousPosition = this.transform.position;
+        this.previousDeplacement = Vector3.zero;
+        this.DashPressed = false;
+    }
+
+	public void setPlayerID(int playerID) {
 		this.playerID = playerID;
-		AXIS_HORIZONTAL = playerID + "Horizontal";
-		AXIS_VERTICAL = playerID + "Vertical";
-        BUTTON_DASH = playerID + "Dash";
+		AXIS_HORIZONTAL = "Player" + playerID + "Horizontal";
+		AXIS_VERTICAL = "Player" + playerID + "Vertical";
+        BUTTON_DASH = "Player" + playerID + "Dash";
 
     }
 	
-    public string getPlayerID()
+    public int getPlayerID()
     {
         return playerID;
     }
@@ -69,19 +85,50 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 		Vector3 deplacement = Vector3.zero;
 
+		Vector3 dir = new Vector3(x, 0.0f, z);
+
+		if(dir.magnitude <0.05f) {
+			dir = Vector3.zero;
+		}
+	
+		//Update animator
+		if(this.iStun()) {
+			animator.SetBool("Walk", false);
+		} else {
+			animator.SetBool("Walk", dir.magnitude > 0.0f);
+		}
+		
+
 		if(this.peutAgir()) {
 
-			Vector3 dir = new Vector3(x, 0.0f, z);
-
-            //Update animator
-            animator.SetBool("Walk", dir.magnitude > 0);
-
-            if (Input.GetAxisRaw(BUTTON_DASH) != 0){
-				dasherVers(dir.normalized);
-			} else {
-				deplacement = dir * speed;
+			if(dir.x < 0.0f) {
+				this.spriteRenderer.flipX = true;
+			} else if(dir.x > 0.0f) {
+				this.spriteRenderer.flipX = false;
 			}
-		}
+
+           
+            if (Input.GetAxisRaw(BUTTON_DASH) != 0)
+            {
+                if (!DashPressed)
+                {                    
+                    dasherVers(dir.normalized);
+                }
+                else
+                {
+                    deplacement = dir * speed;
+                }
+                
+                DashPressed = true;
+            }
+            else
+            {
+
+                deplacement = dir * speed;
+                DashPressed = false;
+            }
+            
+        }
 
 		if(solGlace) {
 
@@ -98,6 +145,10 @@ public class PersonnageBehaviour : MonoBehaviour {
 				deplacement.Normalize();
 				deplacement *= this.maxSpeedGlace;
 			}
+		}
+
+		if(chaleurIntense) {
+			deplacement *= 0.5f;
 		}
 
 		this.transform.position += deplacement * Time.deltaTime;
@@ -117,10 +168,36 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 	public void sortDeLaMap() {
 		this.sortieDeLaMap = true;
+        animator.SetBool("Drowned", true);
+        StartCoroutine(DrownIntoDeath());
 	}
+
+    public IEnumerator DrownIntoDeath()
+    {
+        yield return new WaitForSeconds(2);
+        animator.SetBool("Drowned", false);
+        multiplayerManager.KillPlayer(playerID);
+
+    }
+
+    public void Kill()
+    {
+        VieActuelle--;
+        if (VieActuelle < 0)
+            VieActuelle = 0;
+    }
+
+    public bool IsDead()
+    {
+        return VieActuelle == 0;
+    }
 
 	public void stun(float stunDuration) {
 		stunDurationActual = Time.time + stunDuration;
+	}
+
+	public bool iStun() {
+		return Time.time < this.stunDurationActual;
 	}
 
 	private void dasherVers(Vector3 direction) {
@@ -129,8 +206,16 @@ public class PersonnageBehaviour : MonoBehaviour {
 			dashCooldownActual = Time.time + dashCooldown;
 			dashAnimationLockActual = Time.time + dashAnimationLock;
 
-			this.rb.AddForce(direction * dashPropulsionForce, ForceMode.Impulse);
+			if(chaleurIntense) {
 
+				this.rb.AddForce(direction * dashPropulsionForce * 0.5f, ForceMode.Impulse);
+				this.stun(this.stunDuration);
+
+			} else {
+
+				this.rb.AddForce(direction * dashPropulsionForce, ForceMode.Impulse);
+			}
+			
             animator.SetTrigger("dash");
 		}
 	}
@@ -143,7 +228,23 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 			if(pb.isDashing()) {
 				this.stun(pb.stunDuration);
-				this.rb.AddForce((this.transform.position - pb.transform.position).normalized * pb.dashImpactForce, ForceMode.Impulse);
+
+				Vector3 impact = (this.transform.position - pb.transform.position).normalized * pb.dashImpactForce;
+
+				if(chaleurIntense) {
+					impact *= 0.5f;
+				}
+
+				this.rb.AddForce(impact, ForceMode.Impulse);
+			}
+		}
+
+		if(this.isDashing()){
+
+			IDashable d = collision.collider.GetComponent<IDashable>();
+
+			if(d != null) {
+				d.subirDash(this.gameObject);
 			}
 		}
 	}
