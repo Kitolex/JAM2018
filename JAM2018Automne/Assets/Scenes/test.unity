@@ -273,7 +273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afd3eab58f1366469dee69c11c8e76b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listVote: []
+  listVote:
+  - {fileID: 11400000, guid: 03199a7cf4ba5fc40a216db2e1414ab8, type: 2}
   voteActuel: {fileID: 0}
   buzzer: {fileID: 314104326}
 --- !u!1001 &710054818
