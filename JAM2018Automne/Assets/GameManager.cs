@@ -22,14 +22,11 @@ public class GameManager : MonoBehaviour {
 	void Update () {
         if (etat.Equals(EtatGame.bataille))
         {
-            foreach (Effect e in listEffectEnCours)
-            {
-                e.Display();
-            }           
-
+            DisplayEffects();
             if (timerChrono <= (Time.time - time))
             {
                 time = Time.time;
+                etat = EtatGame.vote;
                 StartVote();
             }
         }
@@ -38,30 +35,48 @@ public class GameManager : MonoBehaviour {
             if (timerChrono <= (Time.time - time))
             {
                 time = Time.time;
+                EndEffects();               
                 StopVote();
+                BeginEffects();
+                etat = EtatGame.bataille;
             }
         }
 
 
     }
 
+    private void DisplayEffects()
+    {
+        foreach (Effect e in listEffectEnCours)
+        {
+            e.Display();
+        }
+    }
+    private void EndEffects()
+    {
+        foreach (Effect e in listEffectEnCours)
+        {
+            e.Display();
+        }
+    }
+    private void BeginEffects()
+    {
+        foreach (Effect e in listEffectEnCours)
+        {
+            e.Display();
+        }
+    }
+
     private void StopVote()
     {
         Debug.Log("Fin Vote");
-        etat = EtatGame.bataille;
     }
 
     private void StartVote()
     {
         Debug.Log("Debut Vote");
-        etat = EtatGame.vote;
+        
     }
-
-    public void AddEffect()
-    {
-
-    }
-
     
 }
 
