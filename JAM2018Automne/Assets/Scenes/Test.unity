@@ -497,6 +497,11 @@ Prefab:
       propertyPath: dashCooldown
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 114067814284322554, guid: 048e40349c21c5b4789a39963649f697,
+        type: 2}
+      propertyPath: dashPropulsionForce
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 048e40349c21c5b4789a39963649f697, type: 2}
   m_IsPrefabAsset: 0

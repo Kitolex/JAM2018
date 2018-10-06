@@ -13,12 +13,18 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private float dashCooldownActual;
 	private float dashAnimationLockActual;
 	private float stunDurationActual;
+	private Vector3 lastDir;
+	private float previousInputMagnitude;
 
 	public float speed = 8.0f;
-	public float dashForce = 70.0f;
+	public float dashPropulsionForce = 30.0f;
 	public float dashCooldown = 1.0f;
 	public float dashAnimationLock = 0.2f;
 	public float stunDuration = 0.1f;
+	public float dashImpactForce = 30.0f;
+	public bool commandeInversees;
+	public bool commandeTournees;
+	public bool solGlace;
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
@@ -34,6 +40,8 @@ public class PersonnageBehaviour : MonoBehaviour {
 		this.dashCooldownActual = Time.time;
 		this.dashAnimationLockActual = Time.time;
 		this.stunDurationActual = Time.time;
+		this.lastDir = Vector3.zero;
+		this.previousInputMagnitude = 0.0f;
 		setPlayerID("");	// A SUPPRIMER
 	}
 
@@ -46,19 +54,32 @@ public class PersonnageBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(this.peutAgir()) {
+		float x = getXAxis();
+		float z = getZAxis();
 
-			float x = Input.GetAxis(AXIS_HORIZONTAL);
-			float z = Input.GetAxis(AXIS_VERTICAL);
+		if(this.peutAgir()) {
 
 			if(x != 0.0f || z != 0.0f) {
 				this.rb.velocity = new Vector3(x, 0.0f, z);
 				this.rb.velocity.Normalize();
 				this.rb.velocity *= speed;
-
+				
 				if(Input.GetKeyDown(KeyCode.LeftShift)){
 					dasherVers(new Vector3(x, 0.0f, z).normalized);
 				}
+			}
+		}
+
+		if(solGlace) {
+
+			float v = new Vector3(x, 0.0f, z).magnitude;
+			if(v >= previousInputMagnitude) {
+				lastDir = this.rb.velocity.normalized;
+			}
+			previousInputMagnitude = v;
+
+			if( ! lastDir.Equals(Vector3.zero) && this.rb.velocity.magnitude <= 7.0f) {
+				this.rb.velocity = lastDir * Mathf.Max(7.0f, this.rb.velocity.magnitude);
 			}
 		}
 	}
@@ -85,7 +106,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 			dashCooldownActual = Time.time + dashCooldown;
 			dashAnimationLockActual = Time.time + dashAnimationLock;
 
-			this.rb.AddForce(direction * dashForce, ForceMode.Impulse);
+			this.rb.AddForce(direction * dashPropulsionForce, ForceMode.Impulse);
 		}
 	}
 
@@ -97,8 +118,26 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 			if(pb.isDashing()) {
 				this.stun(pb.stunDuration);
-				this.rb.AddForce((this.transform.position - pb.transform.position).normalized * pb.dashForce, ForceMode.Impulse);
+				this.rb.AddForce((this.transform.position - pb.transform.position).normalized * pb.dashImpactForce, ForceMode.Impulse);
 			}
 		}
+	}
+
+	private float getXAxis() {
+		if(commandeInversees)
+			return - Input.GetAxis(AXIS_HORIZONTAL);
+		else if(commandeTournees)
+			return - Input.GetAxis(AXIS_VERTICAL);
+		else
+			return Input.GetAxis(AXIS_HORIZONTAL);
+	}
+
+	private float getZAxis() {
+		if(commandeInversees)
+			return - Input.GetAxis(AXIS_VERTICAL);
+		else if(commandeTournees)
+			return Input.GetAxis(AXIS_HORIZONTAL);
+		else
+			return Input.GetAxis(AXIS_VERTICAL);
 	}
 }
