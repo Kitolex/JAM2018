@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 public class GameManager : MonoBehaviour {
 
@@ -11,9 +12,11 @@ public class GameManager : MonoBehaviour {
 
     private GameObject buzzerInstance;
     private float time;
-    private List<Effect> listEffectEnCours;
+   
     private EtatGame etat;
     private MultiplayerManager multiplayerManager;
+    private VoteManager voteManager;
+    private EffectManager effectManager;
 
     public Vote v;
 
@@ -23,34 +26,26 @@ public class GameManager : MonoBehaviour {
         multiplayerManager = GetComponent<MultiplayerManager>();
         if (!multiplayerManager)
             Debug.LogWarning("Pas de MultiplayerManager sur le game object");
-        /*
-        for(int i=0;i<v.nomProposition.Count; i++)
-        {
-            Debug.Log(v.nomProposition[i]);
-            Debug.Log(v.listEffects[i].effects.Count);
-            for (int j = 0; j < v.listEffects[i].effects.Count; j++)
-            {
-
-                Debug.Log(v.listEffects[i].effects[j].ToString());
-
-            }
-        }
-        */
+        
+        voteManager = GameObject.FindGameObjectWithTag("VoteManager").GetComponent<VoteManager>();
+        effectManager = GameObject.FindGameObjectWithTag("EffectManager").GetComponent<EffectManager>();
+      
         EnterPreparation();
         time = Time.time;
-        listEffectEnCours = new List<Effect>();
+        
     }
 	
 	// Update is called once per frame
 	void Update () {
+
         if (etat.Equals(EtatGame.bataille))
         {
-            DisplayEffects();
+            effectManager.DisplayEffects();
             if (timerChrono <= (Time.time - time))
             {
                 time = Time.time;
                 etat = EtatGame.vote;
-                StartVote();
+                voteManager.startVote();
             }
         }
         if (etat.Equals(EtatGame.vote))
@@ -58,9 +53,9 @@ public class GameManager : MonoBehaviour {
             if (timerVote <= (Time.time - time))
             {
                 time = Time.time;
-                EndEffects();               
+                effectManager.EndEffects();               
                 StopVote();
-                BeginEffects();
+                effectManager.BeginEffects();
                 etat = EtatGame.bataille;
             }
         }
@@ -87,7 +82,6 @@ public class GameManager : MonoBehaviour {
         etat = EtatGame.preparation;
     }
 
-
     // Sort de l'état de préparation
     public void StartRound()
     {
@@ -105,41 +99,12 @@ public class GameManager : MonoBehaviour {
         EnterPreparation();
     }
 
-
-
-    private void DisplayEffects()
-    {
-        foreach (Effect e in listEffectEnCours)
-        {
-            e.Display();
-        }
-    }
-    private void EndEffects()
-    {
-        foreach (Effect e in listEffectEnCours)
-        {
-            e.End();
-        }
-    }
-    private void BeginEffects()
-    {
-        foreach (Effect e in listEffectEnCours)
-        {
-            e.Begin();
-        }
-    }
-
     private void StopVote()
     {
-        Debug.Log("Fin Vote");
+        List<ListEffet> listEffect = new List<ListEffet>();
+        listEffect.AddRange(voteManager.getEffect());
+        effectManager.createliste(listEffect);
     }
-
-    private void StartVote()
-    {
-        Debug.Log("Debut Vote");
-        
-    }
-    
 }
 
 public enum EtatGame
