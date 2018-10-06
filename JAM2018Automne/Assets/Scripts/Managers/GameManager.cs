@@ -36,6 +36,12 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
+        if (!etat.Equals(EtatGame.preparation))
+        {
+            multiplayerManager.CheckMultiplayerEnding();
+        }
+
         if (etat.Equals(EtatGame.bataille))
         {
             effectManager.DisplayEffects();
@@ -57,13 +63,6 @@ public class GameManager : MonoBehaviour {
                 etat = EtatGame.bataille;
             }
         }
-
-        // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
-        if (!etat.Equals(EtatGame.preparation))
-        {
-            multiplayerManager.CheckMultiplayerEnding();
-        }
-
     }
 
 
@@ -95,6 +94,7 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log(winner);  // A AFFICHER IN GAME
         EnterPreparation();
+        effectManager.EndEffects();
     }
 
     private void StopVote()
