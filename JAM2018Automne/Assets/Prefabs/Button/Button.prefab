@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4068643785507828}
   - component: {fileID: 95425003271638092}
+  - component: {fileID: 114003004482697918}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -488,3 +489,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114003004482697918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479660623389318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77be72df90559bf4cb661b13cc4197db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiplayerManager: {fileID: 0}
+  gameManager: {fileID: 0}
