@@ -21,6 +21,7 @@ public abstract class Effect : MonoBehaviour {
 
 public enum Effects
 {
+    NONE,
     GELER_SOL,
     CHALEUR_INTENSE,
     INVERSER_COMMANDES,

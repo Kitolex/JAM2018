@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 54809572656887270}
   - component: {fileID: 136804043656790326}
   m_Layer: 0
-  m_Name: Personnage
+  m_Name: Personnage1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,6 +128,7 @@ MonoBehaviour:
   commandeTournees: 0
   solGlace: 0
   maxSpeedGlace: 12
+  chaleurIntense: 0
 --- !u!114 &114411262311006766
 MonoBehaviour:
   m_ObjectHideFlags: 1
