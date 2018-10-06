@@ -61,6 +61,11 @@ public class PersonnageBehaviour : MonoBehaviour {
         return playerID;
     }
 
+    public bool IsAlive()
+    {
+        return true;
+    }
+
 	// Update is called once per frame
 	void Update () {
 

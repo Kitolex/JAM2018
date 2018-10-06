@@ -6,7 +6,6 @@ public class MultiplayerManager : MonoBehaviour {
 
     private int numberPlayer;                       // Nombre de joueur actuellement dans la partie
     private List<PersonnageBehaviour> playerList;   // Liste des références vers les script de personnage
-    private string winnerID;
 
     public int[] Scores;                            // Liste indiquant le nombre de manche remportées par chaque joueurs
     public GameObject[] prefabList;                 // Liste des prefab servant à instancier les personnages   
@@ -91,7 +90,21 @@ public class MultiplayerManager : MonoBehaviour {
 
     public void CheckMultiplayerEnding()
     {
+        int stillAlive = 0;
+        string winnerID = "";
+        foreach(PersonnageBehaviour p in playerList)
+        {
+            if (p.IsAlive())
+            {
+                stillAlive++;
+                winnerID = p.getPlayerID();
+            }
+        }
 
+        if(stillAlive <= 1)
+        {
+            // fin de round
+        }
     }
 
 
