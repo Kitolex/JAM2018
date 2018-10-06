@@ -22,6 +22,7 @@ public class PersonnageBehaviour : MonoBehaviour {
     private MultiplayerManager multiplayerManager;
     private bool DashPressed;
 
+	public GameObject ombre;
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
 	public float dashCooldown = 1.0f;
@@ -56,6 +57,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 
     public void Respawn()
     {
+		this.ombre.SetActive(true);
         this.sortieDeLaMap = false;
         this.dashCooldownActual = Time.time;
         this.dashAnimationLockActual = Time.time;
@@ -169,6 +171,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 	public void sortDeLaMap() {
 		this.sortieDeLaMap = true;
+		this.ombre.SetActive(false);
         animator.SetBool("Drowned", true);
         StartCoroutine(DrownIntoDeath());
 	}

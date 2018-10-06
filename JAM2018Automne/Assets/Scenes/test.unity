@@ -216,7 +216,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4308431629233076, guid: fa799742c4e5e79479333d51748a2161, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114656955915674742, guid: fa799742c4e5e79479333d51748a2161,
         type: 2}
@@ -242,7 +242,7 @@ Prefab:
         type: 2}
       propertyPath: prefabList.Array.data[0]
       value: 
-      objectReference: {fileID: 1352263086099200, guid: a29b6d5195874d94886adb1fcf945943,
+      objectReference: {fileID: 1033142065448514, guid: 0c91c182fa4ceee469e1d0e55a9234e2,
         type: 2}
     - target: {fileID: 114656955915674742, guid: fa799742c4e5e79479333d51748a2161,
         type: 2}
@@ -541,7 +541,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1532632931
 MonoBehaviour:
