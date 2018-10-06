@@ -15,10 +15,8 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private float dashAnimationLockActual;
 	private float stunDurationActual;
 	private Vector3 previousPosition;
-	private Vector3 lastDir;
-	private float previousInputMagnitude;
-	private float vitesseResiduelle;
 	private Vector3 previousDeplacement;
+    private Animator animator;
 
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
@@ -33,6 +31,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
+        this.animator = GetComponentInChildren<Animator>();
 	}
 
 	// Use this for initialization
@@ -46,9 +45,6 @@ public class PersonnageBehaviour : MonoBehaviour {
 		this.dashAnimationLockActual = Time.time;
 		this.stunDurationActual = Time.time;
 		this.previousPosition = this.transform.position;
-		this.lastDir = Vector3.zero;
-		this.previousInputMagnitude = 0.0f;
-		this.vitesseResiduelle = 0.0f;
 		this.previousDeplacement = Vector3.zero;
 	}
 
@@ -77,7 +73,10 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 			Vector3 dir = new Vector3(x, 0.0f, z);
 
-			if(Input.GetAxisRaw(BUTTON_DASH) != 0){
+            //Update animator
+            animator.SetBool("Walk", dir.magnitude > 0);
+
+            if (Input.GetAxisRaw(BUTTON_DASH) != 0){
 				dasherVers(dir.normalized);
 			} else {
 				deplacement = dir * speed;
@@ -131,6 +130,8 @@ public class PersonnageBehaviour : MonoBehaviour {
 			dashAnimationLockActual = Time.time + dashAnimationLock;
 
 			this.rb.AddForce(direction * dashPropulsionForce, ForceMode.Impulse);
+
+            animator.SetTrigger("dash");
 		}
 	}
 

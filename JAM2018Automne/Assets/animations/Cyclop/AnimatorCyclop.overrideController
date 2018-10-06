@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AnimatorCyclop
+  m_Controller: {fileID: 9100000, guid: b720a838ac4d7dc4c932dc4d81d7aab9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fe6cdafe9ff58a146a30f37b0282c817, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b7329e532b9a6cb41ba182bfb776abf3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a310a5dbe8466e4d9f287886c4c7807, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 70ac3a5b5b530c64daa5de0a9b0160c5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fb020a5412dee7a4aba36d29ee36a8a8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ee219c6208a7a274ba2ddc3972fbbb5a, type: 2}
