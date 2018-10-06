@@ -8,9 +8,9 @@ AnimatorOverrideController:
   m_Name: AnimatorBouda
   m_Controller: {fileID: 9100000, guid: b720a838ac4d7dc4c932dc4d81d7aab9, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: fe6cdafe9ff58a146a30f37b0282c817, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: a6791fe4118f30e47916982d779a6efb, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 4a310a5dbe8466e4d9f287886c4c7807, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 3b4a59dcad0de324d928e613cda1c2b4, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: fb020a5412dee7a4aba36d29ee36a8a8, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 16a72bca00e8ced499933bf2eb674ed2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ec7f74b593de0d7419ad4316854ca558, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 625e3dd2f6d94fd498f405461885e7d8, type: 2}

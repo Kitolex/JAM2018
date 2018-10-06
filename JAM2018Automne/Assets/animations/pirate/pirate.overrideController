@@ -5,12 +5,12 @@ AnimatorOverrideController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AnimatorNinja
+  m_Name: pirate
   m_Controller: {fileID: 9100000, guid: b720a838ac4d7dc4c932dc4d81d7aab9, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 4a310a5dbe8466e4d9f287886c4c7807, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 56ab96bea93d8b643bc141898ba0f054, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: fb020a5412dee7a4aba36d29ee36a8a8, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 2b89ad68cf9bfa7428d25b23e4a9493c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d906550feb6c452449f96c6acb3466b6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a310a5dbe8466e4d9f287886c4c7807, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4454d75d90f612944953fcc1808c520a, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: ec7f74b593de0d7419ad4316854ca558, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: c8e4a8cafb9cf204f92a6c36638149f7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 57cac49c952c8044896a0b2bd9433da9, type: 2}
