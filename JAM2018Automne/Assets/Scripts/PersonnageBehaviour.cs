@@ -13,8 +13,11 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private float dashCooldownActual;
 	private float dashAnimationLockActual;
 	private float stunDurationActual;
+	private Vector3 previousPosition;
 	private Vector3 lastDir;
 	private float previousInputMagnitude;
+	private float vitesseResiduelle;
+	private Vector3 previousDeplacement;
 
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
@@ -25,6 +28,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 	public bool commandeInversees;
 	public bool commandeTournees;
 	public bool solGlace;
+	public float maxSpeedGlace;
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
@@ -40,8 +44,11 @@ public class PersonnageBehaviour : MonoBehaviour {
 		this.dashCooldownActual = Time.time;
 		this.dashAnimationLockActual = Time.time;
 		this.stunDurationActual = Time.time;
+		this.previousPosition = this.transform.position;
 		this.lastDir = Vector3.zero;
 		this.previousInputMagnitude = 0.0f;
+		this.vitesseResiduelle = 0.0f;
+		this.previousDeplacement = Vector3.zero;
 		setPlayerID("");	// A SUPPRIMER
 	}
 
@@ -57,31 +64,41 @@ public class PersonnageBehaviour : MonoBehaviour {
 		float x = getXAxis();
 		float z = getZAxis();
 
+		Vector3 deplacement = Vector3.zero;
+
 		if(this.peutAgir()) {
 
-			if(x != 0.0f || z != 0.0f) {
-				this.rb.velocity = new Vector3(x, 0.0f, z);
-				this.rb.velocity.Normalize();
-				this.rb.velocity *= speed;
-				
-				if(Input.GetKeyDown(KeyCode.LeftShift)){
-					dasherVers(new Vector3(x, 0.0f, z).normalized);
-				}
+			Vector3 dir = new Vector3(x, 0.0f, z);
+
+			if(Input.GetKeyDown(KeyCode.LeftShift)){
+				dasherVers(dir.normalized);
+			} else {
+				deplacement = dir * speed;
 			}
 		}
 
 		if(solGlace) {
 
-			float v = new Vector3(x, 0.0f, z).magnitude;
-			if(v >= previousInputMagnitude) {
-				lastDir = this.rb.velocity.normalized;
-			}
-			previousInputMagnitude = v;
+			Vector3 newDeplacement = (this.transform.position - this.previousPosition) / Time.deltaTime;
+			newDeplacement.y = 0.0f;
 
-			if( ! lastDir.Equals(Vector3.zero) && this.rb.velocity.magnitude <= 7.0f) {
-				this.rb.velocity = lastDir * Mathf.Max(7.0f, this.rb.velocity.magnitude);
+			if(newDeplacement.magnitude >= this.previousDeplacement.magnitude) {
+				deplacement += newDeplacement;
+			} else {
+				deplacement += this.previousDeplacement;
+			}
+
+			if(deplacement.magnitude > this.previousDeplacement.magnitude && deplacement.magnitude >= this.maxSpeedGlace) {
+				deplacement.Normalize();
+				deplacement *= this.maxSpeedGlace;
 			}
 		}
+
+		this.transform.position += deplacement * Time.deltaTime;
+
+		this.previousPosition = this.transform.position;
+
+		this.previousDeplacement = deplacement;
 	}
 
 	private bool peutAgir() {
