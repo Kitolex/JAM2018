@@ -12,3 +12,13 @@ public abstract class Effect : MonoBehaviour {
 
 
 }
+
+public enum Effects
+{
+    a,
+    b,
+    c,
+    d,
+    e,
+    f    
+}

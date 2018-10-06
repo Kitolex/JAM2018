@@ -11,8 +11,23 @@ public class GameManager : MonoBehaviour {
     private List<Effect> listEffectEnCours;
     private EtatGame etat;
 
+    public Vote v;
+
     // Use this for initialization
     void Start () {
+
+        for(int i=0;i<v.nomProposition.Count; i++)
+        {
+            Debug.Log(v.nomProposition[i]);
+            Debug.Log(v.listEffects[i].effects.Count);
+            for (int j = 0; j < v.listEffects[i].effects.Count; j++)
+            {
+
+                Debug.Log(v.listEffects[i].effects[j].ToString());
+
+            }
+        }
+
         etat = EtatGame.bataille;
         time = Time.time;
         listEffectEnCours = new List<Effect>();
@@ -32,7 +47,7 @@ public class GameManager : MonoBehaviour {
         }
         if (etat.Equals(EtatGame.vote))
         {
-            if (timerChrono <= (Time.time - time))
+            if (timerVote <= (Time.time - time))
             {
                 time = Time.time;
                 EndEffects();               
@@ -56,14 +71,14 @@ public class GameManager : MonoBehaviour {
     {
         foreach (Effect e in listEffectEnCours)
         {
-            e.Display();
+            e.End();
         }
     }
     private void BeginEffects()
     {
         foreach (Effect e in listEffectEnCours)
         {
-            e.Display();
+            e.Begin();
         }
     }
 
