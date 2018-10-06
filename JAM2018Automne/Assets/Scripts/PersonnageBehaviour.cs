@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PersonnageBehaviour : MonoBehaviour {
 
+	private static string AXIS_HORIZONTAL;
+	private static string AXIS_VERTICAL;
+
 	private string playerID;
 	private Rigidbody rb;
 	private bool sortieDeLaMap;
@@ -28,25 +31,30 @@ public class PersonnageBehaviour : MonoBehaviour {
 		this.sortieDeLaMap = false;
 		this.dashCooldownActual = Time.time;
 		this.dashAnimationLockActual = Time.time;
+		setPlayerID("");
 	}
 
 	public void setPlayerID(string playerID) {
 		this.playerID = playerID;
+		AXIS_HORIZONTAL = playerID + "Horizontal";
+		AXIS_VERTICAL = playerID + "Vertical";
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
+		float x = Input.GetAxis(AXIS_HORIZONTAL);
+		float z = Input.GetAxis(AXIS_VERTICAL);
+
 		if(!sortieDeLaMap && Time.time >= dashAnimationLockActual) {
-			float x = Input.GetAxis(playerID+"Horizontal");
-			float z = Input.GetAxis(playerID+"Vertical");
+			
 			this.rb.velocity = new Vector3(x, 0.0f, z);
 			this.rb.velocity.Normalize();
 			this.rb.velocity *= speed;
 		}
 
 		if(Input.GetKeyDown(KeyCode.LeftShift)){
-			dasherVers(new Vector3(-1.0f, 0.0f, 0.0f));
+			dasherVers(new Vector3(x, 0.0f, z).normalized);
 		}
 	}
 
