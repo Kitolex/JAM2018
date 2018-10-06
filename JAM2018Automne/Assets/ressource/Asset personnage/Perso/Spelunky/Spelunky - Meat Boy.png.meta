@@ -1,0 +1,2808 @@
+fileFormatVersion: 2
+guid: 1cc0233f50ac02a46a9274e63536062d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - Spelunky - Meat Boy_0
+    21300002: PC Computer - Spelunky - Meat Boy_1
+    21300004: PC Computer - Spelunky - Meat Boy_2
+    21300006: PC Computer - Spelunky - Meat Boy_3
+    21300008: PC Computer - Spelunky - Meat Boy_4
+    21300010: PC Computer - Spelunky - Meat Boy_5
+    21300012: PC Computer - Spelunky - Meat Boy_6
+    21300014: PC Computer - Spelunky - Meat Boy_7
+    21300016: PC Computer - Spelunky - Meat Boy_8
+    21300018: PC Computer - Spelunky - Meat Boy_9
+    21300020: PC Computer - Spelunky - Meat Boy_10
+    21300022: PC Computer - Spelunky - Meat Boy_11
+    21300024: PC Computer - Spelunky - Meat Boy_12
+    21300026: PC Computer - Spelunky - Meat Boy_13
+    21300028: PC Computer - Spelunky - Meat Boy_14
+    21300030: PC Computer - Spelunky - Meat Boy_15
+    21300032: PC Computer - Spelunky - Meat Boy_16
+    21300034: PC Computer - Spelunky - Meat Boy_17
+    21300036: PC Computer - Spelunky - Meat Boy_18
+    21300038: PC Computer - Spelunky - Meat Boy_19
+    21300040: PC Computer - Spelunky - Meat Boy_20
+    21300042: PC Computer - Spelunky - Meat Boy_21
+    21300044: PC Computer - Spelunky - Meat Boy_22
+    21300046: PC Computer - Spelunky - Meat Boy_23
+    21300048: PC Computer - Spelunky - Meat Boy_24
+    21300050: PC Computer - Spelunky - Meat Boy_25
+    21300052: PC Computer - Spelunky - Meat Boy_26
+    21300054: PC Computer - Spelunky - Meat Boy_27
+    21300056: PC Computer - Spelunky - Meat Boy_28
+    21300058: PC Computer - Spelunky - Meat Boy_29
+    21300060: PC Computer - Spelunky - Meat Boy_30
+    21300062: PC Computer - Spelunky - Meat Boy_31
+    21300064: PC Computer - Spelunky - Meat Boy_32
+    21300066: PC Computer - Spelunky - Meat Boy_33
+    21300068: PC Computer - Spelunky - Meat Boy_34
+    21300070: PC Computer - Spelunky - Meat Boy_35
+    21300072: PC Computer - Spelunky - Meat Boy_36
+    21300074: PC Computer - Spelunky - Meat Boy_37
+    21300076: PC Computer - Spelunky - Meat Boy_38
+    21300078: PC Computer - Spelunky - Meat Boy_39
+    21300080: PC Computer - Spelunky - Meat Boy_40
+    21300082: PC Computer - Spelunky - Meat Boy_41
+    21300084: PC Computer - Spelunky - Meat Boy_42
+    21300086: PC Computer - Spelunky - Meat Boy_43
+    21300088: PC Computer - Spelunky - Meat Boy_44
+    21300090: PC Computer - Spelunky - Meat Boy_45
+    21300092: PC Computer - Spelunky - Meat Boy_46
+    21300094: PC Computer - Spelunky - Meat Boy_47
+    21300096: PC Computer - Spelunky - Meat Boy_48
+    21300098: PC Computer - Spelunky - Meat Boy_49
+    21300100: PC Computer - Spelunky - Meat Boy_50
+    21300102: PC Computer - Spelunky - Meat Boy_51
+    21300104: PC Computer - Spelunky - Meat Boy_52
+    21300106: PC Computer - Spelunky - Meat Boy_53
+    21300108: PC Computer - Spelunky - Meat Boy_54
+    21300110: PC Computer - Spelunky - Meat Boy_55
+    21300112: PC Computer - Spelunky - Meat Boy_56
+    21300114: PC Computer - Spelunky - Meat Boy_57
+    21300116: PC Computer - Spelunky - Meat Boy_58
+    21300118: PC Computer - Spelunky - Meat Boy_59
+    21300120: PC Computer - Spelunky - Meat Boy_60
+    21300122: PC Computer - Spelunky - Meat Boy_61
+    21300124: PC Computer - Spelunky - Meat Boy_62
+    21300126: PC Computer - Spelunky - Meat Boy_63
+    21300128: PC Computer - Spelunky - Meat Boy_64
+    21300130: PC Computer - Spelunky - Meat Boy_65
+    21300132: PC Computer - Spelunky - Meat Boy_66
+    21300134: PC Computer - Spelunky - Meat Boy_67
+    21300136: PC Computer - Spelunky - Meat Boy_68
+    21300138: PC Computer - Spelunky - Meat Boy_69
+    21300140: PC Computer - Spelunky - Meat Boy_70
+    21300142: PC Computer - Spelunky - Meat Boy_71
+    21300144: PC Computer - Spelunky - Meat Boy_72
+    21300146: PC Computer - Spelunky - Meat Boy_73
+    21300148: PC Computer - Spelunky - Meat Boy_74
+    21300150: PC Computer - Spelunky - Meat Boy_75
+    21300152: PC Computer - Spelunky - Meat Boy_76
+    21300154: PC Computer - Spelunky - Meat Boy_77
+    21300156: PC Computer - Spelunky - Meat Boy_78
+    21300158: PC Computer - Spelunky - Meat Boy_79
+    21300160: PC Computer - Spelunky - Meat Boy_80
+    21300162: PC Computer - Spelunky - Meat Boy_81
+    21300164: PC Computer - Spelunky - Meat Boy_82
+    21300166: PC Computer - Spelunky - Meat Boy_83
+    21300168: PC Computer - Spelunky - Meat Boy_84
+    21300170: PC Computer - Spelunky - Meat Boy_85
+    21300172: PC Computer - Spelunky - Meat Boy_86
+    21300174: PC Computer - Spelunky - Meat Boy_87
+    21300176: PC Computer - Spelunky - Meat Boy_88
+    21300178: PC Computer - Spelunky - Meat Boy_89
+    21300180: PC Computer - Spelunky - Meat Boy_90
+    21300182: PC Computer - Spelunky - Meat Boy_91
+    21300184: PC Computer - Spelunky - Meat Boy_92
+    21300186: PC Computer - Spelunky - Meat Boy_93
+    21300188: PC Computer - Spelunky - Meat Boy_94
+    21300190: PC Computer - Spelunky - Meat Boy_95
+    21300192: PC Computer - Spelunky - Meat Boy_96
+    21300194: PC Computer - Spelunky - Meat Boy_97
+    21300196: PC Computer - Spelunky - Meat Boy_98
+    21300198: PC Computer - Spelunky - Meat Boy_99
+    21300200: PC Computer - Spelunky - Meat Boy_100
+    21300202: PC Computer - Spelunky - Meat Boy_101
+    21300204: PC Computer - Spelunky - Meat Boy_102
+    21300206: PC Computer - Spelunky - Meat Boy_103
+    21300208: PC Computer - Spelunky - Meat Boy_104
+    21300210: PC Computer - Spelunky - Meat Boy_105
+    21300212: PC Computer - Spelunky - Meat Boy_106
+    21300214: PC Computer - Spelunky - Meat Boy_107
+    21300216: PC Computer - Spelunky - Meat Boy_108
+    21300218: PC Computer - Spelunky - Meat Boy_109
+    21300220: PC Computer - Spelunky - Meat Boy_110
+    21300222: PC Computer - Spelunky - Meat Boy_111
+    21300224: PC Computer - Spelunky - Meat Boy_112
+    21300226: PC Computer - Spelunky - Meat Boy_113
+    21300228: PC Computer - Spelunky - Meat Boy_114
+    21300230: PC Computer - Spelunky - Meat Boy_115
+    21300232: PC Computer - Spelunky - Meat Boy_116
+    21300234: PC Computer - Spelunky - Meat Boy_117
+    21300236: PC Computer - Spelunky - Meat Boy_118
+    21300238: PC Computer - Spelunky - Meat Boy_119
+    21300240: PC Computer - Spelunky - Meat Boy_120
+    21300242: PC Computer - Spelunky - Meat Boy_121
+    21300244: PC Computer - Spelunky - Meat Boy_122
+    21300246: PC Computer - Spelunky - Meat Boy_123
+    21300248: PC Computer - Spelunky - Meat Boy_124
+    21300250: PC Computer - Spelunky - Meat Boy_125
+    21300252: PC Computer - Spelunky - Meat Boy_126
+    21300254: PC Computer - Spelunky - Meat Boy_127
+    21300256: PC Computer - Spelunky - Meat Boy_128
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 948
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c09216545f206479233a98d3d8c2d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 950
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865a990be6752b64d845cfb2e1b1e90d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 949
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec688ce2cc89284a9463b0daa8fdf7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 948
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71336e6f9743bb4da4838b721d83427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 950
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da12f6ac33eaaa439ed300cb9f1d09c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_5
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 949
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1729f21665aa394ba1665e3886e2c27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 950
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdfd67182a9294449ff1d722ec5efa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_7
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 948
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e62d7d3b78ec041b9a8a15544d9cea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_8
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 949
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384de798a1f3de3449300605726001db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 948
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556bc0388bbd1354b91c9d68a5f18ff7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 869
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3d767a6d72a149b8fe4cfedc84f30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 868
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c886c3f601eb58946860e3ac6796b468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 868
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ef7f82be85d646a946d320ae82841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 868
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673d3a6077df7b24ab48785ad34985fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 869
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080eaee95e4fcb747bfb49c38f85a2c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_15
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 868
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e459d203535573448823beebfa86ff85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_16
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 868
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad59fc7a26d91d479f359d245a070cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_17
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 868
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e053c8b61cde144bf740db965feeb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 868
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039a65b687b200a4bbd6187a7e29009e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_19
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 868
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bb8ea7b8f537e4e95446954a937538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_20
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 868
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e4289ba82e78944bc7a9eac0cdffba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_21
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 868
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156a391f2afa4ef45a1f8f7f0a93adcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 788
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784e5c64baa0e4d4c834c5812b80593f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 789
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73f2773729765a409540625315f473f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 798
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2706f44411097f46b9d19bab4bc35f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 796
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd98459dd59bc0418808413f7752ba5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 788
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48915999c3d98b9489bd85c8aaeade02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_27
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 788
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5db1451c34ebf41a521739b09f0420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_28
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 791
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdea20a7c6b2ed4484db6a2138c1fb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_29
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 789
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29aaa3fb8a7641646bf8601d5f4f94c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_30
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 788
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbc957c9cc261547a7f8a5579f6983d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_31
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 787
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a578b016c7e5dab4b9dfcb53b9e0c421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_32
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 790
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a32451ad7a475d4792dd97bebc81515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 708
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265b24e6a53457e48bd852f59fbb3725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 708
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac9c58905dee742bbcc27854c9ef34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_35
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 708
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d51d9db033bdcf459c52f00977bf530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_36
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 709
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d1363a531fa854ab2eaecfb69117ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 709
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cead39b8776607e4a8d2ce8713710870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_38
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 709
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13983d84e92bf09499c6b406ecaeb97d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 709
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75ddbf6d0ed5994eaf26ad47b956694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 708
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612929b777790d848bf474cc1787c682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_41
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 700
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5762d661ddb708847812a89f72381929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_42
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 704
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71b075716da23540b01149f6e4cdc3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_43
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 704
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0adb7e2a65f9c649b3e3af621e10842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 711
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51cf05dc2a6c604188fd33af95984d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_45
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 629
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08115d60d5a41214990605cd45fb6491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_46
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 629
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00632abd6d3137445b42f3d61f906270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 629
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70ed01e0bbfb884d98b435d9d73e043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_48
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 628
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9f495d908f28d468f90cecceae43d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 629
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467419d33cd41584dac0e078a6c485e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_50
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 629
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43432a018279f0641b9e4d5922dd55f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_51
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 628
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36637017efa965648b1b6e8aa6ec1ee8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_52
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 629
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4754b478dc8d33c4f8c373de37dbdf00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_53
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 630
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7d42ed66ae8d94e9c047c0713ced86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_54
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 628
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4832c4282557c82448fc23e78cbb05db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_55
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 628
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc490909dfe4a4146a273ea0d7fb2c46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 549
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60760ea116f51045b087f1eba0da4e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_57
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 548
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41ee5a9d4b1a8241b918cfba572e896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_58
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 549
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe55159f74076940a40470c77992071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 549
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff24d7c3e80b7a4fba7e641c18c5c8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_60
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 550
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e7cfb1577b47844a2bf69bfc1fc214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 549
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab8c63ea93bb19439517098bb78e4bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_62
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 549
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4744511b76836b49aee5afbaba2baac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_63
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 549
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d024a27ef226d4aba371914141bbcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_64
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 550
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5aff96bd9bee3409a9a25dcf8fa290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_65
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 549
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a3177152b73b3409af92975df4f606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_66
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 549
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8514e25d71b9d8e46990012b3c0eb188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 548
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae919e4dde8a5c4da281af0c3e14a79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_68
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 468
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba06274a0787504da928be0f898af6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_69
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 469
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482f4648c0409b146badc1d7d10d41fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_70
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 469
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848a525e6edc89b48871afbe8811fa01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_71
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 471
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c803f1b05966f8d4a8e39745bf873f4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_72
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 468
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbecd299a949f474e9bec0cf0624ca0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_73
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 469
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae38447eb3882042967371eec7c2b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_74
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 467
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaa7042035190348830d806fb4d6649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_75
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 468
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4cd698f0ba2a24f82540b0bb8ed11d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_76
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 467
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c42fa0ff0dbbd24a9a076e9b2eb672d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_77
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 468
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e259af5486b88f4885e6ecc41ec71a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_78
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 468
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75a0e28218f7e8409cde02baee8f101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_79
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 468
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7c83c641e5a14468c737df06e0876f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 394
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e39e271a2e8bc04f9d0c95a1b2a4fff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 394
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0c54edc4291464eb5cf5321fe6d93f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_82
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 389
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3300eefc7a02c4585963e84fc5395a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 387
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf686a523ee9774381f9825521b11a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_84
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 392
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b4563ae038e9b40a83eff58ade2517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_85
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 394
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c78359306a51440bf31079e4b52a15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_86
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 392
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d1b344d2953e648b0da7c59e2afe1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_87
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 388
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c67261589a649441902d8fd457faaf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_88
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 388
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2e80ea4634d7d41b3d0507bbbb5c17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_89
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 393
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416febf6a8d861e478b5d135d973581d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 308
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ed54cd3bc2b58448d431b8a01e8b03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_91
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 308
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23d9fcc393083f47b2044383a6d8b63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_92
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 308
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a9be7b522be8b499d515e59d1b6901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_93
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 308
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f8da54edf406b42adb921302b63c3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_94
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 308
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abbe6cde24ebbe47bb5ae14d7e0423a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_95
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 308
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788bd69ada15dde4f9fee9f027642672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_96
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 308
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7893dc25d0ae1745be2dce1fe07bae1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_97
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 311
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1f5f94a8067b948bcdbf355864a212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_98
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 227
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3292a6587c7dd345a8bee82cdb65fff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_99
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 226
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f23462aa096347b39a641611ea513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_100
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 261
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2407a0727079ea34a87e3912d8d458bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_101
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 226
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f2dffaaa854854d89d2e5901fbc363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_102
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 226
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd383c9a4160cb46aeb75e999eecbee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_103
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 226
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a926f6eebd9734198d8d3595348074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_104
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 226
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2eb84a6573b684caff17d839f41db2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_105
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 223
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a193a29219b14a43a730be1bbcafb1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_106
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 224
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece7f270cc676fe48adeeeabde2095b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_107
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 226
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af70c69b7ccd5f40837cd957a079658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_108
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 226
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac5e759d76a93744a18e58f7b131b5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_109
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 223
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89363d48dd1edc54aba3c147d5914fcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_110
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 224
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc12274a3c2833643a13b1af56b51827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_111
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 147
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f64e7d8cb621874b8c32ea11f31e701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 145
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a06926f28c7ba43af89017f169a4a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_113
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5856fb60a7a5411419d1dfe38433a023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_114
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 146
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827ab5a6dd0383a44bd1018d8447c4f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_115
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 145
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda75bf415f278142a4d165e4032baf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_116
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 145
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab42712113f0974eab6a190d710d46a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_117
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 144
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4346eea182dbf3c4eab6fa543a32f8c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_118
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 142
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e031a490c87a8c6448f70a4a539b0103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_119
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 144
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072c20ef324023e46ad780ac9c38053d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_120
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 144
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9668230e71cc6f4781bb256a0ba07bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_121
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 85
+        width: 128
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f011ab197ef3940be397406836865b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_122
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 82
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da98761e204a7d64ab4548457e6dc25b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_123
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf8daef53bbe7d4e924a31aff35cf2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_124
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 72
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba7d61fc00775141b6e3836cd9718c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_125
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 76
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fcb192c153a644aa2a97cdf2a60904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_126
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 71
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7509885a126c049b62426fd2a07b1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_127
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 82
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7f4d47e8e911e438e2eb28467de87a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Spelunky - Meat Boy_128
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 67
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c1c852a1219444787abd7718445ab3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 76c1ce19776155f4aa27d6ced2d84098
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2808 @@
+fileFormatVersion: 2
+guid: 47e88a381d0b39b42a5eb2a68c67b0c0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spelunky - Round Boy_0
+    21300002: Spelunky - Round Boy_1
+    21300004: Spelunky - Round Boy_2
+    21300006: Spelunky - Round Boy_3
+    21300008: Spelunky - Round Boy_4
+    21300010: Spelunky - Round Boy_5
+    21300012: Spelunky - Round Boy_6
+    21300014: Spelunky - Round Boy_7
+    21300016: Spelunky - Round Boy_8
+    21300018: Spelunky - Round Boy_9
+    21300020: Spelunky - Round Boy_10
+    21300022: Spelunky - Round Boy_11
+    21300024: Spelunky - Round Boy_12
+    21300026: Spelunky - Round Boy_13
+    21300028: Spelunky - Round Boy_14
+    21300030: Spelunky - Round Boy_15
+    21300032: Spelunky - Round Boy_16
+    21300034: Spelunky - Round Boy_17
+    21300036: Spelunky - Round Boy_18
+    21300038: Spelunky - Round Boy_19
+    21300040: Spelunky - Round Boy_20
+    21300042: Spelunky - Round Boy_21
+    21300044: Spelunky - Round Boy_22
+    21300046: Spelunky - Round Boy_23
+    21300048: Spelunky - Round Boy_24
+    21300050: Spelunky - Round Boy_25
+    21300052: Spelunky - Round Boy_26
+    21300054: Spelunky - Round Boy_27
+    21300056: Spelunky - Round Boy_28
+    21300058: Spelunky - Round Boy_29
+    21300060: Spelunky - Round Boy_30
+    21300062: Spelunky - Round Boy_31
+    21300064: Spelunky - Round Boy_32
+    21300066: Spelunky - Round Boy_33
+    21300068: Spelunky - Round Boy_34
+    21300070: Spelunky - Round Boy_35
+    21300072: Spelunky - Round Boy_36
+    21300074: Spelunky - Round Boy_37
+    21300076: Spelunky - Round Boy_38
+    21300078: Spelunky - Round Boy_39
+    21300080: Spelunky - Round Boy_40
+    21300082: Spelunky - Round Boy_41
+    21300084: Spelunky - Round Boy_42
+    21300086: Spelunky - Round Boy_43
+    21300088: Spelunky - Round Boy_44
+    21300090: Spelunky - Round Boy_45
+    21300092: Spelunky - Round Boy_46
+    21300094: Spelunky - Round Boy_47
+    21300096: Spelunky - Round Boy_48
+    21300098: Spelunky - Round Boy_49
+    21300100: Spelunky - Round Boy_50
+    21300102: Spelunky - Round Boy_51
+    21300104: Spelunky - Round Boy_52
+    21300106: Spelunky - Round Boy_53
+    21300108: Spelunky - Round Boy_54
+    21300110: Spelunky - Round Boy_55
+    21300112: Spelunky - Round Boy_56
+    21300114: Spelunky - Round Boy_57
+    21300116: Spelunky - Round Boy_58
+    21300118: Spelunky - Round Boy_59
+    21300120: Spelunky - Round Boy_60
+    21300122: Spelunky - Round Boy_61
+    21300124: Spelunky - Round Boy_62
+    21300126: Spelunky - Round Boy_63
+    21300128: Spelunky - Round Boy_64
+    21300130: Spelunky - Round Boy_65
+    21300132: Spelunky - Round Boy_66
+    21300134: Spelunky - Round Boy_67
+    21300136: Spelunky - Round Boy_68
+    21300138: Spelunky - Round Boy_69
+    21300140: Spelunky - Round Boy_70
+    21300142: Spelunky - Round Boy_71
+    21300144: Spelunky - Round Boy_72
+    21300146: Spelunky - Round Boy_73
+    21300148: Spelunky - Round Boy_74
+    21300150: Spelunky - Round Boy_75
+    21300152: Spelunky - Round Boy_76
+    21300154: Spelunky - Round Boy_77
+    21300156: Spelunky - Round Boy_78
+    21300158: Spelunky - Round Boy_79
+    21300160: Spelunky - Round Boy_80
+    21300162: Spelunky - Round Boy_81
+    21300164: Spelunky - Round Boy_82
+    21300166: Spelunky - Round Boy_83
+    21300168: Spelunky - Round Boy_84
+    21300170: Spelunky - Round Boy_85
+    21300172: Spelunky - Round Boy_86
+    21300174: Spelunky - Round Boy_87
+    21300176: Spelunky - Round Boy_88
+    21300178: Spelunky - Round Boy_89
+    21300180: Spelunky - Round Boy_90
+    21300182: Spelunky - Round Boy_91
+    21300184: Spelunky - Round Boy_92
+    21300186: Spelunky - Round Boy_93
+    21300188: Spelunky - Round Boy_94
+    21300190: Spelunky - Round Boy_95
+    21300192: Spelunky - Round Boy_96
+    21300194: Spelunky - Round Boy_97
+    21300196: Spelunky - Round Boy_98
+    21300198: Spelunky - Round Boy_99
+    21300200: Spelunky - Round Boy_100
+    21300202: Spelunky - Round Boy_101
+    21300204: Spelunky - Round Boy_102
+    21300206: Spelunky - Round Boy_103
+    21300208: Spelunky - Round Boy_104
+    21300210: Spelunky - Round Boy_105
+    21300212: Spelunky - Round Boy_106
+    21300214: Spelunky - Round Boy_107
+    21300216: Spelunky - Round Boy_108
+    21300218: Spelunky - Round Boy_109
+    21300220: Spelunky - Round Boy_110
+    21300222: Spelunky - Round Boy_111
+    21300224: Spelunky - Round Boy_112
+    21300226: Spelunky - Round Boy_113
+    21300228: Spelunky - Round Boy_114
+    21300230: Spelunky - Round Boy_115
+    21300232: Spelunky - Round Boy_116
+    21300234: Spelunky - Round Boy_117
+    21300236: Spelunky - Round Boy_118
+    21300238: Spelunky - Round Boy_119
+    21300240: Spelunky - Round Boy_120
+    21300242: Spelunky - Round Boy_121
+    21300244: Spelunky - Round Boy_122
+    21300246: Spelunky - Round Boy_123
+    21300248: Spelunky - Round Boy_124
+    21300250: Spelunky - Round Boy_125
+    21300252: Spelunky - Round Boy_126
+    21300254: Spelunky - Round Boy_127
+    21300256: Spelunky - Round Boy_128
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 950
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8866072eb0b35af4caf7b42a0521af7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 950
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461ff82eacab3d347b092dfe6686dbd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 948
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec26cc326e6eb44aab67dd33ce4e063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 950
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02da00d8665e28f4c9ad3e2482dab345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 951
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31be7c9300a828b4786a07404d01559c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 950
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8bb618a6316fd43821b538b1312cd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_6
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 950
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1849545921241846942064cadd58334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_7
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 950
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb7d86b71573fc48a8649dbb7aeac49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_8
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 950
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b280fd8a2b461bf49a6736d880652697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 948
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d622d492aeddc45bf432e7c93e2067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 868
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb8efb0592f8e54ea4f3a563658b60a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 870
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e324daf6d49c514ca3c70954b5ac74d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 868
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd0d0a0f1f40a741ac21186d02d195e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 868
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd64799a854b7c42b881aa55d645fe7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_14
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 868
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661de3ebb8f8d0643bee2634b9e380c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_15
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 868
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0642c9c0154dc914a92ae2224d44a176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 868
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfaf61f5e704fc4199244890e5dec49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_17
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 868
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc56635b2cd492429d9513803739b6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 868
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ca45532de0d404d9c37a0abb048ddf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_19
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 868
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c3dbce42e4244fba9cfa46c335f56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_20
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 868
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6fb4965bf1f4d4d894d0d537725853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_21
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 868
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fe530f462dbea409723e1684af8267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 790
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a238cb48671e26f469bc852b47592425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_23
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 790
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08ecd7cd5e25bf409439009807014ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 795
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d895206840916e4b980cf95ba251feb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 794
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9154e52ba56fb14bae520d071deba5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 790
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc57fa6316f6974e89721bb21c6d8a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 789
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f9e122e84455249b870f8d70333e33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_28
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 791
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dbd82cd7274c84db1912ebdb71d4a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_29
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 788
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c9e629c7e8390479d74a9ed6bcb87d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_30
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 786
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460a02711f44df74ea0f720c8df57b0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_31
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 787
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4a084eb83462048854281d54d14aa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_32
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 791
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93a5f60e2a83854283070d6ba5932aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_33
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 708
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40712e27ab203d84bb76716930d4f513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 708
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a39dc71b93a28540b54721e8a536484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_35
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 708
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ac388c7e43c2d4991b68391fa9ac68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_36
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 710
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8110b3703a895b04a8badfc42b4f9471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_37
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 710
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4a6687601c9bd41937dd023676bb18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_38
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 710
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eca8f9c41b1cf4586398ce6c7948b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_39
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 710
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3199247303c361f4baa141e553f05dbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_40
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 710
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f7c5c3a41bb424c9eb4c4e1de86270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_41
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 702
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42a2b670f8d99c45a0a2e5ad2b486e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_42
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 704
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131a1565fab76a143a15b4806d4ada1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_43
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 704
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be551340f8ed28e47a128f8f676bf385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_44
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 708
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce3127a9b9808b4a820999a821bb8cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_45
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 629
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a12d6567b05b3f469d838694a4ba53a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 629
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baa013076f7156479512aafe7135a6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_47
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 628
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b260a49bd16a935478574c747af5ec01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 628
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2097deb78b2cade419177ad7e46150e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_49
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 628
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72626ebe70526334b8e8aa24499d3db4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_50
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 629
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec570639e164ee4bbc24c33e07f6a42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_51
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 628
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f23bfbdbe511247989127f919170fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_52
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 628
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d21c6a54c413c4292c562ae8bc3566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_53
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 630
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f0df1d444d9cc4f9090f15939e79fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_54
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 630
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a43683cdfd13c5469860507415a7dce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_55
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 628
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c464fc03362962640a45cb7a18accaa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 548
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f14d5e1cc3c447833212088d9832d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_57
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 548
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f821f842923f545aa4bed8b3f0c430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_58
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 548
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfaf398b8d34164aa497b38bd2b17f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_59
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 548
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6905fd782ffd1154ea6ac830804a791f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_60
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 548
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4df364ec029e3843aeb76ec620a0307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_61
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 548
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8db43a83896b64e8789538e8af5177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_62
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 548
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0020c13ee3c32c042bf041d2702ed178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_63
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 548
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4545086dd351c940b329dc03e936a49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_64
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 548
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526f651fea2cc014a9ecaa874a6205a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_65
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 548
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b63db5a25b861746a8187abeb646d07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_66
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 548
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4ccdd7f3eaa0441bc41012a5b6b61e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_67
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 548
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cba030646c37584f92a04af97dfc1dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_68
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 470
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37450a85e6177a846b987dea4042976d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_69
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 469
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9054efe28c433024da9c12910178d7cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_70
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 468
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05f565124c07124b9ca04d86faafcac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_71
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 470
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1548b48e509bf124f9bc42c47c2bdf41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_72
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 469
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3756e630c2a84c54ebec621a3867a734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_73
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 469
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7eace7e8b58e844921dfc753f06f43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_74
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 468
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2afddb620c477a48b6787fe9afdb8f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_75
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 468
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dafc5a1b9acac4f9acaa9d36f7d5f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_76
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 468
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc26971a26493408c1e8105ab89317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_77
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 470
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b89185554a7146b1579725d32fcbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_78
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 468
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8f03e3cfe7ee34fbac02a306d862d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_79
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 470
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee73f8eff8d09549963b957d620d150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_80
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 392
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b6ea0f7f80cc545b36275189378338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_81
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 392
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f5d7fc13bceae4488f6c8e0d3823db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_82
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 390
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6687d4759ac002b4fb37dc929c3ad64e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_83
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 388
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837ca6da18d31c84eb0ff87908832745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_84
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 392
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c9ade4703338b4898d0c7bf6003035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_85
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 392
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967b76786766dd3498cea55348c86c66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_86
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 392
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cee753714f45db46a783247e204fe60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_87
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 390
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a796b6e90a0e0448851905a837700ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_88
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 388
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5372778b662a44295f75d72636855c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_89
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 392
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97d035833e248a419c33771b133f276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 310
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b7e11366518547bc3e7580f766771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_91
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 310
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6277d8068c2a88f42a1e90d4cce61188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_92
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 310
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264a2e14d9add7c43a19ffaa921abedc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_93
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 310
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0254e775a2eb0de4ba65e6a2b0b9fb71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_94
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 310
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81973aed1e940ab4286322bc593b935d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_95
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 310
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f156f00f0fc2d4aa6650120e2847c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_96
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 310
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d07977eeff01944c8f61260f679a751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_97
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 308
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f22f946b2c6e5479a4972dd6f17e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_98
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 228
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f13fee70748c3419034a4696c63f85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_99
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 224
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7940d45e823fb60418e9744ccb4d5b54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_100
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 227
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc57849b14a96243a604ead6aece4b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 227
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a588fdb5547004d8e401796ae46934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_102
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 227
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0000391f96b9684d930b201213b923c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_103
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 226
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d940ded4633e2a1418375e2874afe475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_104
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 224
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f8f46def42d3146891a639dcd43e5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_105
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 224
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a599ed52b778c2640bd7f0c3ed6a1e78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_106
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 227
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446c30f76b65646429c81252c7916f32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_107
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 227
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01797a9fa7383634c8a47d83c0320fd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_108
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 224
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe831fb1166b2041acda24fcd4c4edb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_109
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 224
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29574adb480c85146bece57f1e0cb9b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_110
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 147
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042fd0ad75eeeee44902dea13a27aa00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 146
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b2b8474e957f0419e3713e3e8f7909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_112
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 144
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45156e0dc3115a54280726d92238950c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_113
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 146
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfab1a60eacfd542abda78b6a5189c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_114
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 146
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa39bdad7d9db428377f43711da630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_115
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 192
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2221005330bb5e4aad9541210af2f35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_116
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 146
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36161ea1a608aa24290aa29c1cdbd12b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_117
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 144
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3794dbd2468b1140b5e514dfa4d87d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_118
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 143
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3a4874b6e75574a9633591fef5ccd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_119
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 144
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2801613ff3a2ac458386de1adb7f1b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_120
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 144
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f657c273e3d8d4da7bf795355a3747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_121
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 87
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c531ea11e8f1c4489313fafe7a8af76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_122
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 75
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ba73d57a682f545b02f644cfccb74d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_123
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1587b4cd1479f7348879f2ef0387848f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_124
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 72
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab8424078d014e4e91dd21c72f813d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_125
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 71
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09129db931b7a0740b799dff3f0e9859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_126
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 70
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2da6fd519545ba4cb18d890c4c169c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_127
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 78
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acb47bc52ae22343bd1ad5ec68c9bda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Round Boy_128
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 67
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbd1b8b0866a35448ff66eab8b22852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1671792cea4f48b42a440052de8d991f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

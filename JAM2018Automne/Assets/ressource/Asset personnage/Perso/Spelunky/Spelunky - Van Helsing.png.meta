@@ -1,0 +1,2808 @@
+fileFormatVersion: 2
+guid: 14bcb9f89b16bfe4ab2e1a692ff10461
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spelunky - Van Helsing_0
+    21300002: Spelunky - Van Helsing_1
+    21300004: Spelunky - Van Helsing_2
+    21300006: Spelunky - Van Helsing_3
+    21300008: Spelunky - Van Helsing_4
+    21300010: Spelunky - Van Helsing_5
+    21300012: Spelunky - Van Helsing_6
+    21300014: Spelunky - Van Helsing_7
+    21300016: Spelunky - Van Helsing_8
+    21300018: Spelunky - Van Helsing_9
+    21300020: Spelunky - Van Helsing_10
+    21300022: Spelunky - Van Helsing_11
+    21300024: Spelunky - Van Helsing_12
+    21300026: Spelunky - Van Helsing_13
+    21300028: Spelunky - Van Helsing_14
+    21300030: Spelunky - Van Helsing_15
+    21300032: Spelunky - Van Helsing_16
+    21300034: Spelunky - Van Helsing_17
+    21300036: Spelunky - Van Helsing_18
+    21300038: Spelunky - Van Helsing_19
+    21300040: Spelunky - Van Helsing_20
+    21300042: Spelunky - Van Helsing_21
+    21300044: Spelunky - Van Helsing_22
+    21300046: Spelunky - Van Helsing_23
+    21300048: Spelunky - Van Helsing_24
+    21300050: Spelunky - Van Helsing_25
+    21300052: Spelunky - Van Helsing_26
+    21300054: Spelunky - Van Helsing_27
+    21300056: Spelunky - Van Helsing_28
+    21300058: Spelunky - Van Helsing_29
+    21300060: Spelunky - Van Helsing_30
+    21300062: Spelunky - Van Helsing_31
+    21300064: Spelunky - Van Helsing_32
+    21300066: Spelunky - Van Helsing_33
+    21300068: Spelunky - Van Helsing_34
+    21300070: Spelunky - Van Helsing_35
+    21300072: Spelunky - Van Helsing_36
+    21300074: Spelunky - Van Helsing_37
+    21300076: Spelunky - Van Helsing_38
+    21300078: Spelunky - Van Helsing_39
+    21300080: Spelunky - Van Helsing_40
+    21300082: Spelunky - Van Helsing_41
+    21300084: Spelunky - Van Helsing_42
+    21300086: Spelunky - Van Helsing_43
+    21300088: Spelunky - Van Helsing_44
+    21300090: Spelunky - Van Helsing_45
+    21300092: Spelunky - Van Helsing_46
+    21300094: Spelunky - Van Helsing_47
+    21300096: Spelunky - Van Helsing_48
+    21300098: Spelunky - Van Helsing_49
+    21300100: Spelunky - Van Helsing_50
+    21300102: Spelunky - Van Helsing_51
+    21300104: Spelunky - Van Helsing_52
+    21300106: Spelunky - Van Helsing_53
+    21300108: Spelunky - Van Helsing_54
+    21300110: Spelunky - Van Helsing_55
+    21300112: Spelunky - Van Helsing_56
+    21300114: Spelunky - Van Helsing_57
+    21300116: Spelunky - Van Helsing_58
+    21300118: Spelunky - Van Helsing_59
+    21300120: Spelunky - Van Helsing_60
+    21300122: Spelunky - Van Helsing_61
+    21300124: Spelunky - Van Helsing_62
+    21300126: Spelunky - Van Helsing_63
+    21300128: Spelunky - Van Helsing_64
+    21300130: Spelunky - Van Helsing_65
+    21300132: Spelunky - Van Helsing_66
+    21300134: Spelunky - Van Helsing_67
+    21300136: Spelunky - Van Helsing_68
+    21300138: Spelunky - Van Helsing_69
+    21300140: Spelunky - Van Helsing_70
+    21300142: Spelunky - Van Helsing_71
+    21300144: Spelunky - Van Helsing_72
+    21300146: Spelunky - Van Helsing_73
+    21300148: Spelunky - Van Helsing_74
+    21300150: Spelunky - Van Helsing_75
+    21300152: Spelunky - Van Helsing_76
+    21300154: Spelunky - Van Helsing_77
+    21300156: Spelunky - Van Helsing_78
+    21300158: Spelunky - Van Helsing_79
+    21300160: Spelunky - Van Helsing_80
+    21300162: Spelunky - Van Helsing_81
+    21300164: Spelunky - Van Helsing_82
+    21300166: Spelunky - Van Helsing_83
+    21300168: Spelunky - Van Helsing_84
+    21300170: Spelunky - Van Helsing_85
+    21300172: Spelunky - Van Helsing_86
+    21300174: Spelunky - Van Helsing_87
+    21300176: Spelunky - Van Helsing_88
+    21300178: Spelunky - Van Helsing_89
+    21300180: Spelunky - Van Helsing_90
+    21300182: Spelunky - Van Helsing_91
+    21300184: Spelunky - Van Helsing_92
+    21300186: Spelunky - Van Helsing_93
+    21300188: Spelunky - Van Helsing_94
+    21300190: Spelunky - Van Helsing_95
+    21300192: Spelunky - Van Helsing_96
+    21300194: Spelunky - Van Helsing_97
+    21300196: Spelunky - Van Helsing_98
+    21300198: Spelunky - Van Helsing_99
+    21300200: Spelunky - Van Helsing_100
+    21300202: Spelunky - Van Helsing_101
+    21300204: Spelunky - Van Helsing_102
+    21300206: Spelunky - Van Helsing_103
+    21300208: Spelunky - Van Helsing_104
+    21300210: Spelunky - Van Helsing_105
+    21300212: Spelunky - Van Helsing_106
+    21300214: Spelunky - Van Helsing_107
+    21300216: Spelunky - Van Helsing_108
+    21300218: Spelunky - Van Helsing_109
+    21300220: Spelunky - Van Helsing_110
+    21300222: Spelunky - Van Helsing_111
+    21300224: Spelunky - Van Helsing_112
+    21300226: Spelunky - Van Helsing_113
+    21300228: Spelunky - Van Helsing_114
+    21300230: Spelunky - Van Helsing_115
+    21300232: Spelunky - Van Helsing_116
+    21300234: Spelunky - Van Helsing_117
+    21300236: Spelunky - Van Helsing_118
+    21300238: Spelunky - Van Helsing_119
+    21300240: Spelunky - Van Helsing_120
+    21300242: Spelunky - Van Helsing_121
+    21300244: Spelunky - Van Helsing_122
+    21300246: Spelunky - Van Helsing_123
+    21300248: Spelunky - Van Helsing_124
+    21300250: Spelunky - Van Helsing_125
+    21300252: Spelunky - Van Helsing_126
+    21300254: Spelunky - Van Helsing_127
+    21300256: Spelunky - Van Helsing_128
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 950
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64b4d93a3fbd96448e22dad64a959b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 950
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69918b7afe57ab48ae5cba8e49a1907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 948
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642f7896004cd4942b7adaff1ca2edc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 950
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a72fbc67417d0439433828118549d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 950
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4421633bc39a94846af168905daa9a5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_5
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 950
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44e7c41c6b435b40b2cf89080e08b2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 950
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c312fd5e59df33d468eb38c44d4183b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 950
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e929accc8093ed4a97e7eaddf1f05c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 948
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc28c2f2189daf40b1f0084ea47820f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 950
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0232675d5acfe46927718ea7ec8fbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 868
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557d6003b7982394c95a7bdd0bf08ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 870
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313d4d43c927cb344b8ce90786f18841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 870
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da839cc0ecb1c3941973b51c72a4fd25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 870
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5310aa976986c634cb1b798dedf3f109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 868
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f4623710031c540ac812183cef3ec1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_15
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 870
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d856137ee110e904eae88ab91f295b05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 870
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b480fef396ffa647be500e14e7f6774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_17
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 870
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5880c335598ce0e4ab36226028d0acae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 870
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2b13cb2b01cd14e832199b7c22b077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_19
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 870
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e4d89e6065cc4418b319f71ced085b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_20
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 870
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b130ba1f745946d4497ecf1ea2c082ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_21
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 870
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bc0327a27b9214ab83bf43b9037172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 789
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595a7d91f47fed24a8decf0de7d2c425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 790
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8b8bf21121dcf4684dd1674508b984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 798
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79868d0e9581ab4eb760a5ba95e2797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_25
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 795
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428f0ced615680e438d9c80959f7c8cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 790
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ff31eff1111574a810779ca1a6fe3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_27
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 790
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0af06f4fe89624c9aa125ff017a708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_28
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 791
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b4ad48f946a4b4ab5311990ed4d078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_29
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 788
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecfa3c239977744b9c28064df8ab57b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_30
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 788
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bed2870c859164696550623dbf9484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_31
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 787
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1049431926d1ed43a8f44075c97c9a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_32
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 790
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8347df49a770e34faf15b65f54c7778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1ca4772659c1749b2aec52e8f791de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 709
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a904afa7dfe01cc49937f8684e4dcc88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 708
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ba612455c11ce4a999b064eee91281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_36
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 710
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df41de366096cd47b361b1ffee7f1ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_37
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 710
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f887b2c01ebd2c643988f1d9d1e8e7c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_38
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 710
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133ceda803618ec4d96b21061cf41422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_39
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 710
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7630ece7131acd459492f1ed6bca871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_40
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 710
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ca5c03fd39b17459b2f820bc2b4f55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_41
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 702
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aefb731b9cc90c4a938972d4192b862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_42
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 704
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dd0f190dafba04db37ece078e5f300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_43
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 704
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063189c9c4dffc34688a50e7eddcd6ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_44
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 711
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e914cf608c9f6f459725002d298a16a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 628
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfb3dd06ce36384c8daad88490d1bab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_46
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 629
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fb2b2d517cd124f817d69e25d9a0e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 628
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cfcf28d28b9294bbaa6e0ae585c25b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_48
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 628
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a48b1144731064ba1ab07f9b4caa1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_49
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 628
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3610dfd0cc19f7a4c9ed59c4d2f883d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_50
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 628
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe4e986fe2e8de42bbd0e88ee961ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_51
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 629
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb66764aeb5f4f40a83fc1e732ba563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_52
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 628
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43988d85135c36241aceb67068a57058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_53
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 630
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0a605cacaa6124e8d6dd52e2b2f1cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_54
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 630
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93478bec062d4c049bf73a1d84050108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_55
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 629
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b34148410723f746956cdf873316428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 548
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dd3d8eed9995d49aec3dbfab6a541a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_57
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 548
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fd7787454f9ab4ca73dae0677ba219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_58
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 548
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bdb5732c3e71d4e807ea15bc49021a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_59
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 548
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab57a7525fabed4babcd56307166b14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_60
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 548
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c48a8191ac5814c84e91d227a6a0dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_61
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 548
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ad551a8d486b5439c5fcb2df647fde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_62
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 549
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3927604e1f95e7b4bb183a69f8f4c510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_63
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 548
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3225a5b9f3a4b8947aee509079e5ce85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_64
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 548
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d895f4983518554aa9fb0fab7f5b894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_65
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 548
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e3998ad6b056342b14ed2582f4ca63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_66
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 548
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e11905e9dc6192458bd5709c1f376ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_67
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 548
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b4a4d46339758489e80598ef932837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_68
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 470
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03ed8d565e5a9c40b8b373adfd9808e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_69
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 468
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25391e1314cfae540bbbd4a472b4a5dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_70
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 469
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe5922ea9ff9af49870bf30824f834a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_71
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 470
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0b8eb740c7f9945bc16eaacd330fa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_72
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 468
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9713a7d6802efaa43a96add72e70020a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_73
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 469
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4f2e8e4096346419b43e052d1d4ed0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_74
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 467
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaca0e880c5ded408f5819737b52c98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_75
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 468
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32da890fd51fbc42a55c14e84bf3506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_76
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 468
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ac680f545c4d54bbcb845cd3169b35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_77
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 468
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d6646cceeba0f4f8aaa3b401b9ce12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_78
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 468
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79429938f96aa91479069b3a7fb79862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_79
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 468
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329c8bf0bbb83a144abd933c4965dd1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_80
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 395
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fdb0c3bc7488f48b70e20bea8513ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_81
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 393
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3985c7ba6c76f5a43b4cfbebc5fdd0b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_82
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 390
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac99d3c9bebeec4a821c5cc0ba6f655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_83
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 389
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4809e574f9cdd7b4aa6e0c9d0aff46fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_84
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 394
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb05ac3de453584ab143c9fcdd485c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_85
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 395
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706e773b86f9f314a91520e81b5b42d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_86
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 393
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cf8fff99543554eb6923cec8285fcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_87
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 390
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da923eabd677cb498c08912370b4540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_88
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 389
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab708ed56529de48a1eb9893a7f0b79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_89
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 394
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8156c5c762ccb546af1f52b719d91b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_90
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 310
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153aa946e4ba7de46bd28743775c9041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_91
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 310
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a524b13ce7eff43921bd36d0caba34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_92
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 310
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f0f6909350ac941972dec91289ab82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_93
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 310
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0302da2b85aa344a2b3b80fc9e6715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_94
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 310
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5bb765c40d40d41ab65f5f515bdfb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_95
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 310
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae88460a1ebd8cb4d9699e84060b2b31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_96
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 310
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2298773deffe248822446237423f41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_97
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 303
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f25efed6634e9f4aa3159cf75db2578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_98
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 228
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ed2e0d162a2594081e63dc0c366652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_99
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 224
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8383e144e50e06e41b625fa0d744b6cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_100
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 227
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc4eb47fb9704a4b9000dd2c3834d8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_101
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 227
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77973ae48e17bbf4d97aa910d1494830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_102
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 227
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2437b8202dd63c428036388f2d888cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_103
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 227
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650ecf1c26491e24e9e0432ca5fbea76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_104
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 224
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a741486767dba345a452f5699cb4f83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_105
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 225
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5aa19429beba14c8bace3619453236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_106
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 227
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477362b40657264b8b6572b5e675053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_107
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 227
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e467b3acef495542a3884ddced96c52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_108
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 224
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a444afb55aa161848855bdc80b0765b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_109
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 225
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e6f5c57daa06d4f8d62880508e89f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_110
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 147
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f12c5fad154cd942a229c973bd01f23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_111
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 146
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a5d6b5b210d4f4581aa88e279a5d74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_112
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 144
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2826c81550b5c524295764499a56c429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_113
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 146
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dd217e0f0b84545bb239d1a5637009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_114
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 146
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b71fb080d13444eaf46140b52fad8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_115
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 146
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a98b3e60534ec642a6bf9380519cdf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_116
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 145
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466b088cf644bc440bcc334e47248246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_117
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 142
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab54564adcdc0324bad057f2fe777028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_118
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 144
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3bc708f89ae1040875342327ec40aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_119
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 145
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0c8bddb37ea4f499dab6ea9b015650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_120
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 86
+        width: 125
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7c31215d950dc42a03424549f0c614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_121
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 76
+        width: 74
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d541f4c88f0d342a602dd5e378c194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_122
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016d291d6e343d242943aa4ddd64ce34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_123
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 72
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8992e970c6543346b905dabe4937d36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_124
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 71
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a116d53efce15f94f8369cfb42debde1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_125
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 70
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a026f1c1424580d44a43a3f30e76c807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_126
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 78
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb52058c1bd9148b5ab873a377a45e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_127
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 67
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e72daa699c65f646870ab6c4cb0710a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spelunky - Van Helsing_128
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 72
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7312849715a4754696181701969caf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5c9f2b17f85ec8949b16f914b274cdd0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
