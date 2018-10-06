@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 54809572656887270}
   - component: {fileID: 136804043656790326}
   m_Layer: 0
-  m_Name: Personnage
+  m_Name: meatboy
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,16 +118,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71be8c7df8ab4b04db861d7c6cdc2a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerID: 0
+  ombre: {fileID: 0}
   speed: 8
   dashPropulsionForce: 30
   dashCooldown: 1
   dashAnimationLock: 0.2
   stunDuration: 0.7
   dashImpactForce: 30
+  VieMax: 0
   commandeInversees: 0
   commandeTournees: 0
   solGlace: 0
   maxSpeedGlace: 0
+  chaleurIntense: 0
+  ejectionRenforcee: 0
 --- !u!114 &114411262311006766
 MonoBehaviour:
   m_ObjectHideFlags: 1
