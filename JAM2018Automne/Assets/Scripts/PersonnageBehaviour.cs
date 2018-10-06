@@ -29,6 +29,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 	public bool commandeTournees;
 	public bool solGlace;
 	public float maxSpeedGlace = 12.0f;
+	public bool chaleurIntense;
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
@@ -83,7 +84,12 @@ public class PersonnageBehaviour : MonoBehaviour {
 		}
 	
 		//Update animator
-		animator.SetBool("Walk", dir.magnitude > 0.05f);
+		if(this.iStun()) {
+			animator.SetBool("Walk", false);
+		} else {
+			animator.SetBool("Walk", dir.magnitude > 0.0f);
+		}
+		
 
 		if(this.peutAgir()) {
 
@@ -117,6 +123,10 @@ public class PersonnageBehaviour : MonoBehaviour {
 			}
 		}
 
+		if(chaleurIntense) {
+			deplacement *= 0.5f;
+		}
+
 		this.transform.position += deplacement * Time.deltaTime;
 
 		this.previousPosition = this.transform.position;
@@ -140,14 +150,26 @@ public class PersonnageBehaviour : MonoBehaviour {
 		stunDurationActual = Time.time + stunDuration;
 	}
 
+	public bool iStun() {
+		return Time.time < this.stunDurationActual;
+	}
+
 	private void dasherVers(Vector3 direction) {
 
 		if(Time.time >= dashCooldownActual) {
 			dashCooldownActual = Time.time + dashCooldown;
 			dashAnimationLockActual = Time.time + dashAnimationLock;
 
-			this.rb.AddForce(direction * dashPropulsionForce, ForceMode.Impulse);
+			if(chaleurIntense) {
 
+				this.rb.AddForce(direction * dashPropulsionForce * 0.5f, ForceMode.Impulse);
+				this.stun(this.stunDuration);
+
+			} else {
+
+				this.rb.AddForce(direction * dashPropulsionForce, ForceMode.Impulse);
+			}
+			
             animator.SetTrigger("dash");
 		}
 	}
@@ -160,7 +182,14 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 			if(pb.isDashing()) {
 				this.stun(pb.stunDuration);
-				this.rb.AddForce((this.transform.position - pb.transform.position).normalized * pb.dashImpactForce, ForceMode.Impulse);
+
+				Vector3 impact = (this.transform.position - pb.transform.position).normalized * pb.dashImpactForce;
+
+				if(chaleurIntense) {
+					impact *= 0.5f;
+				}
+
+				this.rb.AddForce(impact, ForceMode.Impulse);
 			}
 		}
 	}
