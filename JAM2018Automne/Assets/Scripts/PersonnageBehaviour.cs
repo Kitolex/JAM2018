@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class PersonnageBehaviour : MonoBehaviour {
 
-	private static string AXIS_HORIZONTAL;
-	private static string AXIS_VERTICAL;
+	private string AXIS_HORIZONTAL;
+	private string AXIS_VERTICAL;
+    private string BUTTON_DASH;
 
-	private string playerID;
+    private string playerID;
 	private Rigidbody rb;
 	private bool sortieDeLaMap;
 	private float dashCooldownActual;
@@ -49,15 +50,21 @@ public class PersonnageBehaviour : MonoBehaviour {
 		this.previousInputMagnitude = 0.0f;
 		this.vitesseResiduelle = 0.0f;
 		this.previousDeplacement = Vector3.zero;
-		setPlayerID("");	// A SUPPRIMER
 	}
 
 	public void setPlayerID(string playerID) {
 		this.playerID = playerID;
 		AXIS_HORIZONTAL = playerID + "Horizontal";
 		AXIS_VERTICAL = playerID + "Vertical";
-	}
+        BUTTON_DASH = playerID + "Dash";
+
+    }
 	
+    public string getPlayerID()
+    {
+        return playerID;
+    }
+
 	// Update is called once per frame
 	void Update () {
 
@@ -70,7 +77,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 			Vector3 dir = new Vector3(x, 0.0f, z);
 
-			if(Input.GetKeyDown(KeyCode.LeftShift)){
+			if(Input.GetAxisRaw(BUTTON_DASH) != 0){
 				dasherVers(dir.normalized);
 			} else {
 				deplacement = dir * speed;
