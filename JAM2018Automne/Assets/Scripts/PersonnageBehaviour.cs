@@ -8,7 +8,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private string AXIS_VERTICAL;
     private string BUTTON_DASH;
 
-    private int playerID;
+    public int playerID;
 	private Rigidbody rb;
 	private bool sortieDeLaMap;
 	private float dashCooldownActual;
