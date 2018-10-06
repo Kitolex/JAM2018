@@ -249,6 +249,8 @@ public class PersonnageBehaviour : MonoBehaviour {
 		}
 	}
 
+
+
 	private float getXAxis() {
 		if(commandeInversees)
 			return - Input.GetAxis(AXIS_HORIZONTAL);

@@ -25,8 +25,7 @@ public class BuzzerStart : MonoBehaviour, IDashable {
         listPlayer.Add(dasher.GetComponent<PersonnageBehaviour>());
         if (listPlayer.Count == multiplayerManager.GetAllPersonnages().Count && multiplayerManager.GetAllPersonnages().Count >= 2)
         {
-            StartCoroutine(WaitForRoundStart());
-           
+            StartCoroutine(WaitForRoundStart());           
         }       
     }
 
