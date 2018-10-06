@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour {
     public float timerChrono;
     public float timerVote;
     public GameObject StartBuzzer;
+
+    private GameObject buzzerInstance;
     private float time;
     private List<Effect> listEffectEnCours;
     private EtatGame etat;
@@ -76,9 +78,10 @@ public class GameManager : MonoBehaviour {
     public void EnterPreparation()
     {
         // Instanciation du Start Buzzer
-        Instantiate(StartBuzzer);
-        StartBuzzer.transform.position = new Vector3(0,1.1f,0);
-        StartBuzzer.GetComponent<BuzzerStart>().multiplayerManager = multiplayerManager;
+        buzzerInstance = Instantiate(StartBuzzer);
+        buzzerInstance.transform.position = new Vector3(0,1.1f,0);
+        buzzerInstance.GetComponent<BuzzerStart>().multiplayerManager = multiplayerManager;
+        buzzerInstance.GetComponent<BuzzerStart>().gameManager = this;
 
         multiplayerManager.InitializePlayers();
         etat = EtatGame.preparation;
@@ -89,7 +92,7 @@ public class GameManager : MonoBehaviour {
     public void StartRound()
     {
         // Suppression du buzzer
-        Destroy(StartBuzzer);
+        Destroy(buzzerInstance);
        
         multiplayerManager.InitializePlayers();
         etat = EtatGame.bataille;

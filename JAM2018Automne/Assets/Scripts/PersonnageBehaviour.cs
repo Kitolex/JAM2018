@@ -18,6 +18,8 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private Vector3 previousDeplacement;
     private Animator animator;
 	private SpriteRenderer spriteRenderer;
+    private int VieActuelle;
+    private MultiplayerManager multiplayerManager;
 
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
@@ -25,7 +27,8 @@ public class PersonnageBehaviour : MonoBehaviour {
 	public float dashAnimationLock = 0.2f;
 	public float stunDuration = 0.1f;
 	public float dashImpactForce = 30.0f;
-	public bool commandeInversees;
+    public int VieMax;
+    public bool commandeInversees;
 	public bool commandeTournees;
 	public bool solGlace;
 	public float maxSpeedGlace = 12.0f;
@@ -35,6 +38,7 @@ public class PersonnageBehaviour : MonoBehaviour {
 		this.rb = GetComponent<Rigidbody>();
         this.animator = GetComponentInChildren<Animator>();
 		this.spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        this.multiplayerManager = GameObject.FindGameObjectWithTag("MultiplayerManager").GetComponent<MultiplayerManager>();
 	}
 
 	// Use this for initialization
@@ -43,13 +47,20 @@ public class PersonnageBehaviour : MonoBehaviour {
 	}
 
 	public void initialise() {
-		this.sortieDeLaMap = false;
-		this.dashCooldownActual = Time.time;
-		this.dashAnimationLockActual = Time.time;
-		this.stunDurationActual = Time.time;
-		this.previousPosition = this.transform.position;
-		this.previousDeplacement = Vector3.zero;
+        Respawn();
+        this.VieMax = 3;
+        this.VieActuelle = VieMax;
 	}
+
+    public void Respawn()
+    {
+        this.sortieDeLaMap = false;
+        this.dashCooldownActual = Time.time;
+        this.dashAnimationLockActual = Time.time;
+        this.stunDurationActual = Time.time;
+        this.previousPosition = this.transform.position;
+        this.previousDeplacement = Vector3.zero;
+    }
 
 	public void setPlayerID(int playerID) {
 		this.playerID = playerID;
@@ -62,11 +73,6 @@ public class PersonnageBehaviour : MonoBehaviour {
     public int getPlayerID()
     {
         return playerID;
-    }
-
-    public bool IsAlive()
-    {
-        return true;
     }
 
 	// Update is called once per frame
@@ -144,7 +150,29 @@ public class PersonnageBehaviour : MonoBehaviour {
 
 	public void sortDeLaMap() {
 		this.sortieDeLaMap = true;
+        animator.SetBool("Drowned", true);
+        StartCoroutine(DrownIntoDeath());
 	}
+
+    public IEnumerator DrownIntoDeath()
+    {
+        yield return new WaitForSeconds(2);
+        animator.SetBool("Drowned", false);
+        multiplayerManager.KillPlayer(playerID);
+
+    }
+
+    public void Kill()
+    {
+        VieActuelle--;
+        if (VieActuelle < 0)
+            VieActuelle = 0;
+    }
+
+    public bool IsDead()
+    {
+        return VieActuelle == 0;
+    }
 
 	public void stun(float stunDuration) {
 		stunDurationActual = Time.time + stunDuration;

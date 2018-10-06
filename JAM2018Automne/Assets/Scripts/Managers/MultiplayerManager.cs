@@ -111,7 +111,7 @@ public class MultiplayerManager : MonoBehaviour {
         string winnerID = "";
         foreach(PersonnageBehaviour p in playerList)
         {
-            if (p.IsAlive())
+            if (!p.IsDead())
             {
                 stillAlive++;
                 winnerID = "Player" + p.getPlayerID();
@@ -124,6 +124,35 @@ public class MultiplayerManager : MonoBehaviour {
         }
     }
 
+
+    public void KillPlayer(int idPlayer)
+    {
+        foreach (PersonnageBehaviour p in playerList)
+        {
+            if(p.getPlayerID() == idPlayer)
+            {
+                p.Kill();
+                if (p.IsDead())
+                    p.gameObject.SetActive(false);
+                else                 
+                    RespawnPlayer(idPlayer);
+
+            }
+        }
+    }
+
+
+    private void RespawnPlayer(int idPlayer)
+    {
+        foreach (PersonnageBehaviour p in playerList)
+        {
+            if (p.getPlayerID() == idPlayer)
+            {
+               p.gameObject.transform.position = SpawnPoints[p.getPlayerID()].transform.position;
+                p.Respawn();
+            }
+        }
+    }
 
     public List<PersonnageBehaviour> GetAllPersonnages()
     {
