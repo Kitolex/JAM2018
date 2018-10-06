@@ -192,6 +192,15 @@ public class PersonnageBehaviour : MonoBehaviour {
 				this.rb.AddForce(impact, ForceMode.Impulse);
 			}
 		}
+
+		if(this.isDashing()){
+
+			IDashable d = collision.collider.GetComponent<IDashable>();
+
+			if(d != null) {
+				d.subirDash(this.gameObject);
+			}
+		}
 	}
 
 	private float getXAxis() {
