@@ -18,8 +18,6 @@ public class GameManager : MonoBehaviour {
     private VoteManager voteManager;
     private EffectManager effectManager;
 
-    public Vote v;
-
     // Use this for initialization
     void Start () {
 
@@ -37,6 +35,12 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
+        if (!etat.Equals(EtatGame.preparation))
+        {
+            multiplayerManager.CheckMultiplayerEnding();
+        }
 
         if (etat.Equals(EtatGame.bataille))
         {
@@ -59,13 +63,6 @@ public class GameManager : MonoBehaviour {
                 etat = EtatGame.bataille;
             }
         }
-
-        // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
-        if (!etat.Equals(EtatGame.preparation))
-        {
-            multiplayerManager.CheckMultiplayerEnding();
-        }
-
     }
 
 
@@ -74,7 +71,7 @@ public class GameManager : MonoBehaviour {
     {
         // Instanciation du Start Buzzer
         buzzerInstance = Instantiate(StartBuzzer);
-        buzzerInstance.transform.position = new Vector3(0,1.1f,0);
+        buzzerInstance.transform.position = new Vector3(0, 2.5f, 0);
         buzzerInstance.GetComponent<BuzzerStart>().multiplayerManager = multiplayerManager;
         buzzerInstance.GetComponent<BuzzerStart>().gameManager = this;
 
@@ -97,6 +94,7 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log(winner);  // A AFFICHER IN GAME
         EnterPreparation();
+        effectManager.EndEffects();
     }
 
     private void StopVote()
