@@ -15,7 +15,6 @@ public class BuzzerStart : MonoBehaviour, IDashable {
 
     public void subirDash(GameObject dasher)
     {
-        Debug.Log("Hoy");
         PersonnageBehaviour personnage = dasher.GetComponent<PersonnageBehaviour>();
 
         anim.SetTrigger("Push");
@@ -24,13 +23,16 @@ public class BuzzerStart : MonoBehaviour, IDashable {
             return;
 
         listPlayer.Add(dasher.GetComponent<PersonnageBehaviour>());
-        Debug.Log(listPlayer.Count);
         if (listPlayer.Count == multiplayerManager.GetAllPersonnages().Count && multiplayerManager.GetAllPersonnages().Count >= 2)
         {
-           gameManager.StartRound();
-        }
+            StartCoroutine(WaitForRoundStart());           
+        }       
+    }
 
-        
+    public IEnumerator WaitForRoundStart()
+    {
+        yield return new WaitForSeconds(1);
+        gameManager.StartRound();
     }
 
     void Start () {
