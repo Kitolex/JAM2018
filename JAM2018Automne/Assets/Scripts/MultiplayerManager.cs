@@ -6,6 +6,7 @@ public class MultiplayerManager : MonoBehaviour {
 
     private int numberPlayer;                       // Nombre de joueur actuellement dans la partie
     private List<PersonnageBehaviour> playerList;   // Liste des références vers les script de personnage
+    private string winnerID;
 
     public int[] Scores;                            // Liste indiquant le nombre de manche remportées par chaque joueurs
     public GameObject[] prefabList;                 // Liste des prefab servant à instancier les personnages   
@@ -87,6 +88,12 @@ public class MultiplayerManager : MonoBehaviour {
 
         Debug.LogWarning("Pas de joueur à détruire");
     }
+
+    public void CheckMultiplayerEnding()
+    {
+
+    }
+
 
     public List<PersonnageBehaviour> GetAllPersonnages()
     {
