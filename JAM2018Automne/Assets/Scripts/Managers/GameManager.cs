@@ -29,9 +29,12 @@ public class GameManager : MonoBehaviour {
 
     private Random rnd;
 
+    private bool firstPrepa;
+
 
     // Use this for initialization
     void Start () {
+        firstPrepa = true;
         activeDescente = false;
         multiplayerManager = GetComponent<MultiplayerManager>();
         if (!multiplayerManager)
@@ -104,15 +107,25 @@ public class GameManager : MonoBehaviour {
     // Met le jeu en état de préparation et place un buzzer au centre de la zone de jeu
     public void EnterPreparation()
     {
+        
         // Instanciation du Start Buzzer
         buzzerInstance = Instantiate(StartBuzzer);
         buzzerInstance.transform.position = new Vector3(0, 3.0f, 0);
         buzzerInstance.GetComponent<BuzzerStart>().multiplayerManager = multiplayerManager;
         buzzerInstance.GetComponent<BuzzerStart>().gameManager = this;
-        mapManager.InitMap();//TODO : first time
         multiplayerManager.InitializePlayers();
         etat = EtatGame.preparation;
         nbCycle = 0;
+        if (firstPrepa)
+        {
+            //TODO : dialogue init
+        }
+        else
+        {
+            mapManager.InitMap();//TODO : first time
+        }
+
+        firstPrepa = false;
     }
 
     // Sort de l'état de préparation
