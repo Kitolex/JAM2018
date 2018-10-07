@@ -58,6 +58,12 @@ MonoBehaviour:
   - {fileID: 1352263086099200, guid: a29b6d5195874d94886adb1fcf945943, type: 2}
   - {fileID: 1734418637143986, guid: c3bf69ae10205674696d2f32a7dfebdb, type: 2}
   - {fileID: 1977714878201868, guid: 7d6d8da36909bc04d8d15a0163ada33f, type: 2}
+  - {fileID: 1449462673019380, guid: 69bbf71e672245e4d8b08385bb8e951d, type: 2}
+  - {fileID: 1950264349642944, guid: 048e40349c21c5b4789a39963649f697, type: 2}
+  - {fileID: 1938431855347928, guid: 134e96a8c2013d84684f81311071205e, type: 2}
+  - {fileID: 1318064628786556, guid: c6df0cea6d90f494db2c315f1ff08a4f, type: 2}
+  - {fileID: 1991063470317982, guid: ecaff61c0343c464f8bca05ce700a8c8, type: 2}
+  - {fileID: 1555442699120360, guid: de37fd3c045c8ca429e36bce560c4b24, type: 2}
   SpawnPoints:
   - {fileID: 0}
   - {fileID: 0}

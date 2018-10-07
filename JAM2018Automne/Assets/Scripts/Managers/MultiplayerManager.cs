@@ -59,7 +59,14 @@ public class MultiplayerManager : MonoBehaviour {
         // Instanciation du personnage si le prefab existe
         if (prefabList[numPlayer - 1])
         {
-            instanciated = Instantiate(prefabList[numPlayer - 1]);
+            int rand = (int)Random.Range(0, prefabList.Length - 1);
+
+            for(int i = 0; i<playerList.Count;i++)
+                foreach (PersonnageBehaviour p in playerList)
+                    if (p.prefabID == rand)
+                        rand = (rand + 1)% prefabList.Length;
+
+            instanciated = Instantiate(prefabList[rand]);
             behaviour = instanciated.GetComponent<PersonnageBehaviour>();
 
             // Gestion de la position de spawn
