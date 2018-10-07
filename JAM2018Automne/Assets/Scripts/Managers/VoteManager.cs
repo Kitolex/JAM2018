@@ -52,7 +52,7 @@ public class VoteManager : MonoBehaviour {
             for (int i = 0; i < voteActuel.nomProposition.Count; i++)
             {
                 GameObject go = Instantiate(buzzer);
-                go.name = voteActuel.nomProposition[i] + "";
+                go.name = "BuzzerVote" + i;
                 go.AddComponent<BuzzerVote>();
                 go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
                 go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer(mapManager.getDiametreMap()/2);//TODO ALLER CHERCHER taille cercle
@@ -91,7 +91,11 @@ public class VoteManager : MonoBehaviour {
                 buzzerWin = b;
             }
         }
-
+        if (buzzerWin==null)
+        {
+            return new ListEffet();
+        }
+        
         return buzzerWin.consequence;
 
 

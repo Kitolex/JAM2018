@@ -6,7 +6,7 @@ public class MapManager : MonoBehaviour {
 
     public List<Cercle> listCercle;
     public GameObject goCentral;
-    private int nb;
+    public int nb;
 
 	// Use this for initialization
 	void Start () {
