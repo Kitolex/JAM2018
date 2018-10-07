@@ -9,7 +9,7 @@ public class EffectGelerSol : Effect
 
             pb.solGlace = true;
 		}
-        changeDecorsMaterials(); // TODO : Pas appellée
+        changeDecorsMaterials("LowPoly_Ice1");
     }
 
     public override void Display() {
@@ -21,23 +21,12 @@ public class EffectGelerSol : Effect
 
 			pb.solGlace = false;
 		}
+        changeDecorsMaterials("LowPoly_Rock");
     }
 
-    private void changeDecorsMaterials()
+    private void changeDecorsMaterials(string materialName)
     {
-        GameObject[] materials = GameObject.FindGameObjectsWithTag("material");
-        Material iceMaterial = null;
-        foreach (GameObject go in materials)
-        {
-            if (go.GetComponent<Renderer>().material.name.Equals("LowPoly_Ice1"))
-            {
-                iceMaterial = go.GetComponent<Renderer>().material;
-            }
-        }
-        if (!iceMaterial)
-        {
-            return;
-        }
+        Material iceMaterial = getMaterial(materialName);
         GameObject decors = GameObject.FindGameObjectWithTag("mutableMaterials");
         for( int i=0; i< decors.transform.childCount; i++)
         {
@@ -48,9 +37,38 @@ public class EffectGelerSol : Effect
             }
         }
     }
-    
-    private void changeMapMaterials()
-    {
 
+    private void changeMapMaterials(string materialName)
+    {
+        Material iceGroundMaterial = getMaterial(materialName);
+        GameObject decors = GameObject.FindGameObjectWithTag("mutableMaterials");
+        for (int i = 0; i < decors.transform.childCount; i++)
+        {
+            Renderer r = decors.transform.GetChild(i).GetComponent<Renderer>();
+            if (r)
+            {
+                r.sharedMaterial = iceGroundMaterial;
+            }
+        }
     }
+
+    private Material getMaterial(string materialName)
+    {
+        GameObject[] materials = GameObject.FindGameObjectsWithTag("material");
+        Material material = null;
+        foreach (GameObject go in materials)
+        {
+            if (go.GetComponent<Renderer>().material.name.Equals(materialName))
+            {
+                material = go.GetComponent<Renderer>().material;
+            }
+        }
+        if (!material)
+        {
+            Debug.Log("Ground material not found");
+        }
+        return material;
+    }
+    
+    
 }
