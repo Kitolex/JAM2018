@@ -307,6 +307,8 @@ MonoBehaviour:
   rb: {fileID: 0}
   ombre: {fileID: 1876524574183328}
   stunFX: {fileID: 1775504711277892}
+  poussiereFX: {fileID: 4843589449683030, guid: e025fd06ecb811045b53a933b2e887f2,
+    type: 2}
   speed: 8
   dashPropulsionForce: 30
   dashCooldown: 0.4

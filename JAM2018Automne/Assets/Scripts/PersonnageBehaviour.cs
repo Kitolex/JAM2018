@@ -27,6 +27,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
     public Rigidbody rb;
     public GameObject ombre;
 	public GameObject stunFX;
+	public Transform poussiereFX;
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
 	public float dashCooldown = 1.0f;
@@ -240,6 +241,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 			}
 			
             animator.SetTrigger("dash");
+			Instantiate(poussiereFX, this.transform.position, this.transform.rotation);
 		}
 	}
 
