@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b0386c330f1b241b3f28c389d759d8, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  enonce: Compliquons les choses avec des choix un peu plus complexes.
+  nomProposition:
+  - De meilleurs expulsions
+  - "Un ajout d'\xE9l\xE9ment"
+  - "Un climat mix\xE9"
+  listEffects:
+  - effects: 05000000
+    reponse: "Les joueurs veulent pouvoir expulser leurs adversaires plus facilement.
+      Mais ils n'ont surement pas pens\xE9 que eux aussi vont \xEAtre expuls\xE9s
+      plus facilement."
+  - effects: 07000000
+    reponse: "Et voici l'apparition du Bumper. Ce nouvel \xE9l\xE9ment est comme un
+      ressort. Nous allons assist\xE9 \xE0 une partie de flipper humain."
+  - effects: 0100000002000000
+    reponse: "Nous le savons tous, le d\xE9r\xE8glement climatique est un probl\xE8me.
+      Nos participants vont s'en rendre compte \xE0 leurs d\xE9pens"

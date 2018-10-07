@@ -57,6 +57,9 @@ public class EffectManager : MonoBehaviour {
             case Effects.PILLARS:
                 listEffectEnCours.Add(new EffectPillars());
                 break;
+            case Effects.WALLS:
+                listEffectEnCours.Add(new EffectWalls());
+                break;
             case Effects.PERDRE_VIE:
                 listEffectEnCours.Add(new EffectPerdreVie());
                 break;

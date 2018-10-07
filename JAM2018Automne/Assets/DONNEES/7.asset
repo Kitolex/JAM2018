@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b0386c330f1b241b3f28c389d759d8, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  enonce: "De quelle mani\xE8re les d\xE9placement vont \xEAtre chang\xE9s ?"
+  nomProposition:
+  - Inversion
+  - "Direction al\xE9atoire"
+  - Mince je sais plus ce qu'est le dernier choix
+  listEffects:
+  - effects: 0300000007000000
+    reponse: "Les commandes sont invers\xE9s. Ah oui, j'avais oubli\xE9 les colonnes."
+  - effects: 06000000
+    reponse: "Ils ont choisi d'avoir des dash dans des directions al\xE9atoires."
+  - effects: 0600000003000000
+    reponse: "Je ne me souviens plus de cette r\xE9ponse. Les partipants auront donc
+      un cumul des effets."

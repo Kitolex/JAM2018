@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b0386c330f1b241b3f28c389d759d8, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  enonce: "Le choix le plus amusant de ce jeu. Danger ou s\xE9curit\xE9 ?"
+  nomProposition:
+  - Danger
+  - "S\xE9curit\xE9"
+  - "De l'al\xE9atoire"
+  listEffects:
+  - effects: 010000000500000007000000
+    reponse: Nos participants sont courageux aujourd'hui. Ils ont choisi le danger
+  - effects: 070000000800000002000000
+    reponse: "Pourquoi la s\xE9curit\xE9 ? Comme j'aime pas \xE7a, vous avez une p\xE9nalit\xE9."
+  - effects: 040000000500000006000000
+    reponse: Toujours plus de fun
