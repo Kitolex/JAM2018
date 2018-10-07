@@ -69,7 +69,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 		this.ombre.SetActive(true);
         this.sortieDeLaMap = false;
         this.dashCooldownActual = Time.time + 0.1f;
-        this.dashAnimationLockActual = Time.time + 1.0f;
+        this.dashAnimationLockActual = Time.time + 0.9f;
         this.stunDurationActual = Time.time;
         this.previousPosition = this.transform.position;
         this.previousDeplacement = Vector3.zero;
