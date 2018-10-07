@@ -11,6 +11,7 @@ TagManager:
   - material
   - mutableMaterials
   - MapManager
+  - PillarsWalls
   layers:
   - Default
   - TransparentFX

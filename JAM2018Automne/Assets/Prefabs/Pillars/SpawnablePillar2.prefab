@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114425430201197696}
   m_Layer: 0
   m_Name: SpawnablePillar2
-  m_TagString: Untagged
+  m_TagString: PillarsWalls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -127,3 +127,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108a7e501a39e284fb01973f0fb97db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poussiereImpactSol: {fileID: 4843589449683030, guid: ac86c9c050eb6c44fa46ccccc4349823,
+    type: 2}

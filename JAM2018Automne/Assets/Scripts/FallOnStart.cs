@@ -4,13 +4,30 @@ using UnityEngine;
 
 public class FallOnStart : MonoBehaviour {
 
+	public Transform poussiereImpactSol;
+	private bool effectDone;
+
 	// Use this for initialization
 	void Start () {
+		effectDone = false;
 		this.GetComponent<Rigidbody>().velocity = Vector3.up * -60.0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		
+	}
+
+	void OnCollisionEnter(Collision collision) {
+		
+		if(!effectDone){
+			effectDone = true;
+
+			Vector3 posi = this.transform.position;
+			posi.y = 0.4f;
+			Instantiate(poussiereImpactSol, posi, poussiereImpactSol.rotation);
+		}
+		
 		
 	}
 }
