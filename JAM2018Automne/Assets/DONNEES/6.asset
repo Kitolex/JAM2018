@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b0386c330f1b241b3f28c389d759d8, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  enonce: "Un choix qui ne devrait pas poser de probl\xE8me. La vodka ou la mort ?"
+  nomProposition:
+  - La vodka
+  - La mort
+  - "La bi\xE8re"
+  listEffects:
+  - effects: 010000000600000004000000
+    reponse: Malheureusement, nos participants ne semblent pas tenir l'alcool.
+  - effects: 0100000009000000
+    reponse: "Un vent glacial s'abat sur l'ar\xE8ne. Certains participant en sont
+      m\xEAme mort."
+  - effects: 0200000003000000
+    reponse: "La bi\xE8re"

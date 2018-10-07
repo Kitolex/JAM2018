@@ -33,5 +33,6 @@ public enum Effects
     EJECTIONS_RENFORCEES,
     DIRECTION_DASH_ALEATOIRE,
     PILLARS,
+    WALLS,
     PERDRE_VIE
 }
