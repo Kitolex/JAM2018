@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EffectManager : MonoBehaviour {
 
-    private List<Effect> listEffectEnCours;
+    public List<Effect> listEffectEnCours;
 
     // Use this for initialization
     void Start () {
@@ -16,17 +16,34 @@ public class EffectManager : MonoBehaviour {
 		
 	}
 
-    public void createliste(List<ListEffet> listEffets)
+    public void createliste(ListEffet listEffets)
     {
-        foreach(ListEffet e in listEffets)
+        foreach(Effects e in listEffets.effects)
         {
-            addList(e);
+
+                addList(e);
+
         }
     }
 
-    private void addList(ListEffet e)
+    private void addList(Effects e)
     {
-        //TODO
+        switch (e)
+        {
+            case Effects.CHALEUR_INTENSE:
+                listEffectEnCours.Add(new EffectChaleurIntense());
+                break;
+            case Effects.GELER_SOL:
+                listEffectEnCours.Add(new EffectGelerSol());
+                break;
+            case Effects.INVERSER_COMMANDES:
+                listEffectEnCours.Add(new EffectInverserCommandes());
+                break;
+            case Effects.TOURNER_COMMANDES:
+                listEffectEnCours.Add(new EffectTournerCommandes());
+                break;
+
+        }
     }
 
     public void DisplayEffects()
@@ -42,6 +59,8 @@ public class EffectManager : MonoBehaviour {
         {
             e.End();
         }
+        listEffectEnCours = new List<Effect>();
+
     }
     public void BeginEffects()
     {
