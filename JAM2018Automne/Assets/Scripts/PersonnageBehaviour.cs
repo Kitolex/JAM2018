@@ -26,6 +26,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
     [HideInInspector]
     public Rigidbody rb;
     public GameObject ombre;
+	public GameObject stunFX;
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
 	public float dashCooldown = 1.0f;
@@ -206,7 +207,15 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 
 	public void stun(float stunDuration) {
 		stunDurationActual = Time.time + stunDuration;
+		stunFX.SetActive(true);
+		StartCoroutine(StopStunFX());
 	}
+
+	public IEnumerator StopStunFX()
+    {
+        yield return new WaitForSeconds(stunDuration);
+		stunFX.SetActive(false);
+    }
 
 	public bool iStun() {
 		return Time.time < this.stunDurationActual;
