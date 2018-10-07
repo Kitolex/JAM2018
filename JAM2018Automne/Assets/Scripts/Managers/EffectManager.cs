@@ -54,6 +54,9 @@ public class EffectManager : MonoBehaviour {
             case Effects.DIRECTION_DASH_ALEATOIRE:
                 listEffectEnCours.Add(new EffectDirectionDashAleatoire());
                 break;
+            case Effects.PILLARS:
+                listEffectEnCours.Add(new EffectPillars());
+                break;
 
         }
     }

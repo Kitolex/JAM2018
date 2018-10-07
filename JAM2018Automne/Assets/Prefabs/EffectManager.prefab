@@ -51,3 +51,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff84a75258d22364cb43628fef906cc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  listEffectEnCours: []
+  pillars:
+  - {fileID: 4456640840525332, guid: f7c670b286f4bb94c9e57feb241d00bd, type: 2}
+  - {fileID: 4791491816812032, guid: 89bb954bedc549e47a3359936cf6f180, type: 2}
+  - {fileID: 4996575933419238, guid: e5b6b1a6eefdf8e4b8852a3fda777019, type: 2}
+  walls: []
+  bumper: {fileID: 0}
