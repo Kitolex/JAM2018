@@ -16,8 +16,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 	private Vector3 previousPosition;
 	private Vector3 previousDeplacement;
     private Animator animator;
-	private SpriteRenderer spriteRenderer;
-    private int VieActuelle;
+	private SpriteRenderer spriteRenderer;    
     private MultiplayerManager multiplayerManager;
     private bool DashPressed;
     private List<IDashable> HitMemory;
@@ -34,6 +33,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 	public float stunDuration = 0.1f;
 	public float dashImpactForce = 30.0f;
     public int VieMax;
+    public int VieActuelle;
     public bool commandeInversees;
 	public bool commandeTournees;
 	public bool solGlace;
