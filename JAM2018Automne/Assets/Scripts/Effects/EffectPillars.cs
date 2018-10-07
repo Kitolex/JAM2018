@@ -14,9 +14,13 @@ public class EffectPillars : Effect
 
         int nbPrefabs = effectManager.pillars.Length;
 
+        float maxRayon = mapManager.getDiametreMap() * 0.5f - 1.0f;
+
+        Vector3 posi = Vector3.up * 40.0f;
+
         for(int i=0; i<nbObjectToAdd; i++){
             Transform obj = effectManager.pillars[Random.Range(0, nbPrefabs)];
-            objects[i] = Instantiate(obj, Vector3.zero, obj.rotation).gameObject;
+            objects[i] = Instantiate(obj, posi + Vector3.right * Random.Range(0.0f, maxRayon), obj.rotation).gameObject;
         }
     }
 

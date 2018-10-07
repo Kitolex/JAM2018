@@ -6,10 +6,12 @@ public abstract class Effect : MonoBehaviour {
 
     protected MultiplayerManager multiplayerManager;
     protected EffectManager effectManager;
+    protected MapManager mapManager;
 
     public Effect() {
         this.multiplayerManager = GameObject.FindGameObjectWithTag("MultiplayerManager").GetComponent<MultiplayerManager>();
         this.effectManager = GameObject.FindGameObjectWithTag("EffectManager").GetComponent<EffectManager>();
+        this.mapManager = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>();
     }
 
     public abstract void Begin();
