@@ -45,6 +45,9 @@ public class EffectManager : MonoBehaviour {
             case Effects.EJECTIONS_RENFORCEES:
                 listEffectEnCours.Add(new EffectEjectionsRenforcees());
                 break;
+            case Effects.DIRECTION_DASH_ALEATOIRE:
+                listEffectEnCours.Add(new EffectDirectionDashAleatoire());
+                break;
 
         }
     }

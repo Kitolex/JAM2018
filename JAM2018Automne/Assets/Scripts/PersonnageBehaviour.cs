@@ -42,6 +42,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 	public float maxSpeedGlace = 12.0f;
 	public bool chaleurIntense;
 	public bool ejectionRenforcee;
+	public bool directionDashAleatoire;
 
 	void Awake () {
 		this.rb = GetComponent<Rigidbody>();
@@ -124,8 +125,15 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
             if (Input.GetAxisRaw(BUTTON_DASH) != 0)
             {
                 if (!DashPressed)
-                {                    
-                    dasherVers(dir.normalized);
+                {
+					if(directionDashAleatoire) {
+
+						Vector3 dirDashAle = Quaternion.AngleAxis(Random.Range(0.0f, 360.0f), Vector3.up) * Vector3.forward;
+						dasherVers(dirDashAle);
+						
+					} else {
+						dasherVers(dir.normalized);
+					}
                 }
                 else
                 {
