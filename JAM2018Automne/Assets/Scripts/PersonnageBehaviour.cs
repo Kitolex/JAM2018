@@ -161,7 +161,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 		}
 
 		if(chaleurIntense) {
-			deplacement *= 0.5f;
+			deplacement *= 0.8f;
 		}
 
 		this.transform.position += deplacement * Time.deltaTime;
@@ -232,7 +232,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 
 			if(chaleurIntense) {
 
-				this.rb.AddForce(direction * dashPropulsionForce * 0.5f, ForceMode.Impulse);
+				this.rb.AddForce(direction * dashPropulsionForce * 0.9f, ForceMode.Impulse);
 				this.stun(this.stunDuration);
 
 			} else {
@@ -289,7 +289,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 
         if (chaleurIntense)
         {
-            impact *= 0.5f;
+            impact *= 0.8f;
         }
 
         if (ejectionRenforcee)

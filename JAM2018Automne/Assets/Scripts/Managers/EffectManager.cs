@@ -42,6 +42,9 @@ public class EffectManager : MonoBehaviour {
             case Effects.TOURNER_COMMANDES:
                 listEffectEnCours.Add(new EffectTournerCommandes());
                 break;
+            case Effects.EJECTIONS_RENFORCEES:
+                listEffectEnCours.Add(new EffectEjectionsRenforcees());
+                break;
 
         }
     }
