@@ -1006,6 +1006,26 @@ Prefab:
       propertyPath: m_Name
       value: Map-Standard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1315224503300802, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250713660049804, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919309428175132, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507968877650816, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1817764211089310, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
   m_IsPrefabAsset: 0

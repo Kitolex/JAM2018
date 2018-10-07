@@ -51,7 +51,14 @@ public class VoteManager : MonoBehaviour {
         string enonce = intro+ voteActuel.enonce;
         //TODO afficher enoncer
         //TODO afficher prop
-
+        if (mapManager.nb<=1)
+        {
+            BuzzerVote b = new BuzzerVote();
+            b.consequence = voteActuel.listEffects[rnd.Next(0, voteActuel.nomProposition.Count)];
+            listBuzzer.Add(b);
+        }
+        else
+        {
             for (int i = 0; i < voteActuel.nomProposition.Count; i++)
             {
                 GameObject go = Instantiate(buzzer);
@@ -62,12 +69,14 @@ public class VoteManager : MonoBehaviour {
                 go.GetComponent<BuzzerVote>().angle = angle;
                 go.GetComponent<BuzzerVote>().rayon = rayon;
                 listBuzzer.Add(go.GetComponent<BuzzerVote>());
-                
-        }
+
+            }
             foreach (BuzzerVote b in listBuzzer)
             {
                 b.pop();
             }
+        }
+           
 
     }
 
