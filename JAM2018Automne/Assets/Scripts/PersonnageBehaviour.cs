@@ -66,13 +66,13 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
     {
 		this.ombre.SetActive(true);
         this.sortieDeLaMap = false;
-        this.dashCooldownActual = Time.time;
-        this.dashAnimationLockActual = Time.time;
+        this.dashCooldownActual = Time.time + 0.1f;
+        this.dashAnimationLockActual = Time.time + 1.0f;
         this.stunDurationActual = Time.time;
         this.previousPosition = this.transform.position;
         this.previousDeplacement = Vector3.zero;
         this.DashPressed = false;
-        this.rb.velocity = Vector3.zero;
+        this.rb.velocity = Vector3.up * -50.0f;
         this.rb.ResetInertiaTensor();
     }
 
@@ -130,7 +130,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 
 						Vector3 dirDashAle = Quaternion.AngleAxis(Random.Range(0.0f, 360.0f), Vector3.up) * Vector3.forward;
 						dasherVers(dirDashAle);
-						
+
 					} else {
 						dasherVers(dir.normalized);
 					}

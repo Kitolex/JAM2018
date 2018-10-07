@@ -64,7 +64,7 @@ public class MultiplayerManager : MonoBehaviour {
 
             // Gestion de la position de spawn
             if (SpawnPoints[numPlayer - 1])
-                instanciated.transform.position = SpawnPoints[numPlayer - 1].transform.position;
+                instanciated.transform.position = SpawnPoints[numPlayer - 1].transform.position + Vector3.up * 40.0f;
             else
             {
                 instanciated.transform.position = Vector3.zero;
@@ -88,8 +88,8 @@ public class MultiplayerManager : MonoBehaviour {
             if (p)
             {
                 p.gameObject.SetActive(true);
+                p.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position + Vector3.up * 40.0f;
                 p.initialise();
-                p.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position;
                 HUDManager.Instance.UpdatePlayerLife(p.getPlayerID(), p.VieActuelle);
             }           
         }
@@ -156,7 +156,7 @@ public class MultiplayerManager : MonoBehaviour {
         {
             if (p.getPlayerID() == idPlayer)
             {
-               p.gameObject.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position;
+               p.gameObject.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position + Vector3.up * 40.0f;
                 p.Respawn();
             }
         }

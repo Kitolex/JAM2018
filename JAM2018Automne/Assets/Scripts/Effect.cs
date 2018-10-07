@@ -5,9 +5,11 @@ using UnityEngine;
 public abstract class Effect : MonoBehaviour {
 
     protected MultiplayerManager multiplayerManager;
+    protected EffectManager effectManager;
 
     public Effect() {
         this.multiplayerManager = GameObject.FindGameObjectWithTag("MultiplayerManager").GetComponent<MultiplayerManager>();
+        this.effectManager = GameObject.FindGameObjectWithTag("EffectManager").GetComponent<EffectManager>();
     }
 
     public abstract void Begin();

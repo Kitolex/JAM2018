@@ -6,6 +6,12 @@ public class EffectManager : MonoBehaviour {
 
     public List<Effect> listEffectEnCours;
 
+    [Header("Effects Prefabs")]
+
+    public Transform[] pillars;
+    public Transform[] walls;
+    public Transform bumper;
+
     // Use this for initialization
     void Start () {
         listEffectEnCours = new List<Effect>();
