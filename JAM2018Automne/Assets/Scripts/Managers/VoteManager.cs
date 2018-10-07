@@ -91,7 +91,7 @@ public class VoteManager : MonoBehaviour {
         }
 
         Debug.Log("BUZZERWIN : "+buzzerWin);
-        return buzzerWin.consequence;
+        return buzzerWin.consequence; // TODO : Rajouter cass personne a voté
 
     }
 

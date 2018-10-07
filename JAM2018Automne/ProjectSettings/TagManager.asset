@@ -8,6 +8,8 @@ TagManager:
   - VoteManager
   - EffectManager
   - ground
+  - material
+  - mutableMaterials
   layers:
   - Default
   - TransparentFX
