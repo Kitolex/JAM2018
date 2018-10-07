@@ -12,11 +12,14 @@ public class MultiplayerManager : MonoBehaviour {
     public GameObject[] prefabList;                 // Liste des prefab servant à instancier les personnages   
     public GameObject[] SpawnPoints;                // Liste des point de spawn où les personnages seront créés
 
+
     public void Awake()
     {
         gameManager = GetComponent<GameManager>();
         if (!gameManager)
             Debug.LogWarning("Pas de GameManager trouvé sur le gameobject");
+
+        
 
         playerList = new List<PersonnageBehaviour>();
     }
@@ -87,6 +90,7 @@ public class MultiplayerManager : MonoBehaviour {
                 p.gameObject.SetActive(true);
                 p.initialise();
                 p.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position;
+                HUDManager.Instance.UpdatePlayerLife(p.getPlayerID(), p.VieActuelle);
             }           
         }
     }
@@ -124,23 +128,27 @@ public class MultiplayerManager : MonoBehaviour {
         }
     }
 
-
     public void KillPlayer(int idPlayer)
     {
         foreach (PersonnageBehaviour p in playerList)
         {
             if(p.getPlayerID() == idPlayer)
             {
-                p.Kill();
-                if (p.IsDead())
-                    p.gameObject.SetActive(false);
-                else                 
+                if(gameManager.etat == EtatGame.preparation)
                     RespawnPlayer(idPlayer);
+                else
+                {
+                    p.Kill();
+                    HUDManager.Instance.UpdatePlayerLife(idPlayer, p.VieActuelle);
+                    if (p.IsDead())
+                        p.gameObject.SetActive(false);
+                    else
+                        RespawnPlayer(idPlayer);
+                }                
 
             }
         }
     }
-
 
     private void RespawnPlayer(int idPlayer)
     {

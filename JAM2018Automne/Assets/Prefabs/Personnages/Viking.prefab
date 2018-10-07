@@ -85,7 +85,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1991063470317982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.69479465, y: 0.4, z: -0.3162074}
+  m_LocalPosition: {x: 8.68347, y: 0.4, z: -9.486842}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4091289254460896}
@@ -161,12 +161,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerID: 0
+  rb: {fileID: 0}
   ombre: {fileID: 1764975451258642}
   speed: 8
   dashPropulsionForce: 30
-  dashCooldown: 1
+  dashCooldown: 0.4
   dashAnimationLock: 0.2
-  stunDuration: 0.7
+  stunDuration: 0.6
   dashImpactForce: 30
   VieMax: 0
   commandeInversees: 0
@@ -231,8 +232,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1307505427
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2c3fd9a8bccf96e42a54852c74e0d3ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
