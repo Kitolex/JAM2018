@@ -16,6 +16,7 @@ public class VoteManager : MonoBehaviour {
     // private Dictionary<string, List<ListEffet>> consequence;
     public List<BuzzerVote> listBuzzer;
 
+    private bool vide;
     private int angle;
     private float rayon;
 
@@ -23,6 +24,7 @@ public class VoteManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        vide = false;
         mapManager = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>();
         rnd = new Random();
         listBuzzer = new List<BuzzerVote>();
@@ -36,10 +38,14 @@ public class VoteManager : MonoBehaviour {
 
     public void destroyBuzzer()
     {
-        foreach (BuzzerVote b in listBuzzer)
+        if (!vide)
         {
-            Destroy(b.gameObject);
+            foreach (BuzzerVote b in listBuzzer)
+            {
+                Destroy(b.gameObject);
+            }
         }
+        
         listBuzzer = new List<BuzzerVote>();
     }
 
@@ -55,8 +61,10 @@ public class VoteManager : MonoBehaviour {
         if (mapManager.nb<=1)
         {
             BuzzerVote b = new BuzzerVote();
+            b.smash = 2;
             b.consequence = voteActuel.listEffects[rnd.Next(0, voteActuel.nomProposition.Count)];
             listBuzzer.Add(b);
+            vide = true;
         }
         else
         {

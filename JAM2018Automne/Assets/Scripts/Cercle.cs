@@ -17,11 +17,13 @@ public class Cercle : MonoBehaviour {
     public void tomber()
     {
         Debug.Log(gameObject.name + " TOMBE");
-        //TODO : lancer anim
+        GetComponent<Animator>().SetTrigger("drop");
+        GameObject.FindGameObjectWithTag("ZoneJeu").GetComponent<Animator>().SetTrigger("drop");
     }
     public void repop()
     {
-        //TODO : repop
+        GetComponent<Animator>().SetTrigger("reset");
+        GameObject.FindGameObjectWithTag("ZoneJeu").GetComponent<Animator>().SetTrigger("reset");
     }
     public float getDiametre()
     {

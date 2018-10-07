@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4308431629233076}
   - component: {fileID: 114656955915674742}
   - component: {fileID: 114795176166985664}
+  - component: {fileID: 114825888126122990}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: MultiplayerManager
@@ -90,3 +91,18 @@ MonoBehaviour:
   chanceInit: 20
   augmentationChance: 5
   whenDescente: 0
+--- !u!114 &114825888126122990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850989271774874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eebad04364f172468ffb49b78c1cbf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicOn: 1
+  MusicVolume: 0.3
+  SfxOn: 1
+  SfxVolume: 1

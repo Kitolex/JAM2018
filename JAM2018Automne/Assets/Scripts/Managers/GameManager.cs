@@ -20,14 +20,7 @@ public class GameManager : MonoBehaviour {
     private EffectManager effectManager;
     private MapManager mapManager;
 
-    private int multiCHance;//pas touche
-    public int chanceInit;
-    public int augmentationChance;
-
-    private bool activeDescente;
-    public float whenDescente;
-
-    private Random rnd;
+  
 
     private bool firstPrepa;
 
@@ -35,7 +28,7 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         firstPrepa = true;
-        activeDescente = false;
+       
         multiplayerManager = GetComponent<MultiplayerManager>();
         if (!multiplayerManager)
             Debug.LogWarning("Pas de MultiplayerManager sur le game object");
@@ -43,7 +36,7 @@ public class GameManager : MonoBehaviour {
         voteManager = GameObject.FindGameObjectWithTag("VoteManager").GetComponent<VoteManager>();
         effectManager = GameObject.FindGameObjectWithTag("EffectManager").GetComponent<EffectManager>();
         mapManager = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>();
-        rnd = new Random();
+
         EnterPreparation();
         
 
@@ -61,23 +54,7 @@ public class GameManager : MonoBehaviour {
 
         if (etat.Equals(EtatGame.bataille))
         {
-            if (activeDescente)
-            {
-                
-                if (whenDescente <= (Time.time - time))
-                {
-                    mapManager.activeDescente();
-                    if (multiCHance < 2)
-                    {
-                        multiCHance = 0;
-                    }
-                    else
-                    {
-                        multiCHance -= 2;
-                    }                    
-                    activeDescente = false;
-                }
-            }
+           
             effectManager.DisplayEffects();
             if (timerChrono <= (Time.time - time))
             {
@@ -96,22 +73,14 @@ public class GameManager : MonoBehaviour {
                 StopVote();
                 effectManager.BeginEffects();
                 etat = EtatGame.bataille;
-                multiCHance++;
-                calculChanceMap();
+                //multiCHance++;
+                //calculChanceMap();
             }
             TVManager.tvDisplay.DisplayTimer(timerVote, time);
         }
     }
 
-    public void calculChanceMap()
-    {
-        int chance = rnd.Next(0, 101);
-        if (chance< (chanceInit+(augmentationChance*multiCHance)))
-        {
-            activeDescente = true;
-            whenDescente = rnd.Next(0,(int)(timerChrono*0.8));
-        }
-    }
+
 
 
     // Met le jeu en état de préparation et place un buzzer au centre de la zone de jeu
@@ -126,7 +95,7 @@ public class GameManager : MonoBehaviour {
         multiplayerManager.InitializePlayers();
         etat = EtatGame.preparation;
 
-        multiCHance = 0;
+       
         if (firstPrepa)
         {
             //TODO : dialogue init

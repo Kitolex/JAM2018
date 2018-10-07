@@ -12,6 +12,7 @@ TagManager:
   - mutableMaterials
   - MapManager
   - PillarsWalls
+  - ZoneJeu
   layers:
   - Default
   - TransparentFX
