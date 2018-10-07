@@ -9,30 +9,31 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1474963831084642}
+  m_RootGameObject: {fileID: 1066101388668274}
   m_IsPrefabAsset: 1
---- !u!1 &1474963831084642
+--- !u!1 &1066101388668274
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4174899996014860}
-  - component: {fileID: 114254646522333316}
+  - component: {fileID: 4660956990843530}
+  - component: {fileID: 135793225527110956}
+  - component: {fileID: 114989620100865494}
   m_Layer: 0
-  m_Name: VoteManager
-  m_TagString: VoteManager
+  m_Name: ZoneDeJeu
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4174899996014860
+--- !u!4 &4660956990843530
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1474963831084642}
+  m_GameObject: {fileID: 1066101388668274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,24 +41,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114254646522333316
+--- !u!114 &114989620100865494
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1474963831084642}
+  m_GameObject: {fileID: 1066101388668274}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5afd3eab58f1366469dee69c11c8e76b, type: 3}
+  m_Script: {fileID: 11500000, guid: aaecac6e70c3d6c43b426a47bbba1fdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listVote:
-  - {fileID: 11400000, guid: 03199a7cf4ba5fc40a216db2e1414ab8, type: 2}
-  - {fileID: 11400000, guid: dec4111e09c75ad4c9d703f559b222e5, type: 2}
-  - {fileID: 11400000, guid: 55cf52e9305cf9b40adbd0883f59ad02, type: 2}
-  - {fileID: 11400000, guid: 1e795673aef9c654eb3272c226a6e7b7, type: 2}
-  - {fileID: 11400000, guid: 2545a5c161fa19647ab18422de2f6a00, type: 2}
-  voteActuel: {fileID: 0}
-  buzzer: {fileID: 0}
-  cylinder: {fileID: 0}
-  listBuzzer: []
+--- !u!135 &135793225527110956
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066101388668274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 30.2
+  m_Center: {x: 0, y: 0, z: 0}

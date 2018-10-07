@@ -11,7 +11,7 @@ public class TVDisplay : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        gameManager = GameObject.FindGameObjectWithTag("GameeManager").GetComponent<GameManager>();
+        gameManager = GameObject.FindGameObjectWithTag("MultiplayerManager").GetComponent<GameManager>();
         tvDisplay = GetComponent<Text>() as Text;
     }
 

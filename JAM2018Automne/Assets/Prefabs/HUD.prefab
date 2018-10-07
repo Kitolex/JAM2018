@@ -411,21 +411,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1Hearts:
-  - {fileID: 1160905288826472}
-  - {fileID: 1620008414512570}
-  - {fileID: 1021162974968056}
+  - {fileID: 114270707358176476}
+  - {fileID: 114302039814556084}
+  - {fileID: 114008626888548164}
   player2Hearts:
-  - {fileID: 1686065368810256}
-  - {fileID: 1292143720399670}
-  - {fileID: 1029156928094724}
+  - {fileID: 114268816336316002}
+  - {fileID: 114525100407597924}
+  - {fileID: 114617713727848594}
   player3Hearts:
-  - {fileID: 1405858256517458}
-  - {fileID: 1400613598788626}
-  - {fileID: 1472100418479466}
+  - {fileID: 114777055163607828}
+  - {fileID: 114735898053875598}
+  - {fileID: 114795753240720220}
   player4Hearts:
-  - {fileID: 1338283600327428}
-  - {fileID: 1784207220148894}
-  - {fileID: 1490621236395210}
+  - {fileID: 114722469018966792}
+  - {fileID: 114682759549667764}
+  - {fileID: 114996145375599590}
+  heartEmpty: {fileID: 21300000, guid: 915def1ed80b0424bb94c8cd1593e532, type: 3}
+  heartFull: {fileID: 21300000, guid: 5ff66f35ccea45944b13083acda972bd, type: 3}
 --- !u!114 &114525100407597924
 MonoBehaviour:
   m_ObjectHideFlags: 1

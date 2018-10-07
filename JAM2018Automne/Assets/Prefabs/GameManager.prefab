@@ -54,10 +54,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scores: 
   prefabList:
-  - {fileID: 1950264349642944, guid: 048e40349c21c5b4789a39963649f697, type: 2}
-  - {fileID: 1950264349642944, guid: 048e40349c21c5b4789a39963649f697, type: 2}
-  - {fileID: 1950264349642944, guid: 048e40349c21c5b4789a39963649f697, type: 2}
-  - {fileID: 1950264349642944, guid: 048e40349c21c5b4789a39963649f697, type: 2}
+  - {fileID: 1033142065448514, guid: 0c91c182fa4ceee469e1d0e55a9234e2, type: 2}
+  - {fileID: 1352263086099200, guid: a29b6d5195874d94886adb1fcf945943, type: 2}
+  - {fileID: 1734418637143986, guid: c3bf69ae10205674696d2f32a7dfebdb, type: 2}
+  - {fileID: 1977714878201868, guid: 7d6d8da36909bc04d8d15a0163ada33f, type: 2}
   SpawnPoints:
   - {fileID: 0}
   - {fileID: 0}
@@ -74,8 +74,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f07b4236b9d8de499da39e192ef6f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerChrono: 0
-  timerVote: 0
+  timerChrono: 10
+  timerVote: 10
   StartBuzzer: {fileID: 1479660623389318, guid: 0a446e5070debb34798475c2dd4c1ca6,
     type: 2}
-  v: {fileID: 0}
+  time: 0
+  etat: 0
+  winner: 
