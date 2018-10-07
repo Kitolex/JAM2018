@@ -12,6 +12,7 @@ public class EffectGelerSol : Effect
             pb.solGlace = true;
 		}
         changeDecorsMaterials("LowPoly_Ice1");
+        changeMapMaterials("LowPoly_Ice1");
         
     }
 
@@ -25,6 +26,7 @@ public class EffectGelerSol : Effect
 			pb.solGlace = false;
 		}
         changeDecorsMaterials("LowPoly_Rock");
+        changeMapMaterials("LowPoly_grass1");
     }
 
 
@@ -34,20 +36,22 @@ public class EffectGelerSol : Effect
     {
         Material iceMaterial = getMaterial(materialName);
         GameObject decors = GameObject.FindGameObjectWithTag("mutableMaterials");
-        for( int i=0; i< decors.transform.childCount; i++)
+        for (int i = 0; i < decors.transform.childCount; i++)
         {
             Renderer[] renderers = decors.transform.GetChild(i).GetComponents<Renderer>();
             if (renderers.Length > 0)
             {
                 foreach (Renderer r in renderers)
-                { 
-                    for (int j=0; j<r.materials.Length; j++)
+                {
+                    Material[] mats = r.materials;
+                    Material[] sharedMats = r.sharedMaterials;
+                    for (int j = 0; j < mats.Length; j++)
                     {
-                        Debug.Log("actual material : " + r.sharedMaterials[j].name);
-                        Debug.Log("ice material : " + iceMaterial.name);
-                        r.materials[j] = iceMaterial;
-                        r.sharedMaterials[j] = iceMaterial;
+                        mats[j] = iceMaterial;
+                        sharedMats[j] = iceMaterial;
                     }
+                    r.materials = mats;
+                    r.sharedMaterials = sharedMats;
                 }
             }
         }
@@ -55,7 +59,14 @@ public class EffectGelerSol : Effect
 
     private void changeMapMaterials(string materialName)
     {
-        
+        Material iceMaterial = getMaterial(materialName);
+        GameObject[] cerles = GameObject.FindGameObjectsWithTag("cercle");
+        foreach (GameObject go in cerles)
+        {
+            go.GetComponent<Renderer>().material = iceMaterial;
+            go.GetComponent<Renderer>().sharedMaterial = iceMaterial;
+        }
+
     }
 
     private Material getMaterial(string materialName)
