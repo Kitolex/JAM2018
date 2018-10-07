@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 23751126035044580}
   - component: {fileID: 64728834358336222}
   - component: {fileID: 95961764093755338}
+  - component: {fileID: 114419318747267914}
   m_Layer: 0
   m_Name: Cercle4
   m_TagString: Untagged
@@ -237,6 +238,7 @@ GameObject:
   - component: {fileID: 23554845211147546}
   - component: {fileID: 64836962202628342}
   - component: {fileID: 95349409938418368}
+  - component: {fileID: 114168173047799172}
   m_Layer: 0
   m_Name: Cercle5
   m_TagString: Untagged
@@ -322,6 +324,7 @@ GameObject:
   - component: {fileID: 23173201357013422}
   - component: {fileID: 64165766306340612}
   - component: {fileID: 95358259849952806}
+  - component: {fileID: 114715855363259844}
   m_Layer: 0
   m_Name: Cercle2
   m_TagString: Untagged
@@ -391,9 +394,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4797567455155568}
+  - component: {fileID: 114693711790469902}
   m_Layer: 0
   m_Name: Map-Standard
-  m_TagString: Untagged
+  m_TagString: MapManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -515,6 +519,7 @@ GameObject:
   - component: {fileID: 23117328264675926}
   - component: {fileID: 64113766104211722}
   - component: {fileID: 95105313293214952}
+  - component: {fileID: 114627919166266498}
   m_Layer: 0
   m_Name: Cercle1
   m_TagString: Untagged
@@ -621,6 +626,7 @@ GameObject:
   - component: {fileID: 23653771163299952}
   - component: {fileID: 64530083720753340}
   - component: {fileID: 95039684789629050}
+  - component: {fileID: 114969130446650598}
   m_Layer: 0
   m_Name: Cercle3
   m_TagString: Untagged
@@ -3150,3 +3156,76 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114168173047799172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315224503300802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6780b9b6c317e274f9a69bbfb0fa3e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114419318747267914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1250713660049804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6780b9b6c317e274f9a69bbfb0fa3e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114627919166266498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817764211089310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6780b9b6c317e274f9a69bbfb0fa3e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114693711790469902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604132074685206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0cf91cf94b44cd4a91d638003521dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listCercle:
+  - {fileID: 114627919166266498}
+  - {fileID: 114715855363259844}
+  - {fileID: 114969130446650598}
+  - {fileID: 114419318747267914}
+  - {fileID: 114168173047799172}
+  goCentral: {fileID: 1616561344106244}
+--- !u!114 &114715855363259844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507968877650816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6780b9b6c317e274f9a69bbfb0fa3e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114969130446650598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1919309428175132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6780b9b6c317e274f9a69bbfb0fa3e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -74,10 +74,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f07b4236b9d8de499da39e192ef6f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerChrono: 10
+  timerChrono: 5
   timerVote: 10
   StartBuzzer: {fileID: 1479660623389318, guid: 0a446e5070debb34798475c2dd4c1ca6,
     type: 2}
   time: 0
   etat: 0
   winner: 
+  chanceInit: 20
+  augmentationChance: 5
+  whenDescente: 0
