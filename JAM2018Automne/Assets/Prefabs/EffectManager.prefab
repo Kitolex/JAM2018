@@ -56,5 +56,8 @@ MonoBehaviour:
   - {fileID: 4456640840525332, guid: f7c670b286f4bb94c9e57feb241d00bd, type: 2}
   - {fileID: 4791491816812032, guid: 89bb954bedc549e47a3359936cf6f180, type: 2}
   - {fileID: 4996575933419238, guid: e5b6b1a6eefdf8e4b8852a3fda777019, type: 2}
-  walls: []
+  walls:
+  - {fileID: 4911182233962634, guid: c82cd1ef6c2582248aa33e78b748afb4, type: 2}
+  - {fileID: 4141984026547668, guid: d9be4f0da9e464b4fbd369730655d758, type: 2}
+  - {fileID: 4249928623397044, guid: 3b2370e2e2a82bc4eab0dec57290e429, type: 2}
   bumper: {fileID: 0}
