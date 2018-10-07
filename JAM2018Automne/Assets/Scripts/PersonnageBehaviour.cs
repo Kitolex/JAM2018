@@ -20,8 +20,9 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
     private MultiplayerManager multiplayerManager;
     private bool DashPressed;
     private List<IDashable> HitMemory;
-   
 
+    [HideInInspector]
+    public int prefabID;
     public int playerID;
     public Sprite portrait;
     [HideInInspector]
