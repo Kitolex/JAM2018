@@ -9,12 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19b0386c330f1b241b3f28c389d759d8, type: 3}
-  m_Name: newVote
+  m_Name: test2
   m_EditorClassIdentifier: 
-  enonce: Enonce
+  enonce: hiver ou hiverinversion
   nomProposition:
-  - a
-  - b
+  - hiver
+  - hiverInversion
   listEffects:
-  - effects: 0400000003000000
   - effects: 01000000
+  - effects: 0100000003000000

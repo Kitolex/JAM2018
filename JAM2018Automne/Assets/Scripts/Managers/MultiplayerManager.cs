@@ -86,7 +86,7 @@ public class MultiplayerManager : MonoBehaviour {
             {
                 p.gameObject.SetActive(true);
                 p.initialise();
-                p.transform.position = SpawnPoints[p.getPlayerID()].transform.position;
+                p.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position;
             }           
         }
     }
@@ -148,7 +148,7 @@ public class MultiplayerManager : MonoBehaviour {
         {
             if (p.getPlayerID() == idPlayer)
             {
-               p.gameObject.transform.position = SpawnPoints[p.getPlayerID()].transform.position;
+               p.gameObject.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position;
                 p.Respawn();
             }
         }

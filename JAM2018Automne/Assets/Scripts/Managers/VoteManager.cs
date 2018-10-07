@@ -7,16 +7,19 @@ public class VoteManager : MonoBehaviour {
 
     public List<Vote> listVote;
     public Vote voteActuel;
-    public BuzzerVote buzzer;
+    public GameObject buzzer;
+    public GameObject cylinder;
+    private Random rnd;
 
    // private Dictionary<string, int> countSmash;
    // private Dictionary<string, List<ListEffet>> consequence;
-    private List<BuzzerVote> listBuzzer;
+    public List<BuzzerVote> listBuzzer;
 
     private const string intro = "Passons maintenant aux votes.";
 
     // Use this for initialization
     void Start () {
+        rnd = new Random();
         listBuzzer = new List<BuzzerVote>();
 
     }
@@ -26,20 +29,35 @@ public class VoteManager : MonoBehaviour {
 		
 	}
 
+    public void destroyBuzzer()
+    {
+        foreach (BuzzerVote b in listBuzzer)
+        {
+            Destroy(b.gameObject);
+        }
+        listBuzzer = new List<BuzzerVote>();
+    }
+
     public void startVote()
     {
+
+        Debug.Log("startVote");
         voteActuel = searchVote();
         string enonce = intro+ voteActuel.enonce;
         //TODO afficher enoncer
         //TODO afficher prop
         for(int i = 0; i <voteActuel.nomProposition.Count;i++)
         {
-            BuzzerVote buzzerVoteTemp = Instantiate(buzzer);            
-            buzzerVoteTemp.consequence = voteActuel.listEffects;
-            buzzerVoteTemp.rayon = calculRayonPopBuzzer(52.0f);//ALLER CHERCHER taille cercle
-            Random rnd = new Random();
-            buzzerVoteTemp.angle = rnd.Next(0, 360);
-            listBuzzer.Add(buzzerVoteTemp);
+            GameObject go = Instantiate(buzzer);
+            go.name = voteActuel.nomProposition[i]+"";
+            go.AddComponent<BuzzerVote>();
+            go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
+            go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer((cylinder.transform.localScale.z)/2);//TODO ALLER CHERCHER taille cercle
+            
+            int angle = rnd.Next(0, 360);
+            Debug.Log(angle);
+            go.GetComponent<BuzzerVote>().angle = angle;
+            listBuzzer.Add(go.GetComponent<BuzzerVote>());
         }
         foreach (BuzzerVote b in listBuzzer)
         {
@@ -51,15 +69,15 @@ public class VoteManager : MonoBehaviour {
 
     public float calculRayonPopBuzzer(float rayon)
     {
-        Random rnd = new Random();
         double value = rnd.NextDouble();
-        float newRayon = (float) ((rayon - 0.0f) * value); //TODO rajouter taille buzzer
-        return newRayon;    
+        float newRayon = (float) ((rayon *0.85) * value); //TODO rajouter taille buzzer
+        return newRayon;
+        
     }
 
 
 
-    public List<ListEffet> getEffect()
+    public ListEffet getEffect()
     {
         int max = 0;
         BuzzerVote buzzerWin = null;
@@ -71,10 +89,8 @@ public class VoteManager : MonoBehaviour {
                 buzzerWin = b;
             }
         }
-        if (buzzerWin == null)
-        {
-            return null;
-        }
+
+        Debug.Log("BUZZERWIN : "+buzzerWin);
         return buzzerWin.consequence;
 
     }
@@ -82,7 +98,6 @@ public class VoteManager : MonoBehaviour {
 
     private Vote searchVote()
     {
-        Random rnd = new Random();
         int value = rnd.Next(0, listVote.Count);
         return listVote[value];
     }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EffectManager : MonoBehaviour {
 
-    private List<Effect> listEffectEnCours;
+    public List<Effect> listEffectEnCours;
 
     // Use this for initialization
     void Start () {
@@ -16,14 +16,13 @@ public class EffectManager : MonoBehaviour {
 		
 	}
 
-    public void createliste(List<ListEffet> listEffets)
+    public void createliste(ListEffet listEffets)
     {
-        foreach(ListEffet es in listEffets)
+        foreach(Effects e in listEffets.effects)
         {
-            foreach (Effects e in es.effects)
-            {
+
                 addList(e);
-            }
+
         }
     }
 

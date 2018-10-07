@@ -6,14 +6,13 @@ using UnityEngine;
 public class BuzzerVote : MonoBehaviour , IDashable{
 
     public int smash;
-    public List<ListEffet> consequence;
+    public ListEffet consequence;
     public float rayon;
     public int angle;
 
     // Use this for initialization
     void Start () {
         smash = 0;
-        consequence = new List<ListEffet>();
 
     }
 	
@@ -41,6 +40,7 @@ public class BuzzerVote : MonoBehaviour , IDashable{
 
     public void subirDash(GameObject dasher)
     {
+        Debug.Log("dd");
         smash++;
     }
 
