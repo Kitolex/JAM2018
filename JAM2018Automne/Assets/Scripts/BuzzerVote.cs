@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BuzzerVote : MonoBehaviour , IDashable{
+    public AudioClip buzzerSound;
 
     public int smash;
     public string nomProposition;
@@ -43,6 +44,8 @@ public class BuzzerVote : MonoBehaviour , IDashable{
 
     public void subirDash(GameObject dasher)
     {
+        AudioManager.Instance.PlaySound(buzzerSound, Vector3.zero);
+
         PersonnageBehaviour personnage = dasher.GetComponent<PersonnageBehaviour>();
 
         Vector3 impact = (personnage.transform.position - this.transform.position);

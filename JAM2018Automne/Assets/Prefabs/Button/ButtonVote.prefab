@@ -529,6 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 867376c6fcebdae408d1cc5b38d7c44f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buzzerSound: {fileID: 8300000, guid: 4c8410914c55d7649a74e0314008e370, type: 3}
   smash: 0
   nomProposition: 
   consequence:

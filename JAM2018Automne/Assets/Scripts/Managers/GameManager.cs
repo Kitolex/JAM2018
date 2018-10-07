@@ -6,6 +6,9 @@ using Random = System.Random;
 
 public class GameManager : MonoBehaviour {
 
+    public AudioClip BackgroundMusic;
+    public AudioClip EndGame1;
+    public AudioClip EndGame2;
     public float timerChrono;
     public float timerVote;
     public GameObject StartBuzzer;
@@ -120,7 +123,9 @@ public class GameManager : MonoBehaviour {
         pm.gameObject.SetActive(false);
         // Suppression du buzzer
         Destroy(buzzerInstance);
-       
+
+        if (firstPrepa)
+            AudioManager.Instance.PlaySound(BackgroundMusic, Vector3.zero, true);
         multiplayerManager.InitializePlayers();
         time = Time.time;
         etat = EtatGame.bataille;
@@ -129,7 +134,12 @@ public class GameManager : MonoBehaviour {
     // Appelé lorsqu'il ne reste plus qu'un joueur en vie. Affiche le vainqueur et remet le jeu en état de préparation
     public void EndRound(string winner)
     {
+
         voteManager.destroyBuzzer();
+
+        AudioManager.Instance.PlaySound(EndGame1, Vector3.zero, true);
+        AudioManager.Instance.PlaySound(EndGame2, Vector3.zero, true);
+
         this.winner = winner;       
         TVManager.tvDisplay.DisplayWinner(winner);
         pm.gameObject.SetActive(false);

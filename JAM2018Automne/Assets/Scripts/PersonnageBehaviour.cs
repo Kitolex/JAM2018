@@ -21,6 +21,8 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
     private bool DashPressed;
     private List<IDashable> HitMemory;
 
+
+    public AudioClip BumpSound;
     [HideInInspector]
     public int prefabID;
     public int playerID;
@@ -291,6 +293,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 
     public void subirDash(GameObject dasher)
     {
+        AudioManager.Instance.PlaySound(BumpSound, Vector3.zero);
         PersonnageBehaviour behaviour = dasher.GetComponent<PersonnageBehaviour>();
 
         this.stun(behaviour.stunDuration);
