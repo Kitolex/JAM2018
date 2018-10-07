@@ -10,6 +10,7 @@ TagManager:
   - ground
   - material
   - mutableMaterials
+  - MapManager
   layers:
   - Default
   - TransparentFX
