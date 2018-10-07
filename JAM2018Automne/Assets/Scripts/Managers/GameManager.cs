@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour {
     private EffectManager effectManager;
     private MapManager mapManager;
 
-    private int nbCycle;
+    private int multiCHance;//pas touche
     public int chanceInit;
     public int augmentationChance;
 
@@ -67,6 +67,14 @@ public class GameManager : MonoBehaviour {
                 if (whenDescente <= (Time.time - time))
                 {
                     mapManager.activeDescente();
+                    if (multiCHance < 2)
+                    {
+                        multiCHance = 0;
+                    }
+                    else
+                    {
+                        multiCHance -= 2;
+                    }                    
                     activeDescente = false;
                 }
             }
@@ -87,7 +95,7 @@ public class GameManager : MonoBehaviour {
                 StopVote();
                 effectManager.BeginEffects();
                 etat = EtatGame.bataille;
-                nbCycle++;
+                multiCHance++;
                 calculChanceMap();
             }
         }
@@ -96,7 +104,7 @@ public class GameManager : MonoBehaviour {
     public void calculChanceMap()
     {
         int chance = rnd.Next(0, 101);
-        if (chance< (chanceInit+(augmentationChance*nbCycle))-(mapManager.listCercle.Count-mapManager.nb))
+        if (chance< (chanceInit+(augmentationChance*multiCHance)))
         {
             activeDescente = true;
             whenDescente = rnd.Next(0,(int)(timerChrono*0.8));
@@ -115,7 +123,7 @@ public class GameManager : MonoBehaviour {
         buzzerInstance.GetComponent<BuzzerStart>().gameManager = this;
         multiplayerManager.InitializePlayers();
         etat = EtatGame.preparation;
-        nbCycle = 0;
+        multiCHance = 0;
         if (firstPrepa)
         {
             //TODO : dialogue init
