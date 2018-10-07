@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:JAM2018Automne/Assets/Prefabs/meatboy.prefab.meta
+guid: 30053bfe1aeb7324f8ec9358d6c4dc27
+NativeFormatImporter:
+=======
+guid: 03e9c15eb1569934fa621892c6e537fe
+MonoImporter:
+>>>>>>> parent of 247a185... Merge remote-tracking branch 'origin/Raphaël' into dev:JAM2018Automne/Assets/Scripts/BillboardOmbre.cs.meta
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -161,12 +161,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerID: 0
+  rb: {fileID: 0}
   ombre: {fileID: 1004604135243790}
   speed: 8
   dashPropulsionForce: 30
-  dashCooldown: 1
+  dashCooldown: 0.4
   dashAnimationLock: 0.2
-  stunDuration: 0.7
+  stunDuration: 0.6
   dashImpactForce: 30
   VieMax: 0
   commandeInversees: 0

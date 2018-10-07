@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PersonnageBehaviour : MonoBehaviour {
+public class PersonnageBehaviour : MonoBehaviour, IDashable {
 
 	private string AXIS_HORIZONTAL;
 	private string AXIS_VERTICAL;
     private string BUTTON_DASH;
 
-    public int playerID;
-	private Rigidbody rb;
+
 	private bool sortieDeLaMap;
 	private float dashCooldownActual;
 	private float dashAnimationLockActual;
@@ -21,8 +20,13 @@ public class PersonnageBehaviour : MonoBehaviour {
     private int VieActuelle;
     private MultiplayerManager multiplayerManager;
     private bool DashPressed;
+    private List<IDashable> HitMemory;
+   
 
-	public GameObject ombre;
+    public int playerID;
+    [HideInInspector]
+    public Rigidbody rb;
+    public GameObject ombre;
 	public float speed = 8.0f;
 	public float dashPropulsionForce = 30.0f;
 	public float dashCooldown = 1.0f;
@@ -65,6 +69,8 @@ public class PersonnageBehaviour : MonoBehaviour {
         this.previousPosition = this.transform.position;
         this.previousDeplacement = Vector3.zero;
         this.DashPressed = false;
+        this.rb.velocity = Vector3.zero;
+        this.rb.ResetInertiaTensor();
     }
 
 	public void setPlayerID(int playerID) {
@@ -207,6 +213,8 @@ public class PersonnageBehaviour : MonoBehaviour {
 	private void dasherVers(Vector3 direction) {
 
 		if(Time.time >= dashCooldownActual) {
+            HitMemory = new List<IDashable>();
+
 			dashCooldownActual = Time.time + dashCooldown;
 			dashAnimationLockActual = Time.time + dashAnimationLock;
 
@@ -224,35 +232,16 @@ public class PersonnageBehaviour : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter(Collision collision) {
-
-		if(collision.collider.tag.Equals("Player")) {
-
-			PersonnageBehaviour pb = collision.collider.gameObject.GetComponent<PersonnageBehaviour>();
-
-			if(pb.isDashing()) {
-				this.stun(pb.stunDuration);
-
-				Vector3 impact = (this.transform.position - pb.transform.position).normalized * pb.dashImpactForce;
-
-				if(chaleurIntense) {
-					impact *= 0.5f;
-				}
-
-				if(ejectionRenforcee) {
-					impact *= 2.0f;
-				}
-
-				this.rb.AddForce(impact, ForceMode.Impulse);
-			}
-		}
+	void OnCollisionStay(Collision collision) {
 
 		if(this.isDashing()){
 
 			IDashable d = collision.collider.GetComponent<IDashable>();
 
-			if(d != null) {
-				d.subirDash(this.gameObject);
+			if(d != null && !HitMemory.Contains(d))
+            { 
+                d.subirDash(this.gameObject);
+                HitMemory.Add(d);
 			}
 		}
 	}
@@ -276,4 +265,25 @@ public class PersonnageBehaviour : MonoBehaviour {
 		else
 			return Input.GetAxis(AXIS_VERTICAL);
 	}
+
+    public void subirDash(GameObject dasher)
+    {
+        PersonnageBehaviour behaviour = dasher.GetComponent<PersonnageBehaviour>();
+
+        this.stun(behaviour.stunDuration);
+
+        Vector3 impact = (this.transform.position - behaviour.transform.position).normalized * behaviour.dashImpactForce;
+
+        if (chaleurIntense)
+        {
+            impact *= 0.5f;
+        }
+
+        if (ejectionRenforcee)
+        {
+            impact *= 2.0f;
+        }
+
+        this.rb.AddForce(impact, ForceMode.Impulse);
+    }
 }
