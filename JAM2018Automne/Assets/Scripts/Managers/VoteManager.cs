@@ -44,14 +44,14 @@ public class VoteManager : MonoBehaviour {
         Debug.Log("startVote");
         voteActuel = searchVote();
         string enonce = intro+ voteActuel.enonce;
-        //TODO afficher enoncer
-        //TODO afficher prop
-
+        PresentateurManager.PManager.setStatementText(enonce);
             for (int i = 0; i < voteActuel.nomProposition.Count; i++)
             {
                 GameObject go = Instantiate(buzzer);
                 go.name = voteActuel.nomProposition[i] + "";
-                go.AddComponent<BuzzerVote>();
+            PresentateurManager.PManager.setPropText(voteActuel.nomProposition[i], i);
+            go.AddComponent<BuzzerVote>();
+            go.GetComponent<BuzzerVote>().nomProposition = voteActuel.nomProposition[i];
                 go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
                 go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer((cylinder.transform.localScale.z) / 2);//TODO ALLER CHERCHER taille cercle
 
@@ -89,10 +89,8 @@ public class VoteManager : MonoBehaviour {
                 buzzerWin = b;
             }
         }
-
+        TVManager.tvDisplay.DisplayVoteResult(buzzerWin.nomProposition);
         return buzzerWin.consequence;
-
-
     }
 
 

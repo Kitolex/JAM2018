@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
 
     private GameObject buzzerInstance;
     public float time;
-   
+
     public EtatGame etat;
     public string winner;
     private MultiplayerManager multiplayerManager;
@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour {
                 etat = EtatGame.vote;
                 voteManager.startVote();
             }
+            TVManager.tvDisplay.DisplayTimer(timerChrono, time);
         }
         if (etat.Equals(EtatGame.vote))
         {
@@ -64,6 +65,7 @@ public class GameManager : MonoBehaviour {
                 effectManager.BeginEffects();
                 etat = EtatGame.bataille;
             }
+            TVManager.tvDisplay.DisplayTimer(timerVote, time);
         }
     }
 
@@ -79,6 +81,8 @@ public class GameManager : MonoBehaviour {
 
         multiplayerManager.InitializePlayers();
         etat = EtatGame.preparation;
+
+        TVManager.tvDisplay.DisplayPreparation();
     }
 
     // Sort de l'état de préparation
@@ -95,7 +99,7 @@ public class GameManager : MonoBehaviour {
     // Appelé lorsqu'il ne reste plus qu'un joueur en vie. Affiche le vainqueur et remet le jeu en état de préparation
     public void EndRound(string winner)
     {
-        this.winner = winner;
+        TVManager.tvDisplay.DisplayWinner(winner);
         EnterPreparation();
         effectManager.EndEffects();
     }
@@ -103,6 +107,7 @@ public class GameManager : MonoBehaviour {
     private void StopVote()
     {
         Debug.Log("STOPVOTE");
+        PresentateurManager.PManager.hideText();
         ListEffet listEffect = voteManager.getEffect();
         afficheReponse(listEffect.reponse);
         effectManager.createliste(listEffect);
@@ -112,6 +117,7 @@ public class GameManager : MonoBehaviour {
     private void afficheReponse(string reponse)
     {
         Debug.Log(reponse);
+        PresentateurManager.PManager.setStatementText(reponse);
     }
 }
 
