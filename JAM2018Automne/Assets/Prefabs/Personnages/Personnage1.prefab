@@ -150,6 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerID: 0
+  portrait: {fileID: 21300244, guid: 1cc0233f50ac02a46a9274e63536062d, type: 3}
   rb: {fileID: 0}
   ombre: {fileID: 1876524574183328}
   speed: 8
@@ -159,6 +160,7 @@ MonoBehaviour:
   stunDuration: 0.6
   dashImpactForce: 30
   VieMax: 0
+  VieActuelle: 0
   commandeInversees: 0
   commandeTournees: 0
   solGlace: 0

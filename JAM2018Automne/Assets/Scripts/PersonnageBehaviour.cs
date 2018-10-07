@@ -23,6 +23,7 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
    
 
     public int playerID;
+    public Sprite portrait;
     [HideInInspector]
     public Rigidbody rb;
     public GameObject ombre;

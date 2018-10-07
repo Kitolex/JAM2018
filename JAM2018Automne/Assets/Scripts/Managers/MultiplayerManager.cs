@@ -36,6 +36,9 @@ public class MultiplayerManager : MonoBehaviour {
     /// </summary>
     public void HandleInput()
     {
+        if (gameManager.etat != EtatGame.preparation)
+            return;
+
         //Récupération des inputs
         for (int i = 1; i <= 4; i++)
             if (Input.GetAxisRaw("Player" + i + "Start") != 0)
@@ -75,6 +78,8 @@ public class MultiplayerManager : MonoBehaviour {
             if (behaviour)
                 playerList.Add(behaviour);
             behaviour.setPlayerID(numPlayer);
+
+            HUDManager.Instance.InitHud(playerList);
         }
     }
 
