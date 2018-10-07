@@ -337,6 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerID: 0
+  portrait: {fileID: 21300238, guid: a867585cfd8494047b92a1b3705a3a5f, type: 3}
   rb: {fileID: 0}
   ombre: {fileID: 1764975451258642}
   stunFX: {fileID: 1567155239391416}
