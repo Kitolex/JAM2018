@@ -159,7 +159,7 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log("STOPVOTE");
         ListEffet listEffect = voteManager.getEffect();
-        if (listEffect.effects.Count>0)
+        if (listEffect.effects != null)
         {
             afficheReponse(listEffect.reponse);
             effectManager.createliste(listEffect);

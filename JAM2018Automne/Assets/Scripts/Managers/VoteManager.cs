@@ -16,6 +16,9 @@ public class VoteManager : MonoBehaviour {
     // private Dictionary<string, List<ListEffet>> consequence;
     public List<BuzzerVote> listBuzzer;
 
+    private int angle;
+    private float rayon;
+
     private const string intro = "Passons maintenant aux votes.";
 
     // Use this for initialization
@@ -53,10 +56,14 @@ public class VoteManager : MonoBehaviour {
             {
                 GameObject go = Instantiate(buzzer);
                 go.name = "BuzzerVote" + i;
-                createBuzzer(go,i);
+                createBuzzer();
+                go.AddComponent<BuzzerVote>();
+                go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
+                go.GetComponent<BuzzerVote>().angle = angle;
+                go.GetComponent<BuzzerVote>().rayon = rayon;
+                listBuzzer.Add(go.GetComponent<BuzzerVote>());
                 
-                
-            }
+        }
             foreach (BuzzerVote b in listBuzzer)
             {
                 b.pop();
@@ -64,33 +71,26 @@ public class VoteManager : MonoBehaviour {
 
     }
 
-    public void createBuzzer(GameObject go,int i)
+    public void createBuzzer()
     {
-        go.AddComponent<BuzzerVote>();
-        go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
-        go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer(mapManager.getDiametreMap() / 2);//TODO ALLER CHERCHER taille cercle
-        int angle = rnd.Next(0, 360);
-        Debug.Log(angle);
-        go.GetComponent<BuzzerVote>().angle = angle;
+        rayon = calculRayonPopBuzzer(mapManager.getDiametreMap() / 2);
+        angle = rnd.Next(0, 360);
+        
 
-        if (checkRandom(go))
+        if (!checkRandom(angle, rayon))
         {
-            listBuzzer.Add(go.GetComponent<BuzzerVote>());
-        }
-        else
-        {
-            createBuzzer(buzzer, i);
+            createBuzzer();
         }
     }
 
-    public bool checkRandom(GameObject go)
+    public bool checkRandom(int angle,float rayon)
     {
         foreach (BuzzerVote b in listBuzzer)
         {
-            if (go.GetComponent<BuzzerVote>().rayon < (b.rayon*1.15) &&
-                go.GetComponent<BuzzerVote>().rayon > (b.rayon * 0.85) &&
-                go.GetComponent<BuzzerVote>().angle < (b.angle * 1.15) &&
-                go.GetComponent<BuzzerVote>().angle > (b.angle * 0.85)
+            if (rayon < (b.rayon*1.15) &&
+                rayon > (b.rayon * 0.85) &&
+                angle < (b.angle * 1.15) &&
+                angle > (b.angle * 0.85)
                 )
             {
                 return false;

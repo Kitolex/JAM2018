@@ -31,6 +31,7 @@ public class MapManager : MonoBehaviour {
 
     public float getDiametreMap()
     {
+        Debug.Log("getDiametreMap" + listCercle[nb - 1].getDiametre());
         if (nb!=0)
         {
             return listCercle[nb - 1].getDiametre();

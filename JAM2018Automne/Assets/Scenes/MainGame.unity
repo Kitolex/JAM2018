@@ -2351,6 +2351,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114254646522333316, guid: a7f55644b25d093418d3bd9bcb5a41ad,
+        type: 2}
+      propertyPath: listVote.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4174899996014860, guid: a7f55644b25d093418d3bd9bcb5a41ad, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2393,6 +2398,12 @@ Prefab:
       propertyPath: cylinder
       value: 
       objectReference: {fileID: 1534639127}
+    - target: {fileID: 114254646522333316, guid: a7f55644b25d093418d3bd9bcb5a41ad,
+        type: 2}
+      propertyPath: listVote.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2545a5c161fa19647ab18422de2f6a00,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7f55644b25d093418d3bd9bcb5a41ad, type: 2}
   m_IsPrefabAsset: 0
