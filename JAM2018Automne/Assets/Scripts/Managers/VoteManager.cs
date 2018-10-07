@@ -53,20 +53,52 @@ public class VoteManager : MonoBehaviour {
             {
                 GameObject go = Instantiate(buzzer);
                 go.name = "BuzzerVote" + i;
-                go.AddComponent<BuzzerVote>();
-                go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
-                go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer(mapManager.getDiametreMap()/2);//TODO ALLER CHERCHER taille cercle
-
-                int angle = rnd.Next(0, 360);
-                Debug.Log(angle);
-                go.GetComponent<BuzzerVote>().angle = angle;
-                listBuzzer.Add(go.GetComponent<BuzzerVote>());
+                createBuzzer(go,i);
+                
+                
             }
             foreach (BuzzerVote b in listBuzzer)
             {
                 b.pop();
             }
 
+    }
+
+    public void createBuzzer(GameObject go,int i)
+    {
+        go.AddComponent<BuzzerVote>();
+        go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
+        go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer(mapManager.getDiametreMap() / 2);//TODO ALLER CHERCHER taille cercle
+        int angle = rnd.Next(0, 360);
+        Debug.Log(angle);
+        go.GetComponent<BuzzerVote>().angle = angle;
+
+        if (checkRandom(go))
+        {
+            listBuzzer.Add(go.GetComponent<BuzzerVote>());
+        }
+        else
+        {
+            createBuzzer(buzzer, i);
+        }
+    }
+
+    public bool checkRandom(GameObject go)
+    {
+        foreach (BuzzerVote b in listBuzzer)
+        {
+            if (go.GetComponent<BuzzerVote>().rayon < (b.rayon*1.15) &&
+                go.GetComponent<BuzzerVote>().rayon > (b.rayon * 0.85) &&
+                go.GetComponent<BuzzerVote>().angle < (b.angle * 1.15) &&
+                go.GetComponent<BuzzerVote>().angle > (b.angle * 0.85)
+                )
+            {
+                return false;
+            }
+            
+        }
+
+         return true;
     }
 
     public float calculRayonPopBuzzer(float rayon)
