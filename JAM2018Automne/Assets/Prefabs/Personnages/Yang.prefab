@@ -358,6 +358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71be8c7df8ab4b04db861d7c6cdc2a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BumpSound: {fileID: 8300000, guid: 3bcfd5036b03a0945bc42932e71bf1c6, type: 3}
+  prefabID: 0
   playerID: 0
   portrait: {fileID: 21300244, guid: e27793ba30eac954684649fbec596e41, type: 3}
   rb: {fileID: 0}
@@ -379,6 +381,7 @@ MonoBehaviour:
   maxSpeedGlace: 12
   chaleurIntense: 0
   ejectionRenforcee: 0
+  directionDashAleatoire: 0
 --- !u!114 &114872155222319430
 MonoBehaviour:
   m_ObjectHideFlags: 1
