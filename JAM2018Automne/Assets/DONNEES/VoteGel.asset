@@ -18,8 +18,8 @@ MonoBehaviour:
   - inv
   listEffects:
   - effects: 01000000
-    reponse: 
+    reponse: 565
   - effects: 02000000
-    reponse: 
+    reponse: 65464
   - effects: 03000000
-    reponse: 
+    reponse: 45646

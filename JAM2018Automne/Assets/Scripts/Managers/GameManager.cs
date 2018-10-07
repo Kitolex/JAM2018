@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour {
 
         if (etat.Equals(EtatGame.bataille))
         {
-            pm.gameObject.SetActive(false);
+
             effectManager.DisplayEffects();
             if (timerChrono <= (Time.time - time))
             {

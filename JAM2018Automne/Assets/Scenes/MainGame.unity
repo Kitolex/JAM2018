@@ -501,6 +501,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114493803622962162, guid: 479d67fbf1b5b034aa9ef5f69d829efd,
+        type: 2}
+      propertyPath: buzzerSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c8410914c55d7649a74e0314008e370, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 479d67fbf1b5b034aa9ef5f69d829efd, type: 2}
   m_IsPrefabAsset: 0
@@ -906,6 +911,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114493803622962162, guid: 8a0dad2fbe2ff2a42a629adbdf9dd0a1,
+        type: 2}
+      propertyPath: buzzerSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c8410914c55d7649a74e0314008e370, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a0dad2fbe2ff2a42a629adbdf9dd0a1, type: 2}
   m_IsPrefabAsset: 0
@@ -2439,6 +2449,11 @@ Prefab:
     - target: {fileID: 1514358495188542, guid: 8b4c72483ef1cae4fb811331d3c24a6b, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114881740739236342, guid: 8b4c72483ef1cae4fb811331d3c24a6b,
+        type: 2}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b4c72483ef1cae4fb811331d3c24a6b, type: 2}
