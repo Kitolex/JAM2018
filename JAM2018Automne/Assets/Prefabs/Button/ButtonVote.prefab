@@ -530,6 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smash: 0
+  nomProposition: 
   consequence:
     effects: 
     reponse: 

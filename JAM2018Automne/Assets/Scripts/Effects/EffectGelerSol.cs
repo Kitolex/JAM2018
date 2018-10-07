@@ -26,7 +26,7 @@ public class EffectGelerSol : Effect
 			pb.solGlace = false;
 		}
         changeDecorsMaterials("LowPoly_Rock");
-        changeMapMaterials("LowPoly_grass1");
+        changeMapMaterials("LowPoly_Grass1");
     }
 
 
@@ -63,8 +63,12 @@ public class EffectGelerSol : Effect
         GameObject[] cerles = GameObject.FindGameObjectsWithTag("cercle");
         foreach (GameObject go in cerles)
         {
-            go.GetComponent<Renderer>().material = iceMaterial;
-            go.GetComponent<Renderer>().sharedMaterial = iceMaterial;
+            Material m = go.GetComponent<Renderer>().material;
+            Material sm = go.GetComponent<Renderer>().sharedMaterial;
+            m = iceMaterial;
+            sm = iceMaterial;
+            go.GetComponent<Renderer>().material = m;
+            go.GetComponent<Renderer>().sharedMaterial = sm;
         }
 
     }

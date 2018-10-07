@@ -7,6 +7,7 @@ public class VoteManager : MonoBehaviour {
 
     public List<Vote> listVote;
     public Vote voteActuel;
+    public List<BuzzerVote> buzzerClone;
     public GameObject buzzer;
     public GameObject cylinder;
     private Random rnd;
@@ -70,7 +71,7 @@ public class VoteManager : MonoBehaviour {
         {
             for (int i = 0; i < voteActuel.nomProposition.Count; i++)
             {
-                GameObject go = Instantiate(buzzer);
+                GameObject go = Instantiate(buzzerClone[i].gameObject);
                 go.name = "BuzzerVote" + i;
                 createBuzzer();
                 go.AddComponent<BuzzerVote>();
@@ -112,10 +113,10 @@ public class VoteManager : MonoBehaviour {
     {
         foreach (BuzzerVote b in listBuzzer)
         {
-            if (rayon < (b.rayon*1.15) &&
-                rayon > (b.rayon * 0.85) &&
-                angle < (b.angle * 1.15) &&
-                angle > (b.angle * 0.85)
+            if (rayon < (b.rayon*1.2) &&
+                rayon > (b.rayon * 0.80) &&
+                angle < (b.angle * 1.2) &&
+                angle > (b.angle * 0.80)
                 )
             {
                 return false;
