@@ -6,5 +6,13 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: animatorFat
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: b720a838ac4d7dc4c932dc4d81d7aab9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ec7f74b593de0d7419ad4316854ca558, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c32cf68bbf8d6ac41960e09d89b62402, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 79d04fc6907f05f4c90c3338c84a617c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 61c93876edf14474aa6fcfa8bd0d0f26, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4a310a5dbe8466e4d9f287886c4c7807, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0d0521a4b612f3848b7645c1a15a935a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fb020a5412dee7a4aba36d29ee36a8a8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1ca6876f50665f942829d7adac927e9a, type: 2}
