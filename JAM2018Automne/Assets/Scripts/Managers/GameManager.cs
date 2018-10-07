@@ -11,12 +11,15 @@ public class GameManager : MonoBehaviour {
     public GameObject StartBuzzer;
 
     private GameObject buzzerInstance;
-    private float time;
+    public float time;
    
     public EtatGame etat;
+    public string winner;
     private MultiplayerManager multiplayerManager;
     private VoteManager voteManager;
     private EffectManager effectManager;
+
+
 
     // Use this for initialization
     void Start () {
@@ -92,7 +95,7 @@ public class GameManager : MonoBehaviour {
     // Appelé lorsqu'il ne reste plus qu'un joueur en vie. Affiche le vainqueur et remet le jeu en état de préparation
     public void EndRound(string winner)
     {
-        Debug.Log(winner);  // A AFFICHER IN GAME
+        this.winner = winner;
         EnterPreparation();
         effectManager.EndEffects();
     }
