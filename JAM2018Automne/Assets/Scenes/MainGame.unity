@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1006,6 +1006,26 @@ Prefab:
       propertyPath: m_Name
       value: Map-Standard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1315224503300802, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250713660049804, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919309428175132, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507968877650816, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1817764211089310, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d69698f873f6a84699a252420ad1d15, type: 2}
   m_IsPrefabAsset: 0
@@ -1899,6 +1919,16 @@ Prefab:
       propertyPath: SpawnPoints.Array.data[3]
       value: 
       objectReference: {fileID: 202574611}
+    - target: {fileID: 114795176166985664, guid: fa799742c4e5e79479333d51748a2161,
+        type: 2}
+      propertyPath: chanceInit
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114795176166985664, guid: fa799742c4e5e79479333d51748a2161,
+        type: 2}
+      propertyPath: augmentationChance
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa799742c4e5e79479333d51748a2161, type: 2}
   m_IsPrefabAsset: 0
@@ -2341,6 +2371,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114254646522333316, guid: a7f55644b25d093418d3bd9bcb5a41ad,
+        type: 2}
+      propertyPath: listVote.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4174899996014860, guid: a7f55644b25d093418d3bd9bcb5a41ad, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2383,6 +2418,12 @@ Prefab:
       propertyPath: cylinder
       value: 
       objectReference: {fileID: 1534639127}
+    - target: {fileID: 114254646522333316, guid: a7f55644b25d093418d3bd9bcb5a41ad,
+        type: 2}
+      propertyPath: listVote.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2545a5c161fa19647ab18422de2f6a00,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7f55644b25d093418d3bd9bcb5a41ad, type: 2}
   m_IsPrefabAsset: 0

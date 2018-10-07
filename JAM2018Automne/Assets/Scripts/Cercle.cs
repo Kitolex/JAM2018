@@ -25,7 +25,7 @@ public class Cercle : MonoBehaviour {
     }
     public float getDiametre()
     {
-        return (transform.localPosition.z);
+        return gameObject.transform.localScale.z;
     }
 
 }
