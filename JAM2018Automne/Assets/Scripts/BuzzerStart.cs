@@ -8,6 +8,7 @@ public class BuzzerStart : MonoBehaviour, IDashable {
     public MultiplayerManager multiplayerManager;
     [HideInInspector]
     public GameManager gameManager;
+    public AudioClip BuzzerSound;
 
     private Animator anim;
 
@@ -30,6 +31,9 @@ public class BuzzerStart : MonoBehaviour, IDashable {
 
         anim.SetTrigger("Push");
 
+        if (BuzzerSound)
+            AudioManager.Instance.PlaySound(BuzzerSound, Vector3.zero);
+
         if (listPlayer.Contains(personnage))
             return;
 
@@ -37,7 +41,9 @@ public class BuzzerStart : MonoBehaviour, IDashable {
         if (listPlayer.Count == multiplayerManager.GetAllPersonnages().Count && multiplayerManager.GetAllPersonnages().Count >= 2)
         {
             StartCoroutine(WaitForRoundStart());           
-        }       
+        }
+
+        
     }
 
     public IEnumerator WaitForRoundStart()

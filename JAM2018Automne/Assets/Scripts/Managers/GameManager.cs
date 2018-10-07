@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
-        if (!etat.Equals(EtatGame.preparation))
+        if (!etat.Equals(EtatGame.preparation) && !etat.Equals(EtatGame.postBataille))
         {
             multiplayerManager.CheckMultiplayerEnding();
         }
@@ -142,9 +142,16 @@ public class GameManager : MonoBehaviour {
     // Appelé lorsqu'il ne reste plus qu'un joueur en vie. Affiche le vainqueur et remet le jeu en état de préparation
     public void EndRound(string winner)
     {
-        this.winner = winner;
-        EnterPreparation();
+        this.winner = winner;       
         effectManager.EndEffects();
+        StartCoroutine(PostBataille());
+    }
+
+    public IEnumerator PostBataille()
+    {
+        etat = EtatGame.postBataille;
+        yield return new WaitForSeconds(5);
+        EnterPreparation();
     }
 
     private void StopVote()
@@ -175,4 +182,5 @@ public enum EtatGame
     preparation,
     vote,
     bataille,
+    postBataille
 }

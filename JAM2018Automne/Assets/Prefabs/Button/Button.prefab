@@ -515,3 +515,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiplayerManager: {fileID: 0}
   gameManager: {fileID: 0}
+  BuzzerSound: {fileID: 8300000, guid: 4c8410914c55d7649a74e0314008e370, type: 3}
