@@ -23,12 +23,13 @@ public class GameManager : MonoBehaviour {
   
 
     private bool firstPrepa;
+    public PresentateurManager pm;
 
 
     // Use this for initialization
     void Start () {
         firstPrepa = true;
-       
+        pm.gameObject.SetActive(false);
         multiplayerManager = GetComponent<MultiplayerManager>();
         if (!multiplayerManager)
             Debug.LogWarning("Pas de MultiplayerManager sur le game object");
@@ -54,7 +55,7 @@ public class GameManager : MonoBehaviour {
 
         if (etat.Equals(EtatGame.bataille))
         {
-           
+            pm.gameObject.SetActive(false);
             effectManager.DisplayEffects();
             if (timerChrono <= (Time.time - time))
             {
@@ -62,10 +63,11 @@ public class GameManager : MonoBehaviour {
                 etat = EtatGame.vote;
                 voteManager.startVote();
             }
-            TVManager.tvDisplay.DisplayTimer(timerChrono, time);
+            TVManager.tvDisplay.DisplayTimer(timerChrono, (Time.time - time));
         }
         if (etat.Equals(EtatGame.vote))
         {
+            pm.gameObject.SetActive(true);
             if (timerVote <= (Time.time - time))
             {
                 time = Time.time;
@@ -76,7 +78,7 @@ public class GameManager : MonoBehaviour {
                 //multiCHance++;
                 //calculChanceMap();
             }
-            TVManager.tvDisplay.DisplayTimer(timerVote, time);
+            TVManager.tvDisplay.DisplayTimer(timerVote, (Time.time - time));
         }
     }
 
@@ -115,6 +117,7 @@ public class GameManager : MonoBehaviour {
     // Sort de l'état de préparation
     public void StartRound()
     {
+        pm.gameObject.SetActive(false);
         // Suppression du buzzer
         Destroy(buzzerInstance);
        
@@ -126,10 +129,10 @@ public class GameManager : MonoBehaviour {
     // Appelé lorsqu'il ne reste plus qu'un joueur en vie. Affiche le vainqueur et remet le jeu en état de préparation
     public void EndRound(string winner)
     {
-
+        voteManager.destroyBuzzer();
         this.winner = winner;       
         TVManager.tvDisplay.DisplayWinner(winner);
-        EnterPreparation();
+        pm.gameObject.SetActive(false);
         effectManager.EndEffects();
         StartCoroutine(PostBataille());
     }
@@ -138,6 +141,7 @@ public class GameManager : MonoBehaviour {
     {
         etat = EtatGame.postBataille;
         yield return new WaitForSeconds(5);
+        pm.gameObject.SetActive(false);
         EnterPreparation();
     }
 

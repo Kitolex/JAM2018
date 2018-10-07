@@ -778,6 +778,12 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224699505886603768, guid: 8b4c72483ef1cae4fb811331d3c24a6b,
     type: 2}
   m_PrefabInternal: {fileID: 2119387911}
+--- !u!114 &565341787 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114951396843819788, guid: 8b4c72483ef1cae4fb811331d3c24a6b,
+    type: 2}
+  m_PrefabInternal: {fileID: 2119387911}
+  m_Script: {fileID: 11500000, guid: d3de134d376a86642ae022aa8f33658f, type: 3}
 --- !u!1 &588073087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,6 +2005,11 @@ Prefab:
       propertyPath: timerChrono
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114795176166985664, guid: fa799742c4e5e79479333d51748a2161,
+        type: 2}
+      propertyPath: pm
+      value: 
+      objectReference: {fileID: 565341787}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa799742c4e5e79479333d51748a2161, type: 2}
   m_IsPrefabAsset: 0
@@ -2424,6 +2435,10 @@ Prefab:
         type: 2}
       propertyPath: m_AnchoredPosition.y
       value: -272.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514358495188542, guid: 8b4c72483ef1cae4fb811331d3c24a6b, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b4c72483ef1cae4fb811331d3c24a6b, type: 2}
