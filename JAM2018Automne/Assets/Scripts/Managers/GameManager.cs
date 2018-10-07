@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour {
     public void calculChanceMap()
     {
         int chance = rnd.Next(0, 101);
-        if (chance< (chanceInit+(augmentationChance*nbCycle)))
+        if (chance< (chanceInit+(augmentationChance*nbCycle))-(mapManager.listCercle.Count-mapManager.nb))
         {
             activeDescente = true;
             whenDescente = rnd.Next(0,(int)(timerChrono*0.8));
@@ -151,8 +151,16 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log("STOPVOTE");
         ListEffet listEffect = voteManager.getEffect();
-        afficheReponse(listEffect.reponse);
-        effectManager.createliste(listEffect);
+        if (listEffect.effects.Count>0)
+        {
+            afficheReponse(listEffect.reponse);
+            effectManager.createliste(listEffect);
+        }
+        else
+        {
+            mapManager.activeDescente();
+        }
+
         voteManager.destroyBuzzer();
     }
 
