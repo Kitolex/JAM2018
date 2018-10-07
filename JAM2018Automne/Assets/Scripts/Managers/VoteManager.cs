@@ -49,6 +49,7 @@ public class VoteManager : MonoBehaviour {
         Debug.Log("startVote");
         voteActuel = searchVote();
         string enonce = intro+ voteActuel.enonce;
+
         //TODO afficher enoncer
         //TODO afficher prop
         if (mapManager.nb<=1)
@@ -65,6 +66,13 @@ public class VoteManager : MonoBehaviour {
                 go.name = "BuzzerVote" + i;
                 createBuzzer();
                 go.AddComponent<BuzzerVote>();
+
+        PresentateurManager.PManager.setStatementText(enonce);
+          
+            PresentateurManager.PManager.setPropText(voteActuel.nomProposition[i], i);
+          
+            go.GetComponent<BuzzerVote>().nomProposition = voteActuel.nomProposition[i];
+
                 go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
                 go.GetComponent<BuzzerVote>().angle = angle;
                 go.GetComponent<BuzzerVote>().rayon = rayon;
@@ -132,14 +140,19 @@ public class VoteManager : MonoBehaviour {
                 buzzerWin = b;
             }
         }
+
         if (buzzerWin==null)
         {
             return new ListEffet();
         }
+        else
+        {
+            TVManager.tvDisplay.DisplayVoteResult(buzzerWin.nomProposition);
+        }
+
+
         
         return buzzerWin.consequence;
-
-
     }
 
 

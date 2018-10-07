@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
 
     private GameObject buzzerInstance;
     public float time;
-   
+
     public EtatGame etat;
     public string winner;
     private MultiplayerManager multiplayerManager;
@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour {
                 etat = EtatGame.vote;
                 voteManager.startVote();
             }
+            TVManager.tvDisplay.DisplayTimer(timerChrono, time);
         }
         if (etat.Equals(EtatGame.vote))
         {
@@ -98,6 +99,7 @@ public class GameManager : MonoBehaviour {
                 multiCHance++;
                 calculChanceMap();
             }
+            TVManager.tvDisplay.DisplayTimer(timerVote, time);
         }
     }
 
@@ -123,6 +125,7 @@ public class GameManager : MonoBehaviour {
         buzzerInstance.GetComponent<BuzzerStart>().gameManager = this;
         multiplayerManager.InitializePlayers();
         etat = EtatGame.preparation;
+
         multiCHance = 0;
         if (firstPrepa)
         {
@@ -134,6 +137,10 @@ public class GameManager : MonoBehaviour {
         }
 
         firstPrepa = false;
+
+
+        TVManager.tvDisplay.DisplayPreparation();
+
     }
 
     // Sort de l'état de préparation
@@ -150,7 +157,10 @@ public class GameManager : MonoBehaviour {
     // Appelé lorsqu'il ne reste plus qu'un joueur en vie. Affiche le vainqueur et remet le jeu en état de préparation
     public void EndRound(string winner)
     {
+
         this.winner = winner;       
+        TVManager.tvDisplay.DisplayWinner(winner);
+        EnterPreparation();
         effectManager.EndEffects();
         StartCoroutine(PostBataille());
     }
@@ -165,6 +175,7 @@ public class GameManager : MonoBehaviour {
     private void StopVote()
     {
         Debug.Log("STOPVOTE");
+        PresentateurManager.PManager.hideText();
         ListEffet listEffect = voteManager.getEffect();
         if (listEffect.effects != null)
         {
@@ -182,6 +193,7 @@ public class GameManager : MonoBehaviour {
     private void afficheReponse(string reponse)
     {
         Debug.Log(reponse);
+        PresentateurManager.PManager.setStatementText(reponse);
     }
 }
 

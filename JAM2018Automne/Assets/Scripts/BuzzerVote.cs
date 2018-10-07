@@ -6,6 +6,7 @@ using UnityEngine;
 public class BuzzerVote : MonoBehaviour , IDashable{
 
     public int smash;
+    public string nomProposition;
     public ListEffet consequence;
     public float rayon;
     public int angle;
