@@ -110,7 +110,7 @@ public class MultiplayerManager : MonoBehaviour {
             if (!p.IsDead())
             {
                 stillAlive++;
-                winnerID = "Player" + p.getPlayerID();
+                winnerID = "Joueur" + p.getPlayerID();
             }
         }
 
