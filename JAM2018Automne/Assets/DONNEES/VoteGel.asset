@@ -9,8 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19b0386c330f1b241b3f28c389d759d8, type: 3}
-  m_Name: test4
+  m_Name: VoteGel
   m_EditorClassIdentifier: 
-  enonce: 
-  nomProposition: []
-  listEffects: []
+  enonce: Gel de la map
+  nomProposition:
+  - e0
+  listEffects:
+  - effects: 01000000

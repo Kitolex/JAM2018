@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour {
     {
         // Instanciation du Start Buzzer
         buzzerInstance = Instantiate(StartBuzzer);
-        buzzerInstance.transform.position = new Vector3(0, 2.5f, 0);
+        buzzerInstance.transform.position = new Vector3(0, 3.0f, 0);
         buzzerInstance.GetComponent<BuzzerStart>().multiplayerManager = multiplayerManager;
         buzzerInstance.GetComponent<BuzzerStart>().gameManager = this;
 

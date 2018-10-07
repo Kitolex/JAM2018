@@ -90,10 +90,8 @@ public class VoteManager : MonoBehaviour {
             }
         }
 
-        
-
-
         return buzzerWin.consequence;
+
 
     }
 
