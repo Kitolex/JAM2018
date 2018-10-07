@@ -102,9 +102,11 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 	
 		//Update animator
 		if(this.iStun()) {
+            animator.SetBool("Stun", true);
 			animator.SetBool("Walk", false);
 		} else {
-			animator.SetBool("Walk", dir.magnitude > 0.0f);
+            animator.SetBool("Stun", false);
+            animator.SetBool("Walk", dir.magnitude > 0.0f);
 		}
 		
 

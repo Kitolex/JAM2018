@@ -131,11 +131,16 @@ public class MultiplayerManager : MonoBehaviour {
         {
             if(p.getPlayerID() == idPlayer)
             {
-                p.Kill();
-                if (p.IsDead())
-                    p.gameObject.SetActive(false);
-                else                 
+                if(gameManager.etat == EtatGame.preparation)
                     RespawnPlayer(idPlayer);
+                else
+                {
+                    p.Kill();
+                    if (p.IsDead())
+                        p.gameObject.SetActive(false);
+                    else
+                        RespawnPlayer(idPlayer);
+                }                
 
             }
         }
