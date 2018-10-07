@@ -10,15 +10,17 @@ public class VoteManager : MonoBehaviour {
     public GameObject buzzer;
     public GameObject cylinder;
     private Random rnd;
+    private MapManager mapManager;
 
-   // private Dictionary<string, int> countSmash;
-   // private Dictionary<string, List<ListEffet>> consequence;
+    // private Dictionary<string, int> countSmash;
+    // private Dictionary<string, List<ListEffet>> consequence;
     public List<BuzzerVote> listBuzzer;
 
     private const string intro = "Passons maintenant aux votes.";
 
     // Use this for initialization
     void Start () {
+        mapManager = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>();
         rnd = new Random();
         listBuzzer = new List<BuzzerVote>();
 
@@ -53,7 +55,7 @@ public class VoteManager : MonoBehaviour {
                 go.name = voteActuel.nomProposition[i] + "";
                 go.AddComponent<BuzzerVote>();
                 go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
-                go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer((cylinder.transform.localScale.z) / 2);//TODO ALLER CHERCHER taille cercle
+                go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer(mapManager.getDiametreMap()/2);//TODO ALLER CHERCHER taille cercle
 
                 int angle = rnd.Next(0, 360);
                 Debug.Log(angle);

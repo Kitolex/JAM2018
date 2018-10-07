@@ -122,7 +122,7 @@ public class GameManager : MonoBehaviour {
         }
         else
         {
-            mapManager.InitMap();//TODO : first time
+            mapManager.InitMap();
         }
 
         firstPrepa = false;
