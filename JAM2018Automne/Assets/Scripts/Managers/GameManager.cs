@@ -101,8 +101,14 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log("STOPVOTE");
         ListEffet listEffect = voteManager.getEffect();
+        afficheReponse(listEffect.reponse);
         effectManager.createliste(listEffect);
         voteManager.destroyBuzzer();
+    }
+
+    private void afficheReponse(string reponse)
+    {
+        Debug.Log(reponse);
     }
 }
 

@@ -8,8 +8,5 @@ public class Vote : ScriptableObject {
 
     public List<string> nomProposition;
     public List<ListEffet> listEffects;
-
-
-
 }
 

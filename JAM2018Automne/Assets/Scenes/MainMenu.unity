@@ -620,9 +620,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 644651684}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 644651686}
+        m_MethodName: Setactive
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -726,6 +726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1fd51e3f26da2748a46456980ef547b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  e: {fileID: 1508011550}
+  go: {fileID: 1968044032}
 --- !u!1 &422214170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,6 +1166,8 @@ MonoBehaviour:
   uncheckImg: {fileID: 21300000, guid: 915def1ed80b0424bb94c8cd1593e532, type: 3}
   checkImg: {fileID: 21300000, guid: 5ff66f35ccea45944b13083acda972bd, type: 3}
   audioMixer: {fileID: 24100000, guid: 9f921c93984250143a4aebc56af1a741, type: 2}
+  e: {fileID: 1508011550}
+  go: {fileID: 422214170}
 --- !u!1 &787377350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,7 +1887,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2196,8 +2200,8 @@ MonoBehaviour:
   m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
+  m_HorizontalAxis: Player1Horizontal
+  m_VerticalAxis: Player1Vertical
   m_SubmitButton: Submit
   m_CancelButton: Cancel
   m_InputActionsPerSecond: 10
@@ -2214,7 +2218,7 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1968044032}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1508011551
@@ -2524,9 +2528,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 392310901}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 392310903}
+        m_MethodName: Setactive
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

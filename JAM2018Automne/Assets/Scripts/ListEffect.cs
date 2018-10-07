@@ -8,6 +8,6 @@ public struct ListEffet
 {
 
     public List<Effects> effects;
-
+    public string reponse;
 
 }

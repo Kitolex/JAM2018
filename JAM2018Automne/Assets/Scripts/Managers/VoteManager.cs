@@ -46,24 +46,24 @@ public class VoteManager : MonoBehaviour {
         string enonce = intro+ voteActuel.enonce;
         //TODO afficher enoncer
         //TODO afficher prop
-        for(int i = 0; i <voteActuel.nomProposition.Count;i++)
-        {
-            GameObject go = Instantiate(buzzer);
-            go.name = voteActuel.nomProposition[i]+"";
-            go.AddComponent<BuzzerVote>();
-            go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
-            go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer((cylinder.transform.localScale.z)/2);//TODO ALLER CHERCHER taille cercle
-            
-            int angle = rnd.Next(0, 360);
-            Debug.Log(angle);
-            go.GetComponent<BuzzerVote>().angle = angle;
-            listBuzzer.Add(go.GetComponent<BuzzerVote>());
-        }
-        foreach (BuzzerVote b in listBuzzer)
-        {
-            b.pop();
-        }
 
+            for (int i = 0; i < voteActuel.nomProposition.Count; i++)
+            {
+                GameObject go = Instantiate(buzzer);
+                go.name = voteActuel.nomProposition[i] + "";
+                go.AddComponent<BuzzerVote>();
+                go.GetComponent<BuzzerVote>().consequence = voteActuel.listEffects[i];
+                go.GetComponent<BuzzerVote>().rayon = calculRayonPopBuzzer((cylinder.transform.localScale.z) / 2);//TODO ALLER CHERCHER taille cercle
+
+                int angle = rnd.Next(0, 360);
+                Debug.Log(angle);
+                go.GetComponent<BuzzerVote>().angle = angle;
+                listBuzzer.Add(go.GetComponent<BuzzerVote>());
+            }
+            foreach (BuzzerVote b in listBuzzer)
+            {
+                b.pop();
+            }
 
     }
 
@@ -90,10 +90,13 @@ public class VoteManager : MonoBehaviour {
             }
         }
 
-        Debug.Log("BUZZERWIN : "+buzzerWin);
+        
+
+
         return buzzerWin.consequence;
 
     }
+
 
 
     private Vote searchVote()

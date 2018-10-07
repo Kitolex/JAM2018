@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.EventSystems;
 
 public class SetOptions : MonoBehaviour {
 
@@ -13,6 +14,15 @@ public class SetOptions : MonoBehaviour {
     public AudioMixer audioMixer;
 
     private int numberHearts;
+
+    public EventSystem e;
+    public GameObject go;
+
+    public void Setactive()
+    {
+        gameObject.SetActive(true);
+        e.SetSelectedGameObject(go);
+    }
 
 
     public void SetHearts(int buttonNumber)
