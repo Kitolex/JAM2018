@@ -32,12 +32,17 @@ public class GameManager : MonoBehaviour {
         effectManager = GameObject.FindGameObjectWithTag("EffectManager").GetComponent<EffectManager>();
       
         EnterPreparation();
-        time = Time.time;
         
+
     }
 	
 	// Update is called once per frame
 	void Update () {
+        // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
+        if (!etat.Equals(EtatGame.preparation))
+        {
+            multiplayerManager.CheckMultiplayerEnding();
+        }
 
         if (etat.Equals(EtatGame.bataille))
         {
@@ -60,13 +65,6 @@ public class GameManager : MonoBehaviour {
                 etat = EtatGame.bataille;
             }
         }
-
-        // On vérifie le nombre de joueurs encore en vie si on est pas en préparation
-        if (!etat.Equals(EtatGame.preparation))
-        {
-            multiplayerManager.CheckMultiplayerEnding();
-        }
-
     }
 
 
@@ -90,6 +88,7 @@ public class GameManager : MonoBehaviour {
         Destroy(buzzerInstance);
        
         multiplayerManager.InitializePlayers();
+        time = Time.time;
         etat = EtatGame.bataille;
     }
 
@@ -98,13 +97,15 @@ public class GameManager : MonoBehaviour {
     {
         this.winner = winner;
         EnterPreparation();
+        effectManager.EndEffects();
     }
 
     private void StopVote()
     {
-        List<ListEffet> listEffect = new List<ListEffet>();
-        listEffect.AddRange(voteManager.getEffect());
+        Debug.Log("STOPVOTE");
+        ListEffet listEffect = voteManager.getEffect();
         effectManager.createliste(listEffect);
+        voteManager.destroyBuzzer();
     }
 }
 

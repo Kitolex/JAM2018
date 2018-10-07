@@ -6,7 +6,7 @@ public abstract class Effect : MonoBehaviour {
 
     protected MultiplayerManager multiplayerManager;
 
-    void Awake() {
+    public Effect() {
         this.multiplayerManager = GameObject.FindGameObjectWithTag("MultiplayerManager").GetComponent<MultiplayerManager>();
     }
 

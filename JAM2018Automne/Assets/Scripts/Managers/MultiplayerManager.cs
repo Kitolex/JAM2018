@@ -12,7 +12,7 @@ public class MultiplayerManager : MonoBehaviour {
     public GameObject[] prefabList;                 // Liste des prefab servant à instancier les personnages   
     public GameObject[] SpawnPoints;                // Liste des point de spawn où les personnages seront créés
 
-    public void Start()
+    public void Awake()
     {
         gameManager = GetComponent<GameManager>();
         if (!gameManager)
@@ -82,8 +82,12 @@ public class MultiplayerManager : MonoBehaviour {
     {
         foreach (PersonnageBehaviour p in playerList)
         {
-            p.initialise();
-            p.transform.position = SpawnPoints[p.getPlayerID()].transform.position;
+            if (p)
+            {
+                p.gameObject.SetActive(true);
+                p.initialise();
+                p.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position;
+            }           
         }
     }
 
@@ -144,7 +148,7 @@ public class MultiplayerManager : MonoBehaviour {
         {
             if (p.getPlayerID() == idPlayer)
             {
-               p.gameObject.transform.position = SpawnPoints[p.getPlayerID()].transform.position;
+               p.gameObject.transform.position = SpawnPoints[p.getPlayerID()-1].transform.position;
                 p.Respawn();
             }
         }
