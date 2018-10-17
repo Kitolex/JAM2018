@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour {
         mapManager = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>();
 
         EnterPreparation();
-        
+        AudioManager.Instance.PlaySound(BackgroundMusic, Vector3.zero, true);
 
 
 

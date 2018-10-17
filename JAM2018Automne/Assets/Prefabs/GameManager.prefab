@@ -84,13 +84,14 @@ MonoBehaviour:
   BackgroundMusic: {fileID: 8300000, guid: 5432420b5c9b8df4cac6d45c9af99444, type: 3}
   EndGame1: {fileID: 8300000, guid: fdac96ddb01ce40479bd92a9c41c41f8, type: 3}
   EndGame2: {fileID: 8300000, guid: fa6702134c980074cbb36e4b0abe1ad8, type: 3}
-  timerChrono: 2
-  timerVote: 1
+  timerChrono: 30
+  timerVote: 10
   StartBuzzer: {fileID: 1479660623389318, guid: 0a446e5070debb34798475c2dd4c1ca6,
     type: 2}
   time: 0
   etat: 0
   winner: 
+  pm: {fileID: 0}
 --- !u!114 &114825888126122990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -103,6 +104,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MusicOn: 1
-  MusicVolume: 0.3
+  MusicVolume: 0.501
   SfxOn: 1
-  SfxVolume: 1
+  SfxVolume: 0.494

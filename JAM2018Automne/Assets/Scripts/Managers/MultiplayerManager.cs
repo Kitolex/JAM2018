@@ -12,9 +12,11 @@ public class MultiplayerManager : MonoBehaviour {
     public GameObject[] prefabList;                 // Liste des prefab servant à instancier les personnages   
     public GameObject[] SpawnPoints;                // Liste des point de spawn où les personnages seront créés
 
+    private MapManager mapManager;
 
     public void Awake()
     {
+        mapManager = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>();
         gameManager = GetComponent<GameManager>();
         if (!gameManager)
             Debug.LogWarning("Pas de GameManager trouvé sur le gameobject");
@@ -153,9 +155,14 @@ public class MultiplayerManager : MonoBehaviour {
                     p.Kill();
                     HUDManager.Instance.UpdatePlayerLife(idPlayer, p.VieActuelle);
                     if (p.IsDead())
+                    {
                         p.gameObject.SetActive(false);
+                        mapManager.activeDescente();
+                    }
                     else
+                    {
                         RespawnPlayer(idPlayer);
+                    }
                 }                
 
             }
