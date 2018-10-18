@@ -16,7 +16,6 @@ public class Cercle : MonoBehaviour {
 
     public void tomber()
     {
-        Debug.Log(gameObject.name + " TOMBE");
         GetComponent<Animator>().SetTrigger("drop");
         GameObject.FindGameObjectWithTag("ZoneJeu").GetComponent<Animator>().SetTrigger("drop");
     }

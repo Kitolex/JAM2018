@@ -125,25 +125,28 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 				this.spriteRenderer.flipX = false;
 			}
 
-           
+
             if (Input.GetAxisRaw(BUTTON_DASH) != 0)
             {
                 if (!DashPressed)
                 {
-					if(directionDashAleatoire) {
+                    if (directionDashAleatoire)
+                    {
 
-						Vector3 dirDashAle = Quaternion.AngleAxis(Random.Range(0.0f, 360.0f), Vector3.up) * Vector3.forward;
-						dasherVers(dirDashAle);
+                        Vector3 dirDashAle = Quaternion.AngleAxis(Random.Range(0.0f, 360.0f), Vector3.up) * Vector3.forward;
+                        dasherVers(dirDashAle);
 
-					} else {
-						dasherVers(dir.normalized);
-					}
+                    }
+                    else
+                    {
+                        dasherVers(dir.normalized);
+                    }
                 }
                 else
                 {
                     deplacement = dir * speed;
                 }
-                
+
                 DashPressed = true;
             }
             else
@@ -151,8 +154,8 @@ public class PersonnageBehaviour : MonoBehaviour, IDashable {
 
                 deplacement = dir * speed;
                 DashPressed = false;
-            }
-            
+            }          
+
         }
 
 		if(solGlace) {

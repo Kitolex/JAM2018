@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4456640840525332}
   - component: {fileID: 33830967113160932}
   - component: {fileID: 23700364314625292}
-  - component: {fileID: 64130422661637232}
   - component: {fileID: 54707540146957424}
   - component: {fileID: 114177582510315004}
+  - component: {fileID: 136770686809820962}
   m_Layer: 0
   m_Name: SpawnablePillar1
   m_TagString: PillarsWalls
@@ -102,20 +102,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
---- !u!64 &64130422661637232
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1934308393965522}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300012, guid: f2c457e8046f50a4382604984d8141b7, type: 3}
 --- !u!114 &114177582510315004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -129,3 +115,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poussiereImpactSol: {fileID: 4843589449683030, guid: e025fd06ecb811045b53a933b2e887f2,
     type: 2}
+--- !u!136 &136770686809820962
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934308393965522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.0122986
+  m_Height: 6.294273
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

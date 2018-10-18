@@ -53,7 +53,6 @@ public class VoteManager : MonoBehaviour {
     public void startVote()
     {
 
-        Debug.Log("startVote");
         voteActuel = searchVote();
         string enonce = intro+ voteActuel.enonce;
 

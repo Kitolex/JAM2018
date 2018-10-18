@@ -15,8 +15,10 @@ public class FallOnStart : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (this.GetComponent<Rigidbody>().velocity.y >= 0)
+            this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+
+    }
 
 	void OnCollisionEnter(Collision collision) {
 		

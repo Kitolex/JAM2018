@@ -120,6 +120,8 @@ public class GameManager : MonoBehaviour {
     // Sort de l'état de préparation
     public void StartRound()
     {
+        multiplayerManager.DestroyAllIcons();
+
         pm.gameObject.SetActive(false);
         // Suppression du buzzer
         Destroy(buzzerInstance);
@@ -157,7 +159,6 @@ public class GameManager : MonoBehaviour {
 
     private void StopVote()
     {
-        Debug.Log("STOPVOTE");
         PresentateurManager.PManager.hideText();
         ListEffet listEffect = voteManager.getEffect();
         if (listEffect.effects != null)

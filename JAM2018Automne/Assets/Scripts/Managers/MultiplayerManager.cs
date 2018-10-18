@@ -11,8 +11,11 @@ public class MultiplayerManager : MonoBehaviour {
     public int[] Scores;                            // Liste indiquant le nombre de manche remportées par chaque joueurs
     public GameObject[] prefabList;                 // Liste des prefab servant à instancier les personnages   
     public GameObject[] SpawnPoints;                // Liste des point de spawn où les personnages seront créés
+    public GameObject[] IconsSpawnPoints;
+    public GameObject PressStartIcon;
 
     private MapManager mapManager;
+    private GameObject[] InstanciatedIcons;
 
     public void Awake()
     {
@@ -21,9 +24,11 @@ public class MultiplayerManager : MonoBehaviour {
         if (!gameManager)
             Debug.LogWarning("Pas de GameManager trouvé sur le gameobject");
 
-        
 
+        InstanciatedIcons = new GameObject[4];
         playerList = new List<PersonnageBehaviour>();
+
+        SpawnIcons();
     }
 
     public void Update()
@@ -76,7 +81,10 @@ public class MultiplayerManager : MonoBehaviour {
 
             // Gestion de la position de spawn
             if (SpawnPoints[numPlayer - 1])
+            {
                 instanciated.transform.position = SpawnPoints[numPlayer - 1].transform.position + Vector3.up * 40.0f;
+                Destroy(InstanciatedIcons[numPlayer - 1]);
+            }               
             else
             {
                 instanciated.transform.position = Vector3.zero;
@@ -184,5 +192,23 @@ public class MultiplayerManager : MonoBehaviour {
     public List<PersonnageBehaviour> GetAllPersonnages()
     {
         return playerList;        
+    }
+
+    private void SpawnIcons()
+    {
+       for(int i = 0; i<4; i++)
+       {
+            PressStartIcon.transform.position = IconsSpawnPoints[i].transform.position + Vector3.up * 10;
+            InstanciatedIcons[i] = Instantiate(PressStartIcon);
+       }
+    }
+
+    public void DestroyAllIcons()
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            if(InstanciatedIcons[i])
+                Destroy(InstanciatedIcons[i]);
+        }
     }
 }

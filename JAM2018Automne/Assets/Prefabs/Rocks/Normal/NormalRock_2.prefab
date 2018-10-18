@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4911182233962634}
   - component: {fileID: 33883301494772922}
   - component: {fileID: 23565636451946764}
-  - component: {fileID: 64782273646709028}
+  - component: {fileID: 136726167142973070}
   m_Layer: 0
   m_Name: NormalRock_2
   m_TagString: Untagged
@@ -85,8 +85,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1945886818237958}
   m_Mesh: {fileID: 4300008, guid: 974eb3395177aef44a0aa4743148324b, type: 3}
---- !u!64 &64782273646709028
-MeshCollider:
+--- !u!136 &136726167142973070
+CapsuleCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -94,8 +94,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300008, guid: 974eb3395177aef44a0aa4743148324b, type: 3}
+  m_Radius: 1.8804616
+  m_Height: 2.2041152
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

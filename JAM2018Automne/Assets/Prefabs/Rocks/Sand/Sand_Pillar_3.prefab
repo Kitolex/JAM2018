@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4118992478063966}
   - component: {fileID: 33648513642216306}
   - component: {fileID: 23111446849085110}
-  - component: {fileID: 64000394610039050}
+  - component: {fileID: 136661365421787690}
   m_Layer: 0
   m_Name: Sand_Pillar_3
   m_TagString: Untagged
@@ -85,8 +85,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1165120249848014}
   m_Mesh: {fileID: 4300010, guid: f2c457e8046f50a4382604984d8141b7, type: 3}
---- !u!64 &64000394610039050
-MeshCollider:
+--- !u!136 &136661365421787690
+CapsuleCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -94,8 +94,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300010, guid: f2c457e8046f50a4382604984d8141b7, type: 3}
+  m_Radius: 2.0132196
+  m_Height: 11.239984
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
