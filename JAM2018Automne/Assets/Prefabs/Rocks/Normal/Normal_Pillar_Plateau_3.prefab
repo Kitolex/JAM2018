@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33980153596343734}
   - component: {fileID: 23442737252189524}
   - component: {fileID: 136348900444864862}
+  - component: {fileID: 114422056057658418}
   m_Layer: 0
   m_Name: Normal_Pillar_Plateau_3
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1661409441016892}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 0, z: 8.67}
+  m_LocalPosition: {x: 4.675761, y: 4.9, z: -10.2327385}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,6 +86,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1661409441016892}
   m_Mesh: {fileID: 4300002, guid: f2c457e8046f50a4382604984d8141b7, type: 3}
+--- !u!114 &114422056057658418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1661409441016892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 108a7e501a39e284fb01973f0fb97db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poussiereImpactSol: {fileID: 0}
+  Height: 4.9
+  FallSpeed: 5
 --- !u!136 &136348900444864862
 CapsuleCollider:
   m_ObjectHideFlags: 1

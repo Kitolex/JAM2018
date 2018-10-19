@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33727682936497136}
   - component: {fileID: 23470341059141428}
   - component: {fileID: 136488955981638838}
+  - component: {fileID: 114229760489777044}
   m_Layer: 0
   m_Name: NormalRock_4
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1321314639333030}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.87, y: 0, z: 0}
+  m_LocalPosition: {x: 0.7921363, y: 2.8, z: -9.40032}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,6 +86,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1321314639333030}
   m_Mesh: {fileID: 4300004, guid: 974eb3395177aef44a0aa4743148324b, type: 3}
+--- !u!114 &114229760489777044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321314639333030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 108a7e501a39e284fb01973f0fb97db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poussiereImpactSol: {fileID: 0}
+  Height: 2.8
+  FallSpeed: 5
 --- !u!136 &136488955981638838
 CapsuleCollider:
   m_ObjectHideFlags: 1
